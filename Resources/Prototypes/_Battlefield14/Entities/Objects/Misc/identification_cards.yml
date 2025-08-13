@@ -1,0 +1,27 @@
+- type: entity
+  parent: IDCardStandard
+  id: USIDCard
+  name: US ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: USRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: RUIDCard
+  name: RU ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idseniorofficer
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: RURifleman

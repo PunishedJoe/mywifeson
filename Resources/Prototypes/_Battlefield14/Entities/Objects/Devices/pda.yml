@@ -1,0 +1,23 @@
+- type: entity
+  parent: BasePDA
+  id: USPDA
+  name: US PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Pda
+    id: USIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#717059"
+
+- type: entity
+  parent: BasePDA
+  id: RUPDA
+  name: RU PDA
+  description: Filled with drone footage.
+  components:
+  - type: Pda
+    id: RUIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#717059"

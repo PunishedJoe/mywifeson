@@ -1,0 +1,29 @@
+- type: entity
+  id: ClothingBeltMilitaryWebbingUSFilledSTANAG
+  parent: ClothingBeltMilitaryWebbingUS
+  suffix: Filled Stanag
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleSTANAG
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAK74
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AK74
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK74
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAKMS
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AKMS
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAKM
+        amount: 8

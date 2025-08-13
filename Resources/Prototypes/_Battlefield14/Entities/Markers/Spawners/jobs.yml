@@ -1,0 +1,23 @@
+- type: entity
+  id: SpawnPointUSRifleman
+  parent: SpawnPointJobBase
+  name: US rifleman
+  components:
+  - type: SpawnPoint
+    job_id: USRifleman
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointRURifleman
+  parent: SpawnPointJobBase
+  name: RU rifleman
+  components:
+  - type: SpawnPoint
+    job_id: RURifleman
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

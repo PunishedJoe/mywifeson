@@ -1,0 +1,40 @@
+- type: job
+  id: RURifleman
+  name: Rifleman
+  description: "Shoot Americans."
+  playTimeTracker: JobRURifleman
+  startingGear: RURiflemanGear
+  icon: "JobIconRU"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - External
+  - Cryogenics
+  - Maintenance
+  - Engineering
+  - Medical
+  - Research
+  - Command
+  - CentralCommand
+  - BlueshieldOfficer
+
+- type: startingGear
+  id: RURiflemanGear
+  equipment:
+    gloves: ClothingHandsMercGlovesCombat
+    id: RUIDCard
+    ears: ClothingHeadsetAltRU
+    jumpsuit: ClothingUniformJumpsuitCamoRU
+    head: ClothingHeadHatHelmetRU
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackMerc
+  storage:
+    back:
+    - Crowbar
+    - Gauze
+    - SyringeSaline
+    - BruteAutoInjector

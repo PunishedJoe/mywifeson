@@ -1,0 +1,17 @@
+- type: Tag
+  id: MagazineRifleSTANAG
+
+- type: Tag
+  id: CartridgeRifle556
+
+- type: Tag
+  id: MagazineRifleAK74
+
+- type: Tag
+  id: CartridgeRifle545
+
+- type: Tag
+  id: MagazineRifleAKM
+
+- type: Tag
+  id: CartridgeRifle762

@@ -1,0 +1,41 @@
+- type: job
+  id: USRifleman
+  name: Rifleman
+  description: "Shoot Russians."
+  playTimeTracker: JobUSRifleman
+  startingGear: USRiflemanGear
+  icon: "JobIconUS"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - External
+  - Cryogenics
+  - Maintenance
+  - Engineering
+  - Medical
+  - Research
+  - Command
+  - CentralCommand
+  - BlueshieldOfficer
+
+- type: startingGear
+  id: USRiflemanGear
+  equipment:
+    gloves: ClothingHandsMercGlovesCombat
+    id: USIDCard
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUS
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackMerc
+  storage:
+    back:
+    - Crowbar
+    - Gauze
+    - SyringeSaline
+    - BruteAutoInjector
