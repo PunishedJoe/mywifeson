@@ -10,6 +10,7 @@
       containers:
         key_slots:
           - EncryptionKeyUS
+          - EncryptionKeyTraffic
     - type: Sprite
       sprite: _Battlefield14/Clothing/Ears/Headsets/us_alt.rsi
     - type: Clothing
@@ -27,6 +28,7 @@
       containers:
         key_slots:
           - EncryptionKeyRU
+          - EncryptionKeyTraffic
     - type: Sprite
       sprite: _Battlefield14/Clothing/Ears/Headsets/ru_alt.rsi
     - type: Clothing

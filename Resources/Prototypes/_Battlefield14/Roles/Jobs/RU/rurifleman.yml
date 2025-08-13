@@ -3,23 +3,30 @@
   name: Rifleman
   description: "Shoot Americans."
   playTimeTracker: JobRURifleman
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "PACT"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
   startingGear: RURiflemanGear
   icon: "JobIconRU"
-  joinNotifyCrew: true
+  joinNotifyCrew: false
+  alwaysUseSpawner: true
   supervisors: job-supervisors-rugov
   canBeAntag: false
   access:
-  - Security
-  - Brig
-  - External
   - Cryogenics
   - Maintenance
-  - Engineering
-  - Medical
-  - Research
-  - Command
-  - CentralCommand
-  - BlueshieldOfficer
 
 - type: startingGear
   id: RURiflemanGear
@@ -30,11 +37,12 @@
     jumpsuit: ClothingUniformJumpsuitCamoRU
     head: ClothingHeadHatHelmetRU
     outerClothing: ClothingOuterArmorPlateCarrierBlack
-    shoes: ClothingShoesBootsJackFilled
+    shoes: ClothingShoesBootsJack
     back: ClothingBackpackMerc
-  storage:
-    back:
-    - Crowbar
-    - Gauze
-    - SyringeSaline
-    - BruteAutoInjector
+#  storage:
+#    back:
+#    - Crowbar
+#    - Gauze
+#    - SyringeSaline
+#    - BruteAutoInjector
+#    - Tourniquet

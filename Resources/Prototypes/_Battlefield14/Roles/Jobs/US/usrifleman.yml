@@ -3,23 +3,31 @@
   name: Rifleman
   description: "Shoot Russians."
   playTimeTracker: JobUSRifleman
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "NATO"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
   startingGear: USRiflemanGear
   icon: "JobIconUS"
-  joinNotifyCrew: true
+  joinNotifyCrew: false
+  alwaysUseSpawner: true
   supervisors: job-supervisors-usgov
   canBeAntag: false
   access:
-  - Security
-  - Brig
   - External
   - Cryogenics
   - Maintenance
-  - Engineering
-  - Medical
-  - Research
-  - Command
-  - CentralCommand
-  - BlueshieldOfficer
 
 - type: startingGear
   id: USRiflemanGear
@@ -31,11 +39,12 @@
     jumpsuit: ClothingUniformJumpsuitCamoUS
     head: ClothingHeadHatHelmetUS
     outerClothing: ClothingOuterArmorPlateCarrierTan
-    shoes: ClothingShoesBootsJackFilled
+    shoes: ClothingShoesBootsJack
     back: ClothingBackpackMerc
-  storage:
-    back:
-    - Crowbar
-    - Gauze
-    - SyringeSaline
-    - BruteAutoInjector
+#  storage:
+#    back:
+#    - Crowbar
+#    - Gauze
+#    - SyringeSaline
+#    - BruteAutoInjector
+#    - Tourniquet

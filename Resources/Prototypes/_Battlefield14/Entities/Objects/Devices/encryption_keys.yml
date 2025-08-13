@@ -7,7 +7,7 @@
     - type: EncryptionKey
       channels:
         - USRadio
-      defaultChannel: US
+      defaultChannel: USRadio
     - type: Sprite
       layers:
         - state: crypt_silver
@@ -22,7 +22,7 @@
     - type: EncryptionKey
       channels:
         - RURadio
-      defaultChannel: US
+      defaultChannel: RURadio
     - type: Sprite
       layers:
         - state: crypt_silver

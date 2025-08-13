@@ -15,7 +15,14 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -30
   - type: Gun
+    minAngle: 19
+    maxAngle: 32
     availableModes:
     - SemiAuto
     - Burst
@@ -77,10 +84,10 @@
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
-    minAngle: -19
+    minAngle: -14
     maxAngle: -16
   - type: Gun
-    minAngle: 21
+    minAngle: 16
     maxAngle: 32
     projectileSpeed: 30 # Shorter barrel
     availableModes:
@@ -134,17 +141,24 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/AK74.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -27
   - type: Gun
-  - type: ChamberMagazineAmmoProvider
-    boltClosed: null
-    soundRack:
-      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+    minAngle: 21
+    maxAngle: 32
     availableModes:
     - SemiAuto
     - FullAuto
     selectedMode: FullAuto
     fireRate: 6
     projectileSpeed: 35
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: null
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
@@ -191,11 +205,14 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/AKMS.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -25
   - type: Gun
-  - type: ChamberMagazineAmmoProvider
-    boltClosed: null
-    soundRack:
-      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+    minAngle: 21
+    maxAngle: 40
     availableModes:
     - SemiAuto
     - FullAuto
@@ -204,6 +221,10 @@
     projectileSpeed: 30 # slower boolet
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: null
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
   - type: ItemSlots
     slots:
       gun_magazine:

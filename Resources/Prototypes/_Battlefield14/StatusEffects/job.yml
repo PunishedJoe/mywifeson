@@ -1,0 +1,13 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUS
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/job_icons.rsi
+    state: US
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconRU
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/job_icons.rsi
+    state: RU
