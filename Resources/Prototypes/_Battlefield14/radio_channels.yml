@@ -3,7 +3,7 @@
   name: chat-radio-us
   keycode: 'l' 
   frequency: 1210
-  color: "#001ece"
+  color: "#2948ff"
   longRange: true
 
 - type: radioChannel

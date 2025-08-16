@@ -269,7 +269,7 @@
   color: "#684871"
   weight: 72
   roles:
-  - USRifleman
+  - USMCRifleman
   editorHidden: false
 
 - type: department
@@ -278,5 +278,5 @@
   color: "#FFD580"
   weight: 73
   roles:
-  - RURifleman
+  - VDVRifleman
   editorHidden: false

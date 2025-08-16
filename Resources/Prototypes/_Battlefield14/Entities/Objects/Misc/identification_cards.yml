@@ -1,20 +1,22 @@
 - type: entity
   parent: IDCardStandard
-  id: USIDCard
-  name: US ID card
+  id: USMCIDCard
+  name: USMC ID card
   components:
   - type: Sprite
     layers:
-    - state: silver
-    - state: idcentcom
-  - type: Item
-    heldPrefix: silver
+    - state: default
+    - state: department
+      color: "#878787"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
   - type: PresetIdCard
-    job: USRifleman
+    job: USMCRifleman
 
 - type: entity
   parent: IDCardStandard
-  id: RUIDCard
+  id: VDVIDCard
   name: RU ID card
   components:
   - type: Sprite
@@ -24,4 +26,4 @@
   - type: Item
     heldPrefix: silver
   - type: PresetIdCard
-    job: RURifleman
+    job: VDVRifleman

@@ -1,22 +1,22 @@
 - type: entity
-  id: SpawnPointUSRifleman
+  id: SpawnPointUSMCRifleman
   parent: SpawnPointJobBase
-  name: US rifleman
+  name: USMC rifleman
   components:
   - type: SpawnPoint
-    job_id: USRifleman
+    job_id: USMCRifleman
   - type: Sprite
     layers:
       - state: green
       - state: passenger
 
 - type: entity
-  id: SpawnPointRURifleman
+  id: SpawnPointVDVRifleman
   parent: SpawnPointJobBase
-  name: RU rifleman
+  name: VDV rifleman
   components:
   - type: SpawnPoint
-    job_id: RURifleman
+    job_id: VDVRifleman
   - type: Sprite
     layers:
       - state: green

@@ -155,12 +155,12 @@
     selectedMode: FullAuto
     fireRate: 6
     projectileSpeed: 35
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
     soundRack:
       path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
     slots:
       gun_magazine:

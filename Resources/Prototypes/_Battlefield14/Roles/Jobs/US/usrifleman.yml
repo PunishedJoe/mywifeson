@@ -1,8 +1,8 @@
 - type: job
-  id: USRifleman
-  name: Rifleman
-  description: "Shoot Russians."
-  playTimeTracker: JobUSRifleman
+  id: USMCRifleman
+  name: job-name-usmc-rifleman
+  description: job-description-usmc-rifleman
+  playTimeTracker: JobUSMCRifleman
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -18,22 +18,30 @@
         - Blindness
         - Pacifist
         - WheelchairBound
-  startingGear: USRiflemanGear
-  icon: "JobIconUS"
-  joinNotifyCrew: false
+  weight: 77
+  startingGear: USMCRiflemanGear
   alwaysUseSpawner: true
+  icon: "JobIconUS"
+  requireAdminNotify: false
   supervisors: job-supervisors-usgov
   canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: crescent-rank-private
   access:
-  - External
-  - Cryogenics
   - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
 
 - type: startingGear
-  id: USRiflemanGear
+  id: USMCRiflemanGear
   equipment:
-    gloves: ClothingHandsMercGlovesCombat
-    id: USIDCard
+    id: USMCPDA
+    gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltUS
     belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
     jumpsuit: ClothingUniformJumpsuitCamoUS
@@ -41,10 +49,10 @@
     outerClothing: ClothingOuterArmorPlateCarrierTan
     shoes: ClothingShoesBootsJack
     back: ClothingBackpackMerc
-#  storage:
-#    back:
-#    - Crowbar
-#    - Gauze
-#    - SyringeSaline
-#    - BruteAutoInjector
-#    - Tourniquet
+  storage:
+    back:
+    - Crowbar
+    - Gauze
+    - SyringeSaline
+    - BruteAutoInjector
+    - Tourniquet

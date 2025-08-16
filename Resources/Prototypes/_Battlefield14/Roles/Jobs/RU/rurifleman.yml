@@ -1,8 +1,8 @@
 - type: job
-  id: RURifleman
-  name: Rifleman
-  description: "Shoot Americans."
-  playTimeTracker: JobRURifleman
+  id: VDVRifleman
+  name: job-name-vdv-rifleman
+  description: job-description-vdv-rifleman
+  playTimeTracker: JobVDVRifleman
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -18,27 +18,28 @@
         - Blindness
         - Pacifist
         - WheelchairBound
-  startingGear: RURiflemanGear
+  startingGear: VDVRiflemanGear
   icon: "JobIconRU"
   joinNotifyCrew: false
   alwaysUseSpawner: true
   supervisors: job-supervisors-rugov
   canBeAntag: false
   access:
+  - External
   - Cryogenics
   - Maintenance
 
 - type: startingGear
-  id: RURiflemanGear
+  id: VDVRiflemanGear
   equipment:
+    id: VDVPDA
     gloves: ClothingHandsMercGlovesCombat
-    id: RUIDCard
     ears: ClothingHeadsetAltRU
     jumpsuit: ClothingUniformJumpsuitCamoRU
     head: ClothingHeadHatHelmetRU
     outerClothing: ClothingOuterArmorPlateCarrierBlack
     shoes: ClothingShoesBootsJack
-    back: ClothingBackpackMerc
+#    back: ClothingBackpackMerc
 #  storage:
 #    back:
 #    - Crowbar

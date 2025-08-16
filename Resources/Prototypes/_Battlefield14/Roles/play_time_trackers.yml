@@ -1,6 +1,6 @@
 # Jobs
 - type: playTimeTracker
-  id: JobUSRifleman
+  id: JobUSMCRifleman
 
 - type: playTimeTracker
-  id: JobRURifleman
+  id: JobVDVRifleman
