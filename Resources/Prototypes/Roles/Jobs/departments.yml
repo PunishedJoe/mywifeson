@@ -20,7 +20,7 @@
   - GliessianDockmaster
   - GliessianSheriff
   - Spacer
-  editorHidden: true
+  editorHidden: false
 
 - type: department
   id: Command

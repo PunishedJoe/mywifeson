@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointUSMCRifleman
   parent: SpawnPointJobBase
-  name: USMC rifleman
+  name: USMCRifleman
   components:
   - type: SpawnPoint
     job_id: USMCRifleman
@@ -13,7 +13,7 @@
 - type: entity
   id: SpawnPointVDVRifleman
   parent: SpawnPointJobBase
-  name: VDV rifleman
+  name: VDVRifleman
   components:
   - type: SpawnPoint
     job_id: VDVRifleman

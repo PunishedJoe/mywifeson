@@ -14,7 +14,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4.rsi
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4worn.rsi
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
@@ -209,7 +209,7 @@
     unwieldOnUse: false
   - type: GunWieldBonus
     minAngle: -19
-    maxAngle: -25
+    maxAngle: -20
   - type: Gun
     minAngle: 21
     maxAngle: 40

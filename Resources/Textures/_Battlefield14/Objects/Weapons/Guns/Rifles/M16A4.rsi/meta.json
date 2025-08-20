@@ -1,9 +1,9 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken/modified from civ13 at https://github.com/Civ13/Civ13/blob/c1d4512d573f18d9e9fee5c227b8aaff93806ac3/icons/obj/gun.dmi (didnt originate from this i dont think but its hard to track down when it was first added, slightly modified (ACOG, lengthened bolt) by JoeHammad1844 (github)",
+  "copyright": "Taken/modified from civ13 at https://github.com/Civ13/Civ13/blob/c1d4512d573f18d9e9fee5c227b8aaff93806ac3/icons/obj/gun.dmi (didnt originate from this i dont think but its hard to track down when it was first added if youre autistic), icon sprites by JoeHammad",
   "size": {
-    "x": 32,
+    "x": 48,
     "y": 32
   },
   "states": [
@@ -33,14 +33,6 @@
     },
     {
       "name": "wielded-inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "equipped-BACKPACK",
-      "directions": 4
-    },
-    {
-      "name": "equipped-SUITSTORAGE",
       "directions": 4
     }
   ]
