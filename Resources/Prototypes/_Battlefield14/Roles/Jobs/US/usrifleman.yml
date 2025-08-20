@@ -41,13 +41,12 @@
   id: USMCRiflemanGear
   equipment:
     id: USMCPDA
-    gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltUS
     belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
     jumpsuit: ClothingUniformJumpsuitCamoUS
     head: ClothingHeadHatHelmetUS
     outerClothing: ClothingOuterArmorPlateCarrierTan
-    shoes: ClothingShoesBootsJack
+    shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackMerc
   storage:
     back:
@@ -56,3 +55,4 @@
     - SyringeSaline
     - BruteAutoInjector
     - Tourniquet
+    - Zipties

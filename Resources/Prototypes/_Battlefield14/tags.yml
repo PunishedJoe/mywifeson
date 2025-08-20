@@ -15,3 +15,12 @@
 
 - type: Tag
   id: CartridgeRifle762
+
+- type: Tag
+  id: MagazinePistolM9
+
+- type: Tag
+  id: MagazinePistolMP5
+
+- type: Tag
+  id: CartridgePistol9mm

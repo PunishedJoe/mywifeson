@@ -18,32 +18,40 @@
         - Blindness
         - Pacifist
         - WheelchairBound
+  weight: 77
   startingGear: VDVRiflemanGear
-  icon: "JobIconRU"
-  joinNotifyCrew: false
   alwaysUseSpawner: true
+  icon: "JobIconRU"
+  requireAdminNotify: false
   supervisors: job-supervisors-rugov
   canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: crescent-rank-private
   access:
-  - External
-  - Cryogenics
   - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
 
 - type: startingGear
   id: VDVRiflemanGear
   equipment:
     id: VDVPDA
-    gloves: ClothingHandsMercGlovesCombat
     ears: ClothingHeadsetAltRU
     jumpsuit: ClothingUniformJumpsuitCamoRU
     head: ClothingHeadHatHelmetRU
     outerClothing: ClothingOuterArmorPlateCarrierBlack
-    shoes: ClothingShoesBootsJack
-#    back: ClothingBackpackMerc
-#  storage:
-#    back:
-#    - Crowbar
-#    - Gauze
-#    - SyringeSaline
-#    - BruteAutoInjector
-#    - Tourniquet
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackMerc
+  storage:
+    back:
+    - Crowbar
+    - Gauze
+    - SyringeSaline
+    - BruteAutoInjector
+    - Tourniquet
+    - Zipties
