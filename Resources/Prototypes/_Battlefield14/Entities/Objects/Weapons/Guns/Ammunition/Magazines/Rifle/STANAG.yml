@@ -1,7 +1,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: MagazineRifleSTANAG
-  name: "STANAG magazine (5.56)"
+  name: "STANAG magazine (5.56x45)"
+  description: STANdardised AGreement magazine, standard for most NATO weaponry, can fit in platforms like the M16, L85, and the M249 believe it or not.
   components:
   - type: Tag
     tags:

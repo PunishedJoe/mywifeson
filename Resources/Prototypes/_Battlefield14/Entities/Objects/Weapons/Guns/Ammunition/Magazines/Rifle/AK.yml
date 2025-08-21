@@ -1,7 +1,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: MagazineRifleAK74
-  name: "AK-74 magazine (5.45)"
+  name: "AK-74 magazine (5.45x39)"
+  description: Classic rock-and-lock magazine in 5.45, for 74 pattern rifles.
   components:
   - type: Tag
     tags:
@@ -24,7 +25,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: MagazineRifleAKM
-  name: "AKM magazine (7.62)"
+  name: "AKM magazine (7.62x39)"
+  description: Classic banana mag, just not yellow.
   components:
   - type: Tag
     tags:

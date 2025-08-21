@@ -31,7 +31,7 @@
             - MagazinePistolM9
       gun_chamber:
         name: Chamber
-        startingItem: MagazinePistolM9
+        startingItem: CartridgePistol9mm
         priority: 1
         whitelist:
           tags:
