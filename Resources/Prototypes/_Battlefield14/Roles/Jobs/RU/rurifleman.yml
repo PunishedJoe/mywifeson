@@ -21,7 +21,7 @@
   weight: 77
   startingGear: VDVRiflemanGear
   alwaysUseSpawner: true
-  icon: "JobIconRU"
+  icon: "JobIconPACTrifleman"
   requireAdminNotify: false
   supervisors: job-supervisors-rugov
   canBeAntag: false
@@ -42,11 +42,12 @@
   equipment:
     id: VDVPDA
     ears: ClothingHeadsetAltRU
-    jumpsuit: ClothingUniformJumpsuitCamoRU
-    head: ClothingHeadHatHelmetRU
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMR
     outerClothing: ClothingOuterArmorPlateCarrierBlack
     shoes: ClothingShoesBootsJackFilled
-    back: ClothingBackpackMerc
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
   storage:
     back:
     - Crowbar

@@ -20,6 +20,9 @@
   id: MagazinePistolM9
 
 - type: Tag
+  id: MagazinePistolMP443
+
+- type: Tag
   id: MagazinePistolMP5
 
 - type: Tag
