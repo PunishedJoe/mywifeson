@@ -48,6 +48,7 @@
     outerClothing: ClothingOuterArmorPlateCarrierTan
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM16A4
   storage:
     back:
     - Crowbar

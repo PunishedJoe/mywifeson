@@ -1,0 +1,65 @@
+- type: entity
+  name: M27-IAR
+  parent: BaseWeaponRifle
+  id: WeaponRifleUSM27IAR
+  description: The Marine corps own 416, intended to replace the M16A4 and the M249.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M27-IAR.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4worn.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -30
+  - type: Gun
+    minAngle: 19
+    maxAngle: 60
+    angleIncrease: 2
+    angleDecay: 16
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    selectedMode: FullAuto
+    fireRate: 8
+    projectileSpeed: 40 # twenty inch barrel
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifleSTANAG
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifleSTANAG
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle556
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle556
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: ClothingSpeedModifier # this thing is heavier than the M16, plus otherwise it would be objectively better than the M16
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier

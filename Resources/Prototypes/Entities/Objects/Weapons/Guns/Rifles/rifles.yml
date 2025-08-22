@@ -65,7 +65,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 2.5
+        Blunt: 4.5 # 2.5
   - type: DamageOtherOnHit
     staminaCost: 7.5
 

@@ -42,12 +42,14 @@
   equipment:
     id: VDVPDA
     ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledAK74
     jumpsuit: ClothingUniformJumpsuitCamoRUEMR
     head: ClothingHeadHatHelmetRUEMR
     outerClothing: ClothingOuterArmorPlateCarrierBlack
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackBlack
     neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponRifleRUAK74
   storage:
     back:
     - Crowbar
