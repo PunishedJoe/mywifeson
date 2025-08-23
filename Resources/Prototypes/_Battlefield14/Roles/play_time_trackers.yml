@@ -7,3 +7,6 @@
 
 - type: playTimeTracker
   id: JobVDVRifleman
+
+- type: playTimeTracker
+  id: JobVDVAutomaticRifleman

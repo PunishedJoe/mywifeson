@@ -1,29 +1,59 @@
 - type: entity
   parent: BasePDA
-  id: USMCPDA
-  name: US PDA
+  id: USMCRiflemanPDA
+  name: USMC PDA
   description: Filled with my little dark age edits.
   components:
   - type: Icon
     sprite: _Battlefield14/Objects/Devices/pda.rsi
     state: pda-us
   - type: Pda
-    id: USMCIDCard
+    id: USMCRiflemanIDCard
     state: pda
   - type: PdaBorderColor
-    borderColor: "#6d5f8a"
+    borderColor: "#203564"
 
 - type: entity
   parent: BasePDA
-  id: VDVPDA
-  name: RU PDA
+  id: USMCAutomaticRiflemanPDA
+  name: USMC PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCAutomaticRiflemanIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+- type: entity
+  parent: BasePDA
+  id: VDVRiflemanPDA
+  name: VDV PDA
   description: Filled with drone footage.
   components:
   - type: Icon
     sprite: _Battlefield14/Objects/Devices/pda.rsi
     state: pda-ru
   - type: Pda
-    id: VDVIDCard
+    id: VDVRiflemanIDCard
     state: pda
   - type: PdaBorderColor
-    borderColor: "#DC143C"
+    borderColor: "#a02829"
+
+- type: entity
+  parent: BasePDA
+  id: VDVAutomaticRiflemanPDA
+  name: VDV PDA
+  description: Filled with drone footage.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-ru
+  - type: Pda
+    id: VDVAutomaticRiflemanIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#a02829"

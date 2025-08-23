@@ -40,7 +40,7 @@
 - type: startingGear
   id: USMCAutomaticRiflemanGear
   equipment:
-    id: USMCPDA
+    id: USMCAutomaticRiflemanPDA
     ears: ClothingHeadsetAltUS
     belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
     jumpsuit: ClothingUniformJumpsuitCamoUS

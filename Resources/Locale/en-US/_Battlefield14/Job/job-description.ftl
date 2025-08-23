@@ -6,3 +6,4 @@ job-description-usmc-automatic-rifleman = Lay down suppressing fire and resupply
 #Russian Federation#
 
 job-description-vdv-rifleman = Shoot Americans.
+job-description-vdv-automatic-rifleman = Lay down suppressing fire and resupply your team-mates.

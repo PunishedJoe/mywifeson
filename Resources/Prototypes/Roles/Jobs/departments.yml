@@ -277,4 +277,5 @@
   weight: 73
   roles:
   - VDVRifleman
+  - VDVAutomaticRifleman
   editorHidden: false

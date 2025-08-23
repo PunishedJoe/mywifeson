@@ -28,6 +28,20 @@
     sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
     state: natosupport
 
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNATOMedic
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: natotmedic
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNATORecon
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: natorecon
+
  # Pact classes
 - type: jobIcon
   parent: JobIcon
@@ -35,3 +49,24 @@
   icon:
     sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
     state: pactinfantry
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPACTSupport
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: pactsupport
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPACTMedic
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: pactmedic
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPACTRecon
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: pactrecon

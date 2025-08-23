@@ -13,11 +13,13 @@
         - USMCRifleman
         - USMCAutomaticRifleman
         - VDVRifleman
+        - VDVAutomaticRifleman
+        - VDVAutomaticRifleman
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierCombat
   category: Hands
-  cost: 0
+  cost: 1
   exclusive: true
   items:
     - ClothingHandsGlovesCombat
@@ -27,7 +29,9 @@
     - !type:CharacterJobRequirement
       jobs:
         - USMCRifleman
+        - USMCAutomaticRifleman
         - VDVRifleman
+        - VDVAutomaticRifleman
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierFingerless
@@ -42,12 +46,14 @@
     - !type:CharacterJobRequirement
       jobs:
         - USMCRifleman
+        - USMCAutomaticRifleman
         - VDVRifleman
+        - VDVAutomaticRifleman
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierMercCombat
   category: Hands
-  cost: 0
+  cost: 1
   exclusive: true
   items:
     - ClothingHandsMercGlovesCombat
@@ -57,7 +63,9 @@
     - !type:CharacterJobRequirement
       jobs:
         - USMCRifleman
+        - USMCAutomaticRifleman
         - VDVRifleman
+        - VDVAutomaticRifleman
 
         
 - type: loadout
@@ -73,4 +81,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - USMCRifleman
+        - USMCAutomaticRifleman
         - VDVRifleman
+        - VDVAutomaticRifleman
