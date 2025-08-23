@@ -29,7 +29,7 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-private
+        rank: BF-rank-private
   access:
   - Maintenance
   - Service

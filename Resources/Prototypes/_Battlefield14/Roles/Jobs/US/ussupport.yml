@@ -1,14 +1,14 @@
 - type: job
-  id: VDVRifleman
-  name: job-name-vdv-rifleman
-  description: job-description-vdv-rifleman
-  playTimeTracker: JobVDVRifleman
+  id: USMCAutomaticRifleman
+  name: job-name-usmc-automatic-rifleman
+  description: job-description-usmc-automatic-rifleman
+  playTimeTracker: JobUSMCAutomaticRifleman
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
         - Human
     - !type:FactionRequirement
-      factionID: "PACT"
+      factionID: "NATO"
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -18,18 +18,18 @@
         - Blindness
         - Pacifist
         - WheelchairBound
-  weight: 77
-  startingGear: VDVRiflemanGear
+  weight: 76
+  startingGear: USMCAutomaticRiflemanGear
   alwaysUseSpawner: true
-  icon: "JobIconPACTRifleman"
+  icon: "JobIconNATOSupport"
   requireAdminNotify: false
-  supervisors: job-supervisors-rugov
+  supervisors: job-supervisors-usgov
   canBeAntag: false
   special:
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: BF-rank-private
+        rank: BF-rank-corporal
   access:
   - Maintenance
   - Service
@@ -38,23 +38,19 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: VDVRiflemanGear
+  id: USMCAutomaticRiflemanGear
   equipment:
-    id: VDVPDA
-    ears: ClothingHeadsetAltRU
-    belt: ClothingBeltMilitaryWebbingRUFilledAK74
-    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
-    head: ClothingHeadHatHelmetRUEMR
-    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    id: USMCPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUS
+    outerClothing: ClothingOuterArmorPlateCarrierTan
     shoes: ClothingShoesBootsJackFilled
-    back: ClothingBackpackRucksackBlack
-    neck: ClothingNeckIFFtapeWhite
-    suitstorage: WeaponRifleRUAK74
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM27IAR
   storage:
     back:
     - Crowbar
     - Gauze
-    - SyringeSaline
-    - BruteAutoInjector
     - Tourniquet
-    - Zipties

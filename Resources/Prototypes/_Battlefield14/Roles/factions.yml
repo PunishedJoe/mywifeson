@@ -23,5 +23,5 @@
   weight: 1
   enabled: true
   icon:
-    sprite: /Textures/_Crescent/faction_icons.rsi
+    sprite: /Textures/_Battlefield14/faction_icons.rsi
     state: pact

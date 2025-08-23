@@ -3,4 +3,7 @@
   id: JobUSMCRifleman
 
 - type: playTimeTracker
+  id: JobUSMCAutomaticRifleman
+
+- type: playTimeTracker
   id: JobVDVRifleman

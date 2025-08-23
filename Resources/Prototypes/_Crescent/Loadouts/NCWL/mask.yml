@@ -10,8 +10,8 @@
       group: LoadoutMasks
     - !type:CharacterJobRequirement
       jobs:
-        - JobUSMCRifleman
-        - JobVDVRifleman
+        - USMCRifleman
+        - VDVRifleman
 
 - type: loadout
   id: LoadoutMaskNCWLGasmask

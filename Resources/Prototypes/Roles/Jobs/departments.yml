@@ -267,6 +267,7 @@
   weight: 72
   roles:
   - USMCRifleman
+  - USMCAutomaticRifleman
   editorHidden: false
 
 - type: department
