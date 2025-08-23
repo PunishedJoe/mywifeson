@@ -1,0 +1,19 @@
+- type: entity
+  id: SupplyBoxMedical
+  parent: BaseItem
+  name: medical supply bag
+  description: Heres your medkit.
+  suffix: Standard
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Misc/medbox.rsi
+    state: icon
+  - type: Item
+    size: Huge
+  - type: ItemSlots
+    slots:
+      medkit:
+        name: medkit
+        whitelist:
+          tags:
+          - Medkit

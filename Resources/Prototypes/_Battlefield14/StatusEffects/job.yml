@@ -33,7 +33,7 @@
   id: JobIconNATOMedic
   icon:
     sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
-    state: natotmedic
+    state: natomedic
 
 - type: jobIcon
   parent: JobIcon
