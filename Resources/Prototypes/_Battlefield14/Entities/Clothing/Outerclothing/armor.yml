@@ -11,11 +11,11 @@
   - type: DegradeableArmor
     armorMaxHealth: 1000
     armorType: Metallic
-    armorRepair: SteelPlate
+    armorRepair: CeramicPlate
     initialModifiers:
       flatReductions:
-        Blunt: 25
-        Slash: 25
+        Blunt: 2
+        Slash: 2
         Piercing: 45
         Heat: 25
         Caustic: 25

@@ -8,6 +8,7 @@
     damage:
       types:
         Piercing: 30
+    stoppingPower: 4
 
 - type: entity
   id: BulletRifle545
@@ -19,6 +20,7 @@
     damage:
       types:
         Piercing: 30
+    stoppingPower: 4
 
 - type: entity
   id: BulletRifle762
@@ -30,3 +32,4 @@
     damage:
       types:
         Piercing: 35
+    stoppingPower: 5

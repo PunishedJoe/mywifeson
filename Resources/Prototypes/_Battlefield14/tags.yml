@@ -27,3 +27,6 @@
 
 - type: Tag
   id: CartridgePistol9mm
+
+- type: Tag
+  id: AmmunitionBox
