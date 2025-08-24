@@ -10,12 +10,12 @@
     sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
   - type: DegradeableArmor
     armorMaxHealth: 1000
-    armorType: Metallic
-    armorRepair: CeramicPlate
+    armorType: Ceramic
+    armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
-        Blunt: 2
-        Slash: 2
+        Blunt: 20
+        Slash: 20
         Piercing: 45
         Heat: 25
         Caustic: 25
