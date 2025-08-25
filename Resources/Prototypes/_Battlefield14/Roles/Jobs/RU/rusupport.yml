@@ -52,7 +52,7 @@
     suitstorage: WeaponRifleRURPK2016
   storage:
     back:
+    - SupplyBoxAmmoRUFilled
     - Crowbar
     - Gauze
     - Tourniquet
-    - SupplyBoxAmmoRUFilled

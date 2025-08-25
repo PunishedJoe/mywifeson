@@ -20,7 +20,7 @@
     maxAngle: -30
   - type: Gun
     minAngle: 19
-    maxAngle: 60
+    maxAngle: 50
     angleIncrease: 2
     angleDecay: 16
     availableModes:
@@ -31,6 +31,8 @@
     projectileSpeed: 40 # twenty inch barrel
     soundGunshot:
       collection: BF_M16_Gunshots
+      params:
+        volume: -5
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -86,17 +88,19 @@
     maxAngle: -30
   - type: Gun
     minAngle: 19
-    maxAngle: 70
-    angleIncrease: 3
+    maxAngle: 50
+    angleIncrease: 2
     angleDecay: 16
     availableModes:
     - SemiAuto
     - FullAuto
     selectedMode: FullAuto
-    fireRate: 6
+    fireRate: 8
     projectileSpeed: 40 # twenty inch barrel
     soundGunshot:
       collection: BF_AK_545_Gunshots
+      params:
+        volume: -5
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: ItemSlots

@@ -2,7 +2,7 @@
   parent: BaseMagazineRifle
   id: MagazineSubmachinegunMP5
   name: MP5 magazine (9x19mm)
-  description: A 9x19 MILLY METAH magazine that fits in the M9 beretta.
+  description: Gun food.
   components:
   - type: Tag
     tags:

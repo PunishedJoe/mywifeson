@@ -1,5 +1,5 @@
 - type: soundCollection
-  id: BF_M16_Gunshots
+  id: BF_M16_Gunshots # M16's/M4's, 5.56x45
   files:
   - "/Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_fire-01.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_fire-02.ogg"
@@ -9,7 +9,7 @@
   - "/Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_fire-06.ogg"
 
 - type: soundCollection
-  id: BF_AK_545_Gunshots
+  id: BF_AK_545_Gunshots # AK-74's/12's, 5.45x39
   files:
   - "/Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_545_39_fire-01.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_545_39_fire-02.ogg"
@@ -19,7 +19,7 @@
   - "/Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_545_39_fire-06.ogg"
 
 - type: soundCollection
-  id: BF_AK_762_Gunshots
+  id: BF_AK_762_Gunshots # AKM's/47's, 7.62x39
   files:
   - "/Audio/_Battlefield14/Weapons/Guns/AK_762/uc_ak_fire-01.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/AK_762/uc_ak_fire-02.ogg"
@@ -27,3 +27,13 @@
   - "/Audio/_Battlefield14/Weapons/Guns/AK_762/uc_ak_fire-04.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/AK_762/uc_ak_fire-05.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/AK_762/uc_ak_fire-06.ogg"
+
+- type: soundCollection
+  id: BF_MP5_Gunshots # MP5
+  files:
+  - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-01.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-02.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-03.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-04.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-05.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-06.ogg"
