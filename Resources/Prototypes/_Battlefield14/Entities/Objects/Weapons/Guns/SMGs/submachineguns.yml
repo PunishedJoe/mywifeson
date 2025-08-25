@@ -2,7 +2,7 @@
   name: MP5
   parent: [BaseWeaponSubMachineGun]
   id: WeaponRifleUSMP5
-  description: A favorite of tacticool larpers and MAC V SOG commandos alike.
+  description: Feather-light recoil, swag, and a high rate of fire; everything you need in a submachine gun, except for a massive flashlight mounted on top.
   components:
   - type: Sprite
     sprite: _Battlefield14/Objects/Weapons/Guns/SMGs/MP5.rsi
