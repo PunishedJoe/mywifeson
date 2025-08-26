@@ -43,6 +43,8 @@
       - BoxMagazineSTANAG
       ammobox:
       - MagazineBox556x45Big
+      ammobox2:
+      - MagazineBox9x19mmBig
 
 - type: entity
   id: SupplyBoxAmmoRUFilled
@@ -57,3 +59,5 @@
       - BoxMagazineAK74
       ammobox:
       - MagazineBox545x39Big
+      ammobox2:
+      - MagazineBox9x19mmBig

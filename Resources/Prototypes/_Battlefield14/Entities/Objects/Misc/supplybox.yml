@@ -85,7 +85,7 @@
     state: icon
   - type: Item
     size: Huge
-  - type: ItemSlots # yandere dev moment. if theres a more effecient way please tell me.
+  - type: ItemSlots
     slots:
       magazinebox:
         name: magazine box
@@ -102,10 +102,15 @@
         whitelist:
           tags:
           - AmmunitionBox
+      ammobox2:
+        name: ammo box 2
+        whitelist:
+          tags:
+          - AmmunitionBox
 
 - type: entity
   id: SupplyBoxAmmoRU
-  parent: BaseItem
+  parent: SupplyBoxAmmoUS
   name: ammo bag
   description: Blyaaddd amunitchki blyaaaaaat.
   suffix: Russian
@@ -113,22 +118,3 @@
   - type: Sprite
     sprite: _Battlefield14/Objects/Misc/ammobagru.rsi
     state: icon
-  - type: Item
-    size: Huge
-  - type: ItemSlots # yandere dev moment. if theres a more effecient way please tell me.
-    slots:
-      magazinebox:
-        name: magazine box
-        whitelist:
-          tags:
-          - BoxCardboard
-      magazinebox2:
-        name: magazine box 2
-        whitelist:
-          tags:
-          - BoxCardboard
-      ammobox:
-        name: ammo box
-        whitelist:
-          tags:
-          - AmmunitionBox
