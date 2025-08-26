@@ -44,7 +44,8 @@
     ears: ClothingHeadsetAltUS
     belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
     jumpsuit: ClothingUniformJumpsuitCamoUS
-    head: ClothingHeadHatHelmetUS
+    head: ClothingHeadHatHelmetUSRiot
+    eyes: ClothingEyesGogglesTan
     outerClothing: ClothingOuterArmorPlateCarrierTan
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackTan
@@ -55,4 +56,5 @@
     - Crowbar
     - Gauze
     - Tourniquet
+    - Welder
 

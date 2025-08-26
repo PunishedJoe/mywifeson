@@ -44,7 +44,8 @@
     ears: ClothingHeadsetAltRU
     belt: ClothingBeltMilitaryWebbingRUFilledAK74blackdrum
     jumpsuit: ClothingUniformJumpsuitCamoRUEMR
-    head: ClothingHeadHatHelmetRUEMR
+    head: ClothingHeadHatHelmetRUEMRRiot
+    eyes: ClothingEyesGogglesGreen
     outerClothing: ClothingOuterArmorPlateCarrierBlack
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackBlack

@@ -30,6 +30,21 @@
 
 - type: entity
   parent: BasePDA
+  id: USMCMedicPDA
+  name: USMC PDA
+  description: Filled with industrial accident and war casualty videos, im sure it's for training.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCMedicIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+- type: entity
+  parent: BasePDA
   id: VDVRiflemanPDA
   name: VDV PDA
   description: Filled with drone footage.

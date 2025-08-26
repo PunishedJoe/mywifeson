@@ -9,6 +9,16 @@
         amount: 8
 
 - type: entity
+  id: ClothingBeltMilitaryWebbingUSFilledMP5
+  parent: ClothingBeltMilitaryWebbingUS
+  suffix: Filled MP5
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineSubmachinegunMP5
+        amount: 8
+
+- type: entity
   id: ClothingBeltMilitaryWebbingRUFilledAK74
   parent: ClothingBeltMilitaryWebbingRU
   suffix: Filled AK74

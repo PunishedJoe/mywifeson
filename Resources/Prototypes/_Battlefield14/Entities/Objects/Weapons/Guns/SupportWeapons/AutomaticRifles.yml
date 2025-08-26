@@ -12,7 +12,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4worn.rsi
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/RPK2016worn.rsi
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus

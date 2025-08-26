@@ -1,7 +1,7 @@
 - type: entity
   name: MP5
   parent: [BaseWeaponSubMachineGun]
-  id: WeaponRifleUSMP5
+  id: WeaponSubmachinegunUSMP5
   description: Feather-light recoil, swag, and a high rate of fire; everything you need in a submachine gun, except for a massive flashlight mounted on top.
   components:
   - type: Sprite

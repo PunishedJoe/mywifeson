@@ -10,6 +10,11 @@
     state: icon
   - type: Item
     size: Huge
+  - type: EmitSoundOnUse
+    sound:
+      collection: BF_Marines_Health_Here
+  - type: UseDelay
+    delay: 15.0
   - type: ItemSlots # yandere dev moment. if theres a more effecient way please tell me.
     slots:
       medkit:
@@ -85,6 +90,11 @@
     state: icon
   - type: Item
     size: Huge
+  - type: EmitSoundOnUse
+    sound:
+      collection: BF_Marines_Ammo_Here
+  - type: UseDelay
+    delay: 15.0
   - type: ItemSlots
     slots:
       magazinebox:
