@@ -66,3 +66,65 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+
+- type: entity
+  name: PP-19 Vityaz-SN
+  parent: [BaseWeaponSubMachineGun]
+  id: WeaponSubmachinegunRUVityaz
+  description: Just as reliable as your AK, with an itty bitty round that doesnt bruise your shoulder too much.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/SMGs/Vityaz.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Battlefield14/Objects/Weapons/Guns/SMGs/MP5.rsi
+  - type: Gun
+    minAngle: 0
+    maxAngle: 2
+    fireRate: 13
+    projectileSpeed: 25 # pistol caliber
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      collection: BF_UZI_Gunshots
+      params:
+        volume: -5
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: null
+    soundRack:
+      path: /Audio/_Battlefield14/Weapons/Guns/AK_9/uc_ak_chback_9.ogg
+      params:
+        volume: -3
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineSubmachinegunMP5
+        insertSound: /Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_magin.ogg
+        ejectSound: /Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistolMP5
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol9mm
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol9mm
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

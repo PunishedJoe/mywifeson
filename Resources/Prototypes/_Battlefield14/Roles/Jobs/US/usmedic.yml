@@ -42,12 +42,13 @@
   equipment:
     id: USMCRiflemanPDA
     ears: ClothingHeadsetAltUS
-    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    belt: ClothingBeltMilitaryWebbingUSFilledMP5
     jumpsuit: ClothingUniformJumpsuitCamoUS
     head: ClothingHeadHatHelmetUS
-    eyes: ClothingEyesHudMedSec
+    eyes: ClothingEyesHudMedicalBF
     outerClothing: ClothingOuterArmorPlateCarrierTan
     shoes: ClothingShoesBootsJackFilled
+    hands: ClothingHandsGlovesLatex
     back: ClothingBackpackRucksackTan
     suitstorage: WeaponSubmachinegunUSMP5
   storage:

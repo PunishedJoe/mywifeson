@@ -37,3 +37,13 @@
   - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-04.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-05.ogg"
   - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-06.ogg"
+
+- type: soundCollection
+  id: BF_UZI_Gunshots # UZI
+  files:
+  - "/Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_fire-01.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_fire-02.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_fire-03.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_fire-04.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_fire-05.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_fire-06.ogg"
