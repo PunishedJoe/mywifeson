@@ -81,7 +81,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Battlefield14/Objects/Weapons/Guns/SMGs/Vityaz.rsi
+    sprite: _Battlefield14/Objects/Weapons/Guns/SMGs/Vityazworn.rsi
   - type: Gun
     minAngle: 0
     maxAngle: 2
