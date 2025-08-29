@@ -13,3 +13,6 @@
 
 - type: playTimeTracker
   id: JobVDVAutomaticRifleman
+
+- type: playTimeTracker
+  id: JobVDVMedic

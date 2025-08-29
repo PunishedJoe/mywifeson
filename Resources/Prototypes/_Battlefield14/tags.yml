@@ -26,6 +26,9 @@
   id: MagazinePistolMP5
 
 - type: Tag
+  id: MagazinePistolVityaz
+
+- type: Tag
   id: CartridgePistol9mm
 
 - type: Tag

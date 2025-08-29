@@ -47,3 +47,13 @@
     contents:
       - id: MagazineRifleAKM
         amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledVityaz
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled Vityaz
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineSubmachinegunVityaz
+        amount: 8

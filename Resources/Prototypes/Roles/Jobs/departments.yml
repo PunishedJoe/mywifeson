@@ -279,4 +279,5 @@
   roles:
   - VDVRifleman
   - VDVAutomaticRifleman
+  - VDVMedic
   editorHidden: false

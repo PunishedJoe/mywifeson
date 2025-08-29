@@ -1,5 +1,5 @@
 - type: loadout
-  id: LoadoutMaskNCWLBalaclava # BF14 conquered not stolen
+  id: LoadoutMaskNCWLBalaclava # BF14 | conquered not stolen
   category: Mask
   cost: 0
   exclusive: true
@@ -11,7 +11,11 @@
     - !type:CharacterJobRequirement
       jobs:
         - USMCRifleman
+        - USMCAutomaticRifleman
+        - USMCMedic
         - VDVRifleman
+        - VDVAutomaticRifleman
+        - VDVMedic
 
 - type: loadout
   id: LoadoutMaskNCWLGasmask

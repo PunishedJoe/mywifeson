@@ -1,14 +1,14 @@
 - type: job
-  id: USMCMedic
-  name: job-name-usmc-medic
-  description: job-description-usmc-medic
-  playTimeTracker: JobUSMCMedic
+  id: VDVMedic
+  name: job-name-vdv-medic
+  description: job-description-vdv-medic
+  playTimeTracker: JobVDVMedic
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
         - Human
     - !type:FactionRequirement
-      factionID: "NATO"
+      factionID: "PACT"
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -19,11 +19,11 @@
         - Pacifist
         - WheelchairBound
   weight: 75
-  startingGear: USMCMedicGear
+  startingGear: VDVMedicGear
   alwaysUseSpawner: true
-  icon: "JobIconNATOMedic"
+  icon: "JobIconPACTMedic"
   requireAdminNotify: false
-  supervisors: job-supervisors-usgov
+  supervisors: job-supervisors-rugov
   canBeAntag: false
   special:
   - !type:AddComponentSpecial
@@ -38,19 +38,20 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: USMCMedicGear
+  id: VDVMedicGear
   equipment:
-    id: USMCRiflemanPDA
-    ears: ClothingHeadsetAltUS
-    belt: ClothingBeltMilitaryWebbingUSFilledMP5
-    jumpsuit: ClothingUniformJumpsuitCamoUS
-    head: ClothingHeadHatHelmetUS
+    id: VDVMedicPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledVityaz
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMR
     eyes: ClothingEyesHudMedicalBF
-    outerClothing: ClothingOuterArmorPlateCarrierTan
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
     shoes: ClothingShoesBootsJackFilled
     gloves: ClothingHandsGlovesLatex
-    back: ClothingBackpackRucksackTan
-    suitstorage: WeaponSubmachinegunUSMP5
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponSubmachinegunRUVityaz
   storage:
     back:
     - SupplyBoxMedicalFilled

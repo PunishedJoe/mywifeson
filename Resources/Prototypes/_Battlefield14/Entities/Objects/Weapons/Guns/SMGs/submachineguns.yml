@@ -104,13 +104,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineSubmachinegunMP5
+        startingItem: MagazineSubmachinegunVityaz
         insertSound: /Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_magin.ogg
         ejectSound: /Audio/_Battlefield14/Weapons/Guns/UZI/uc_uzi_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazinePistolMP5
+            - MagazinePistolVityaz
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber

@@ -73,3 +73,17 @@
     heldPrefix: silver
   - type: PresetIdCard
     job: VDVAutomaticRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVMedicIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idseniorofficer
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVMedic
