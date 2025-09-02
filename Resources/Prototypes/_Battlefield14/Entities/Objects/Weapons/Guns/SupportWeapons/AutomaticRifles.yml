@@ -1,6 +1,6 @@
 - type: entity
   name: M27-IAR
-  parent: BaseWeaponRifle
+  parent: WeaponRifleUSM16A4
   id: WeaponRifleUSM27IAR
   description: The Marine corps own 416, intended to replace the M16A4 and the M249.
   components:
@@ -12,7 +12,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4worn.rsi
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M16A4worn.rsi # do later
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
@@ -21,7 +21,7 @@
   - type: Gun
     minAngle: 19
     maxAngle: 50
-    angleIncrease: 2
+    angleIncrease: 1
     angleDecay: 16
     availableModes:
     - SemiAuto
@@ -33,33 +33,6 @@
       collection: BF_M16_Gunshots
       params:
         volume: -5
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazineRifleSTANAG
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineRifleSTANAG
-        whitelistFailPopup: gun-magazine-whitelist-fail
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeRifle556
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeRifle556
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
   - type: Appearance
   - type: ClothingSpeedModifier # this thing is heavier than the M16, plus otherwise it would be objectively better than the M16
     walkModifier: 0.9
@@ -88,8 +61,8 @@
     maxAngle: -30
   - type: Gun
     minAngle: 19
-    maxAngle: 50
-    angleIncrease: 2
+    maxAngle: 55
+    angleIncrease: 1
     angleDecay: 16
     availableModes:
     - SemiAuto
@@ -108,8 +81,8 @@
       gun_magazine:
         name: Magazine
         startingItem: MagazineRifleAK74blackdrum
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        insertSound: /Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_magin_drum.ogg
+        ejectSound: /Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_magout_drum.ogg
         priority: 2
         whitelist:
           tags:

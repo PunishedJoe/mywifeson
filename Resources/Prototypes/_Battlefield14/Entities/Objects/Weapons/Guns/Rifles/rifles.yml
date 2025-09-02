@@ -35,13 +35,18 @@
       collection: BF_M16_Gunshots
       params:
         volume: -5
+  - type: ChamberMagazineAmmoProvider
+    soundBoltClosed:
+      path: /Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_chamber_press.ogg
+      params:
+        volume: -3
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineRifleSTANAG
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        insertSound: /Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_magin.ogg
+        ejectSound: /Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_magout.ogg
         priority: 2
         whitelist:
           tags:
@@ -63,14 +68,80 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-#  - type: CursorOffsetRequiresWield
-#  - type: EyeCursorOffset
-#    maxOffset: 5
-#    pvsIncrease: 0.8
+
+- type: entity
+  name: M4A1 Carbine
+  parent: WeaponRifleUSM16A4
+  id: WeaponRifleUSM4A1
+  description: The classic American slugthrower.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M4A1.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M4A1worn.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -14
+    maxAngle: -16
+  - type: Gun
+    minAngle: 16
+    maxAngle: 32
+    projectileSpeed: 30 # Shorter barrel
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    selectedMode: FullAuto
+    soundGunshot:
+      collection: BF_M16_Gunshots
+      params:
+        volume: -5
+    fireRate: 7
+  - type: Appearance
+
+- type: entity
+  name: M4A1 Carbine SUPP.
+  parent: WeaponRifleUSM4A1
+  id: WeaponRifleUSM4A1SUPP
+  description: This is so CAG bro!.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M4A1SUPP.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M4A1worn.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -14
+    maxAngle: -16
+  - type: Gun
+    minAngle: 16
+    maxAngle: 32
+    projectileSpeed: 30 # Shorter barrel
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    selectedMode: FullAuto
+    soundGunshot:
+      collection: BF_M16_Gunshots_SUPP
+      params:
+        volume: -10
+    fireRate: 7
+  - type: Appearance
 
 - type: entity
   name: M4 Carbine
-  parent: [BaseWeaponSubMachineGun]
+  parent: BaseWeaponSubMachineGun
   id: WeaponRifleUSM4
   description: A favorite of tacticool larpers and MAC V SOG commandos alike.
   components:
@@ -172,8 +243,8 @@
       gun_magazine:
         name: Magazine
         startingItem: MagazineRifleAK74
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        insertSound: /Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_magin.ogg
+        ejectSound: /Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_magout.ogg
         priority: 2
         whitelist:
           tags:
@@ -198,7 +269,7 @@
 
 - type: entity
   name: AKMS
-  parent: BaseWeaponRifle
+  parent: WeaponRifleRUAK74
   id: WeaponRifleRUAKMS
   description: The right arm of the enslaved world.
   components:

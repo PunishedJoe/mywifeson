@@ -34,6 +34,7 @@
             USMCMedic: [-1, -1]
             VDVRifleman: [-1, -1]
             VDVAutomaticRifleman: [-1, -1]
+            VDVMedic: [-1, -1]
 
 - type: gameMap
   id: TestTeg
