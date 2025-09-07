@@ -44,7 +44,23 @@
       color: "#878787"
     - state: passenger
   - type: PresetIdCard
-    job: USMCAutomaticRifleman
+    job: USMCMedic
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCReconIDCard
+  name: Marine Corps ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#203564"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
+  - type: PresetIdCard
+    job: USMCRecon
 
 - type: entity
   parent: IDCardStandard
@@ -54,7 +70,7 @@
   - type: Sprite
     layers:
     - state: silver
-    - state: idseniorofficer
+    - state: passenger
   - type: Item
     heldPrefix: silver
   - type: PresetIdCard
@@ -68,7 +84,7 @@
   - type: Sprite
     layers:
     - state: silver
-    - state: idseniorofficer
+    - state: passenger
   - type: Item
     heldPrefix: silver
   - type: PresetIdCard
@@ -82,8 +98,22 @@
   - type: Sprite
     layers:
     - state: silver
-    - state: idseniorofficer
+    - state: passenger
   - type: Item
     heldPrefix: silver
   - type: PresetIdCard
     job: VDVMedic
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVReconIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: passenger
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVRecon

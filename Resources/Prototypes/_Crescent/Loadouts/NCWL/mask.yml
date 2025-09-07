@@ -13,9 +13,11 @@
         - USMCRifleman
         - USMCAutomaticRifleman
         - USMCMedic
+        - USMCRecon
         - VDVRifleman
         - VDVAutomaticRifleman
         - VDVMedic
+        - VDVRecon
 
 - type: loadout
   id: LoadoutMaskNCWLGasmask

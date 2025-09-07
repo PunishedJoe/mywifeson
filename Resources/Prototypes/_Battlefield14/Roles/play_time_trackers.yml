@@ -9,6 +9,9 @@
   id: JobUSMCMedic
 
 - type: playTimeTracker
+  id: JobUSMCRecon
+
+- type: playTimeTracker
   id: JobVDVRifleman
 
 - type: playTimeTracker
@@ -16,3 +19,6 @@
 
 - type: playTimeTracker
   id: JobVDVMedic
+
+- type: playTimeTracker
+  id: JobVDVRecon

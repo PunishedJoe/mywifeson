@@ -12,9 +12,10 @@
       jobs:
         - USMCRifleman
         - USMCAutomaticRifleman
+        - USMCRecon
         - VDVRifleman
         - VDVAutomaticRifleman
-        - VDVAutomaticRifleman
+        - VDVRecon
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierCombat
@@ -30,8 +31,10 @@
       jobs:
         - USMCRifleman
         - USMCAutomaticRifleman
+        - USMCRecon
         - VDVRifleman
         - VDVAutomaticRifleman
+        - VDVRecon
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierFingerless
@@ -47,8 +50,10 @@
       jobs:
         - USMCRifleman
         - USMCAutomaticRifleman
+        - USMCRecon
         - VDVRifleman
         - VDVAutomaticRifleman
+        - VDVRecon
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierMercCombat
@@ -64,8 +69,10 @@
       jobs:
         - USMCRifleman
         - USMCAutomaticRifleman
+        - USMCRecon
         - VDVRifleman
         - VDVAutomaticRifleman
+        - VDVRecon
 
         
 - type: loadout
@@ -82,5 +89,7 @@
       jobs:
         - USMCRifleman
         - USMCAutomaticRifleman
+        - USMCRecon
         - VDVRifleman
         - VDVAutomaticRifleman
+        - VDVRecon

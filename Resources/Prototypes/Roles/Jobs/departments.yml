@@ -269,6 +269,7 @@
   - USMCRifleman
   - USMCAutomaticRifleman
   - USMCMedic
+  - USMCRecon
   editorHidden: false
 
 - type: department
@@ -280,4 +281,5 @@
   - VDVRifleman
   - VDVAutomaticRifleman
   - VDVMedic
+  - VDVRecon
   editorHidden: false

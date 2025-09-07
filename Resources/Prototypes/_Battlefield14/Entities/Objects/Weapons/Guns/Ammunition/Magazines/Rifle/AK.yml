@@ -72,3 +72,40 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineRifle
+  id: MagazineRifleASVAL
+  name: "AS-VAL magazine (9x39)"
+  description: 9mm slugs, a little slow but still hit hard.
+  components:
+  - type: Tag
+    tags:
+      - MagazineRifleASVAL
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle939
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle939
+    capacity: 30
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Ammunition/Magazines/Rifle/ASVAL.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: MagazineRifleASVAL
+  id: MagazineRifleASVALShort
+  name: "AS-VAL magazine short (9x39)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle939
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle939
+    capacity: 20

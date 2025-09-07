@@ -39,6 +39,16 @@
   - "/Audio/_Battlefield14/Weapons/Guns/AK_762/uc_ak_fire-06.ogg"
 
 - type: soundCollection
+  id: BF_Galil_Gunshots_SUPP # 5.56x45
+  files:
+  - "/Audio/_Battlefield14/Weapons/Guns/Galil/uc_galil_fire-sup-01.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/Galil/uc_galil_fire-sup-02.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/Galil/uc_galil_fire-sup-03.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/Galil/uc_galil_fire-sup-04.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/Galil/uc_galil_fire-sup-05.ogg"
+  - "/Audio/_Battlefield14/Weapons/Guns/Galil/uc_galil_fire-sup-06.ogg"
+
+- type: soundCollection
   id: BF_MP5_Gunshots # MP5
   files:
   - "/Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_fire-01.ogg"
