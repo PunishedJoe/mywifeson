@@ -506,6 +506,15 @@
     ShipHull: 10500
 
 - type: latheRecipe
+  id: MatronLPC
+  result: ShipVoucherMatron
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 8250
+    ShipComponents: 6750
+    ShipHull: 10500
+
+- type: latheRecipe
   id: IbisLPC
   result: ShipVoucherIbis
   completetime: 1

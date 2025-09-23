@@ -276,3 +276,15 @@
   cost: 12000
   recipeUnlocks:
   - PadparadschaLPC
+
+- type: technology
+  id: ImperialMatron
+  name: research-technology-imperial-matron
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Imperial
+  tier: 2
+  cost: 9000
+  recipeUnlocks:
+  - MatronLPC
