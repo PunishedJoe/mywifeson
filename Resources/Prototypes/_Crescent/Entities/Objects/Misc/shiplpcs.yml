@@ -223,6 +223,21 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherTyche
+  name: DSM 'Tyche' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an Imperial Tyche-class stealth cruiser. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 45000
+  - type: ShipVoucher
+    ship: Tyche
+
   id: ShipVoucherMatron
   name: DSM 'Matron' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with an Imperial Matron-class ultralight carrier. Has to be redeemed at a shipyard console.
@@ -234,7 +249,7 @@
     layers:
     - state: icon
   - type: StaticPrice
-    price: 120000
+      price: 120000
   - type: ShipVoucher
     ship: Matron
 
