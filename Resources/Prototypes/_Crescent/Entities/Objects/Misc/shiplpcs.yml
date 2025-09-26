@@ -238,7 +238,9 @@
   - type: ShipVoucher
     ship: Tyche
 
-- id: ShipVoucherMatron
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherMatron
   name: DSM 'Matron' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with an Imperial Matron-class ultralight carrier. Has to be redeemed at a shipyard console.
   components:
