@@ -1,0 +1,24 @@
+# Jobs
+- type: playTimeTracker
+  id: JobUSMCRifleman
+
+- type: playTimeTracker
+  id: JobUSMCAutomaticRifleman
+
+- type: playTimeTracker
+  id: JobUSMCMedic
+
+- type: playTimeTracker
+  id: JobUSMCRecon
+
+- type: playTimeTracker
+  id: JobVDVRifleman
+
+- type: playTimeTracker
+  id: JobVDVAutomaticRifleman
+
+- type: playTimeTracker
+  id: JobVDVMedic
+
+- type: playTimeTracker
+  id: JobVDVRecon

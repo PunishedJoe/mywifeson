@@ -1,0 +1,59 @@
+- type: job
+  id: USMCMedic
+  name: job-name-usmc-medic
+  description: job-description-usmc-medic
+  playTimeTracker: JobUSMCMedic
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "NATO"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 75
+  startingGear: USMCMedicGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATOMedic"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-corporal
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+
+- type: startingGear
+  id: USMCMedicGear
+  equipment:
+    id: USMCRiflemanPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledMP5
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUS
+    eyes: ClothingEyesHudMedicalBF
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponSubmachinegunUSMP5
+  storage:
+    back:
+    - SupplyBoxMedicalFilled
+    - DefibrillatorCompactBF
+    - Crowbar
+    - Gauze

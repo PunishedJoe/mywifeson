@@ -1,0 +1,59 @@
+- type: job
+  id: VDVAutomaticRifleman
+  name: job-name-vdv-automatic-rifleman
+  description: job-description-vdv-automatic-rifleman
+  playTimeTracker: JobVDVAutomaticRifleman
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "PACT"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 76
+  startingGear: VDVAutomaticRiflemanGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTSupport"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-corporal
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+
+- type: startingGear
+  id: VDVAutomaticRiflemanGear
+  equipment:
+    id: VDVAutomaticRiflemanPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledAK74blackdrum
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMRRiot
+    eyes: ClothingEyesGogglesGreen
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponRifleRURPK2016
+  storage:
+    back:
+    - SupplyBoxAmmoRUFilled
+    - Crowbar
+    - Gauze
+    - Tourniquet

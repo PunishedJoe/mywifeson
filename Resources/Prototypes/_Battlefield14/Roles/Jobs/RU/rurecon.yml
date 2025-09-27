@@ -1,0 +1,57 @@
+- type: job
+  id: VDVRecon
+  name: job-name-vdv-recon
+  description: job-description-vdv-recon
+  playTimeTracker: JobVDVRecon
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "PACT"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 74
+  startingGear: VDVReconGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTRecon"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-private
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+
+- type: startingGear
+  id: VDVReconGear
+  equipment:
+    id: VDVReconPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledASVALShort
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatSkullcrusher
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackBlack
+    suitstorage: WeaponRifleRUASVAL
+  storage:
+    back:
+    - Crowbar
+    - Gauze
+    - Tourniquet
+    - Zipties

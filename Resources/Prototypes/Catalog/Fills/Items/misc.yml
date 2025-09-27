@@ -18,3 +18,12 @@
       item:
       - KukriKnife
 
+- type: entity
+  id: ClothingShoesBootsJackFilled # This is a Battlefield14 edit and I know its in the wrong namespace but this shit is upstream, fight me
+  parent: ClothingShoesBootsJack
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - CombatKnife

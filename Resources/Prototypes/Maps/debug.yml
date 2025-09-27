@@ -29,6 +29,14 @@
           - Captain
           availableJobs:
             Captain: [ -1, -1 ]
+            USMCRifleman: [-1, -1]
+            USMCAutomaticRifleman: [-1, -1]
+            USMCMedic: [-1, -1]
+            USMCRecon: [-1, -1]
+            VDVRifleman: [-1, -1]
+            VDVAutomaticRifleman: [-1, -1]
+            VDVMedic: [-1, -1]
+            VDVRecon: [-1, -1]
         # Goobstation blob-config-start DEBUG
         - type: StationBlobConfig
           stageBegin: 20

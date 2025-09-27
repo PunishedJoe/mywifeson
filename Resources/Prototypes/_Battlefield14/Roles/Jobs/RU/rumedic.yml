@@ -1,0 +1,60 @@
+- type: job
+  id: VDVMedic
+  name: job-name-vdv-medic
+  description: job-description-vdv-medic
+  playTimeTracker: JobVDVMedic
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "PACT"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 75
+  startingGear: VDVMedicGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTMedic"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-corporal
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+
+- type: startingGear
+  id: VDVMedicGear
+  equipment:
+    id: VDVMedicPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledVityaz
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMR
+    eyes: ClothingEyesHudMedicalBF
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponSubmachinegunRUVityaz
+  storage:
+    back:
+    - SupplyBoxMedicalFilled
+    - DefibrillatorCompactBF
+    - Crowbar
+    - Gauze

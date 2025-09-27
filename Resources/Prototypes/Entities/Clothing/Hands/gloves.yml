@@ -269,7 +269,7 @@
   - type: Sprite
     sprite: Clothing/Hands/Gloves/combat.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/combat.rsi
+    sprite: Clothing/Hands/Gloves/Color/black.rsi # Battlefield14
   - type: GloveHeatResistance
     heatResistance: 1400
   - type: Insulated

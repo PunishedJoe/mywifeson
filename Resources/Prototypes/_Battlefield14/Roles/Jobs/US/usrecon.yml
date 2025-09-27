@@ -1,0 +1,57 @@
+- type: job
+  id: USMCRecon
+  name: job-name-usmc-recon
+  description: job-description-usmc-recon
+  playTimeTracker: JobUSMCRecon
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "NATO"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 74
+  startingGear: USMCReconGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATORecon"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-corporal
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+
+- type: startingGear
+  id: USMCReconGear
+  equipment:
+    id: USMCRiflemanPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatSkullcrusher
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM4A1SUPP
+  storage:
+    back:
+    - Crowbar
+    - Gauze
+    - Tourniquet
+    - Zipties
