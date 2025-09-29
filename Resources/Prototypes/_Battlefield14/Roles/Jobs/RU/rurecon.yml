@@ -51,7 +51,5 @@
     suitstorage: WeaponRifleRUASVAL
   storage:
     back:
-    - Crowbar
-    - Gauze
     - Tourniquet
     - Zipties

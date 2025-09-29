@@ -85,7 +85,7 @@
 - type: radioChannel
   id: NAP
   name: chat-radio-american
-  keycode: "z"
+  keycode: "7" # Was Z but that's for RU radio
   frequency: 6221
   color: "#98a150"
 

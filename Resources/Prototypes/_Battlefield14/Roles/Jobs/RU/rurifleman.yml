@@ -42,7 +42,7 @@
   equipment:
     id: VDVRiflemanPDA
     ears: ClothingHeadsetAltRU
-    belt: ClothingBeltMilitaryWebbingRUFilledAK74
+    belt: ClothingBeltMilitaryWebbingRUFilledAK12
     jumpsuit: ClothingUniformJumpsuitCamoRUEMR
     head: ClothingHeadHatHelmetRUEMR
     eyes: ClothingEyesGogglesGreen
@@ -50,12 +50,9 @@
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackBlack
     neck: ClothingNeckIFFtapeWhite
-    suitstorage: WeaponRifleRUAK74
+    suitstorage: WeaponRifleRUAK12
   storage:
     back:
-    - Crowbar
-    - Gauze
-    - SyringeSaline
-    - BruteAutoInjector
     - Tourniquet
     - Zipties
+    - Welder

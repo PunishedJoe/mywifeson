@@ -53,8 +53,4 @@
   storage:
     back:
     - SupplyBoxAmmoUSFilled
-    - Crowbar
-    - Gauze
     - Tourniquet
-    - Welder
-

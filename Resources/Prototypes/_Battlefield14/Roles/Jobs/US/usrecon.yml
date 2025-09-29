@@ -51,7 +51,5 @@
     suitstorage: WeaponRifleUSM4A1SUPP
   storage:
     back:
-    - Crowbar
-    - Gauze
     - Tourniquet
     - Zipties

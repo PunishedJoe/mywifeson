@@ -54,6 +54,4 @@
   storage:
     back:
     - SupplyBoxAmmoRUFilled
-    - Crowbar
-    - Gauze
     - Tourniquet

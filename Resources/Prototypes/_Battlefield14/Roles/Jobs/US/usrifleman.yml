@@ -52,10 +52,6 @@
     suitstorage: WeaponRifleUSM16A4
   storage:
     back:
-    - Crowbar
-    - Gauze
-    - SyringeSaline
-    - BruteAutoInjector
     - Tourniquet
     - Zipties
     - Welder

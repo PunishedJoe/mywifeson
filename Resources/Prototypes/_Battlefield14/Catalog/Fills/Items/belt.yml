@@ -29,6 +29,16 @@
         amount: 8
 
 - type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAK12
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AK12
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK12
+        amount: 8
+
+- type: entity
   id: ClothingBeltMilitaryWebbingRUFilledAK74blackdrum
   parent: ClothingBeltMilitaryWebbingRU
   suffix: Filled 75 round drum
