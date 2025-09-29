@@ -286,13 +286,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifleAK74
+        startingItem: MagazineRifleAK12
         insertSound: /Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_magin.ogg
         ejectSound: /Audio/_Battlefield14/Weapons/Guns/AK_545/uc_ak_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifleAK12
+            - MagazineRifleAK74
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
