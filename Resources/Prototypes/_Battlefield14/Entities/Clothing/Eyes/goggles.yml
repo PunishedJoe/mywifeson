@@ -11,6 +11,12 @@
   - type: EyeProtection # welding protection, not flash protection
   - type: IdentityBlocker
     coverage: EYES
+  - type: ExtendDescription
+    descriptionList:
+      - description: Provides welding protection
+        fontSize: 12
+        color: "#4f94ad"
+        requireDetailRange: false
 
 - type: entity
   parent: ClothingEyesGogglesTan

@@ -20,7 +20,7 @@
         Heat: 25
         Caustic: 25
   - type: ExplosionResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.75
 
 - type: entity
   parent: ClothingOuterArmorPlateCarrierBlack

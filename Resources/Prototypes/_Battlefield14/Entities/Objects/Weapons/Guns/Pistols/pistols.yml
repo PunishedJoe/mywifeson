@@ -13,6 +13,7 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     fireRate: 5
+    projectileSpeed: 20
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -36,6 +37,11 @@
         whitelist:
           tags:
             - CartridgePistol9mm
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
 
 - type: entity
   name: MP443 'grok'
@@ -52,6 +58,7 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     fireRate: 5
+    projectileSpeed: 20
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -75,4 +82,8 @@
         whitelist:
           tags:
             - CartridgePistol9mm
-
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
