@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitRussianCombat
+  id: ClothingHeadHelmetVoidsuitRussianCombat
   categories: [ HideSpawnMenu ]
   name: Russian combat voidsuit helmet
   description: A combat voidsuit helmet with internal pressurization systems and an inbuilt tracker system for ballistics.
@@ -8,9 +8,9 @@
   - type: BreathMask
   - type: FlashImmunity
   - type: Sprite
-    sprite: _Battlefield14/Clothing/Head/Hardsuits/russiancombat.rsi
+    sprite: _Battlefield14/Clothing/Head/Voidsuithelmets/russiancombat.rsi
   - type: Clothing
-    sprite: _Battlefield14/Clothing/Head/Hardsuits/russiancombat.rsi
+    sprite: _Battlefield14/Clothing/Head/Voidsuithelmets/russiancombat.rsi
   - type: PointLight
     radius: 6
     color: "#ffffed"
@@ -36,7 +36,7 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitAmericanCombatMarine
+  id: ClothingHeadHelmetVoidsuitAmericanCombatMarine
   categories: [ HideSpawnMenu ]
   name: Marine combat voidsuit helmet
   description: A combat voidsuit helmet with an external camera system instead of a traditional visor.
@@ -44,9 +44,9 @@
   - type: BreathMask
   - type: FlashImmunity
   - type: Sprite
-    sprite: _Battlefield14/Clothing/Head/Hardsuits/americancombatmarine.rsi
+    sprite: _Battlefield14/Clothing/Head/Voidsuithelmets/americancombatmarine.rsi
   - type: Clothing
-    sprite: _Battlefield14/Clothing/Head/Hardsuits/americancombatmarine.rsi
+    sprite: _Battlefield14/Clothing/Head/Voidsuithelmets/americancombatmarine.rsi
   - type: PointLight
     radius: 6
     color: "#ffffed"

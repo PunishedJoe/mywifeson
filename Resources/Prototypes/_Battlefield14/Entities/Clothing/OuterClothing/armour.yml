@@ -17,8 +17,8 @@
         Blunt: 20
         Slash: 25
         Piercing: 45
-        Heat: 25
-        Caustic: 25
+        Heat: 15
+        Caustic: 5
   - type: ExplosionResistance
     damageCoefficient: 0.75
 

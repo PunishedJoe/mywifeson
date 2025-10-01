@@ -1,18 +1,18 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitRussianCombat
+  id: ClothingOuterVoidsuitRussianCombat
   name: Russian 'Goida' Combat Voidsuit
-  description: A combat voidsuit of russian design, for their frontline soldiers in the final frontier.
+  description: A combat voidsuit of Russian design, for their frontline soldiers in the final frontier.
   components:
   - type: Sprite
-    sprite: _Battlefield14/Clothing/OuterClothing/Hardsuits/russiancombat.rsi
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
   - type: Clothing
-    sprite: _Battlefield14/Clothing/OuterClothing/Hardsuits/russiancombat.rsi
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.8
+    damageCoefficient: 0.6
   - type: DegradeableArmor
     armorMaxHealth: 750
     armorType: Metallic
@@ -28,27 +28,25 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitRussianCombat
+    clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
   - type: StaticPrice
     price: 4500
-  - type: ExplosionResistance
-    damageCoefficient: 0.6
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitAmericanCombatMarine
+  id: ClothingOuterVoidsuitAmericanCombatMarine
   name: Marine 'Devil Dog' Combat Voidsuit
-  description: A combat voidsuit of American design, with darker colours to blend into the backdrop of space.
+  description: A combat voidsuit of American design, for their marine corps, with darker colours to blend into the backdrop of space.
   components:
   - type: Sprite
-    sprite: _Battlefield14/Clothing/OuterClothing/Hardsuits/americancombatmarine.rsi
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/americancombatmarine.rsi
   - type: Clothing
-    sprite: _Battlefield14/Clothing/OuterClothing/Hardsuits/americancombatmarine.rsi
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/americancombatmarine.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.8
+    damageCoefficient: 0.6
   - type: DegradeableArmor
     armorMaxHealth: 750
     armorType: Metallic
@@ -64,8 +62,6 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitAmericanCombatMarine
+    clothingPrototype: ClothingHeadHelmetVoidsuitAmericanCombatMarine
   - type: StaticPrice
     price: 4500
-  - type: ExplosionResistance
-    damageCoefficient: 0.6
