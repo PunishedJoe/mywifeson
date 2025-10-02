@@ -23,6 +23,28 @@
         amount: 8
 
 - type: entity
+  name: box of 5.45x39mm AK-12 magazines
+  parent: BoxMagazine
+  id: BoxMagazineAK12
+  description: A box full of 5.45x39mm '74 pattern magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK12
+        amount: 8
+
+- type: entity
+  name: box of 5.45x39mm AKM magazines
+  parent: BoxMagazine
+  id: BoxMagazineAKM
+  description: A box full of 5.45x39mm '74 pattern magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAKM
+        amount: 8
+
+- type: entity
   name: box of 9x39mm AS-VAL magazines
   parent: BoxMagazine
   id: BoxMagazineASVAL

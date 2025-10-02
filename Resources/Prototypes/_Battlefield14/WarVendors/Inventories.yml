@@ -33,6 +33,16 @@
     ClothingShoesBootsMagCombat: 50
 
 - type: vendingMachineInventory
+  id: NATOUSMCAmmoInventory
+  startingInventory:
+    MagazineRifleSTANAG: 100
+    BoxMagazineSTANAG: 30
+    MagazineBox556x45Big: 10
+    MagazineBox556x45: 25
+    MagazineSubmachinegunMP5: 100
+    MagazineBox9x19mmBig: 25
+
+- type: vendingMachineInventory
   id: NATOUSMCGearInventory
   startingInventory:
     C4: 100
@@ -51,10 +61,6 @@
   startingInventory:
     ShipVoucherUnionfallRaider: 2
     ShipVoucherUnionfallIbis: 2
-    ShipVoucherUnionfallSaintsfall: 2
-    ShipVoucherUnionfallImparator: 2
-    ShipVoucherUnionfallConquest: 20
-    ShipVoucherUnionfallValor: 20
 
 - type: vendingMachineInventory
   id: PACTVDVWarInventory
@@ -91,6 +97,20 @@
     ClothingShoesBootsMagCombat: 50
 
 - type: vendingMachineInventory
+  id: PACTVDVAmmoInventory
+  startingInventory:
+    BoxMagazineAK12: 10
+    BoxMagazineAK74: 20
+    MagazineRifleAK12: 30
+    MagazineRifleAK74: 70
+    MagazineBox545x39Big: 10
+    MagazineBox545x39: 25
+    MagazineSubmachinegunVityaz: 100
+    MagazineBox9x19mmBig: 25
+    BoxMagazineASVALShort: 5
+    BoxMagazineAKM: 5
+
+- type: vendingMachineInventory
   id: PACTVDVGearInventory
   startingInventory:
     C4: 100
@@ -98,7 +118,7 @@
     GrenadeFlashBang: 10
     SecBreachingHammer: 1
     DoubleEmergencyOxygenTankFilled: 100
-    ClothingHeadHatHelmetUS: 100
+    ClothingHeadHatHelmetRUEMR: 100
     ClothingOuterArmorPlateCarrierBlack: 100
     ClothingHeadHelmetSoftsuitVKS: 50
     ClothingOuterSoftsuitVKS: 50
@@ -109,7 +129,3 @@
   startingInventory:
     ShipVoucherUnionfallRaider: 2
     ShipVoucherUnionfallIbis: 2
-    ShipVoucherUnionfallSaintsfall: 2
-    ShipVoucherUnionfallImparator: 2
-    ShipVoucherUnionfallConquest: 20
-    ShipVoucherUnionfallValor: 20

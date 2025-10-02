@@ -29,6 +29,35 @@
 
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
+  id: NATOUSMCAmmoVendor
+  name: USMC ammo vendor
+  description: I need more bullets.
+  components:
+  - type: VendingMachine
+    pack: NATOUSMCAmmoInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
+
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
   id: NATOUSMCGearVendor
   name: USMC gear vendor
   description: Marine-Grade support gear from a vending machine.
@@ -93,6 +122,35 @@
   components:
   - type: VendingMachine
     pack: PACTVDVWarInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: WarVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/armory.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 0.2
+
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
+  id: PACTVDVAmmoVendor
+  name: VDV ammo vendor
+  description: Bang bang bang!
+  components:
+  - type: VendingMachine
+    pack: PACTVDVAmmoInventory
     offState: off
     brokenState: broken
     normalState: normal-unshaded
