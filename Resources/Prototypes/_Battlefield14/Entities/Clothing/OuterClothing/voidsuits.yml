@@ -31,6 +31,8 @@
     clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
   - type: StaticPrice
     price: 4500
+  - type: ClothingAddFaction
+    faction: PACT
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -65,3 +67,5 @@
     clothingPrototype: ClothingHeadHelmetVoidsuitAmericanCombatMarine
   - type: StaticPrice
     price: 4500
+  - type: ClothingAddFaction
+    faction: NATO
