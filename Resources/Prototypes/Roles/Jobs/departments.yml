@@ -95,7 +95,7 @@
   - CoordinatorNCWL
   - ArtificerNCWL
   - WorkerNCWL
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: NCSP
@@ -138,7 +138,7 @@
   - GovernorDSM
   - AdvocatusDSM
   - ArchmaesterDSM
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: SRM
@@ -197,7 +197,7 @@
   - BeltrunnerTAP
   - DraugrTAP
   - ServileTAP
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: ATH
@@ -218,7 +218,7 @@
   - ChirurgeonATH
   - VorarbeiterATH
   - ArbeiterATH
-  editorHidden: true # i just like to see them for the numbers , SPCR 2025
+  editorHidden:  true # i just like to see them for the numbers , SPCR 2025
 
   # CONSCRIPT
 
