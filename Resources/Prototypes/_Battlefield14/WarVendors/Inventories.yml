@@ -1,5 +1,5 @@
 - type: vendingMachineInventory
-  id: NATOMarinesWarInventory
+  id: NATOUSMCWarInventory
   startingInventory:
     WeaponRifleUSM16A4: 100
     WeaponRifleUSM4A1: 3
@@ -31,6 +31,30 @@
     ClothingHeadHelmetSoftsuitNasa: 50
     ClothingOuterSoftsuitNASA: 50
     ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: NATOUSMCGearInventory
+  startingInventory:
+    C4: 100
+    JetpackBlackFilled: 10
+    GrenadeFlashBang: 10
+    SecBreachingHammer: 1
+    DoubleEmergencyOxygenTankFilled: 100
+    ClothingHeadHatHelmetUS: 100
+    ClothingOuterArmorPlateCarrierTan: 100
+    ClothingHeadHelmetSoftsuitNasa: 50
+    ClothingOuterSoftsuitNASA: 50
+    ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: NATOUSMCShipInventory
+  startingInventory:
+    ShipVoucherUnionfallRaider: 2
+    ShipVoucherUnionfallIbis: 2
+    ShipVoucherUnionfallSaintsfall: 2
+    ShipVoucherUnionfallImparator: 2
+    ShipVoucherUnionfallConquest: 20
+    ShipVoucherUnionfallValor: 20
 
 - type: vendingMachineInventory
   id: PACTVDVWarInventory
@@ -65,3 +89,27 @@
     ClothingHeadHelmetSoftsuitVKS: 50
     ClothingOuterSoftsuitVKS: 50
     ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: PACTVDVGearInventory
+  startingInventory:
+    C4: 100
+    JetpackBlackFilled: 10
+    GrenadeFlashBang: 10
+    SecBreachingHammer: 1
+    DoubleEmergencyOxygenTankFilled: 100
+    ClothingHeadHatHelmetUS: 100
+    ClothingOuterArmorPlateCarrierBlack: 100
+    ClothingHeadHelmetSoftsuitVKS: 50
+    ClothingOuterSoftsuitVKS: 50
+    ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: PACTVDVShipInventory
+  startingInventory:
+    ShipVoucherUnionfallRaider: 2
+    ShipVoucherUnionfallIbis: 2
+    ShipVoucherUnionfallSaintsfall: 2
+    ShipVoucherUnionfallImparator: 2
+    ShipVoucherUnionfallConquest: 20
+    ShipVoucherUnionfallValor: 20
