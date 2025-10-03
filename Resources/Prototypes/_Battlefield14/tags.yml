@@ -39,3 +39,9 @@
 
 - type: Tag
   id: AmmunitionBox
+
+- type: Tag
+  id: LightFighter
+
+- type: Tag
+  id: LightFighterEquipment

@@ -47,7 +47,9 @@
   startingInventory:
     C4: 100
     JetpackBlackFilled: 10
-    GrenadeFlashBang: 10
+    GrenadeFlashBang: 30
+    MK21Handgrenade: 30
+#    USM18SmokeHandgrenade: 50
     SecBreachingHammer: 1
     DoubleEmergencyOxygenTankFilled: 100
     ClothingHeadHatHelmetUS: 100
@@ -115,7 +117,10 @@
   startingInventory:
     C4: 100
     JetpackBlackFilled: 10
-    GrenadeFlashBang: 10
+    GrenadeFlashBang: 30
+    RURGD5Handgrenade: 30
+    RGOImpactHandgrenade: 5
+#    RURDG2SmokeHandgrenade: 50
     SecBreachingHammer: 1
     DoubleEmergencyOxygenTankFilled: 100
     ClothingHeadHatHelmetRUEMR: 100
