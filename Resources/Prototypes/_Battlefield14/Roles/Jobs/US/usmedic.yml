@@ -30,12 +30,24 @@
     components:
       - type: ChatRank
         rank: BF-rank-corporal
+      - type: HullrotFaction
+        faction: USMC
+      - type: LanguageAdder
+        addSpoken:
+          - American
+        addUnderstood:
+          - American
   access:
   - Maintenance
   - Service
   - External
   - Mercenary # Frontier
   - Captain # Frontier
+  - NATOCommon
+  - NATOMaintenance
+  - NATOMedical
+  - NATOSoldier
+  - NATOArmory
 
 - type: startingGear
   id: USMCMedicGear

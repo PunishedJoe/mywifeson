@@ -30,12 +30,24 @@
     components:
       - type: ChatRank
         rank: BF-rank-corporal
+      - type: HullrotFaction
+        faction: VDV
+      - type: LanguageAdder
+        addSpoken:
+          - American
+        addUnderstood:
+          - American
   access:
   - Maintenance
   - Service
   - External
   - Mercenary # Frontier
   - Captain # Frontier
+  - PACTCommon
+  - PACTMaintenance
+  - PACTMedical
+  - PACTSoldier
+  - PACTArmory
 
 - type: startingGear
   id: VDVMedicGear

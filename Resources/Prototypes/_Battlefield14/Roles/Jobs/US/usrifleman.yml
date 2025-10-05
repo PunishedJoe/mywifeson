@@ -30,12 +30,23 @@
     components:
       - type: ChatRank
         rank: BF-rank-private
+      - type: HullrotFaction
+        faction: USMC
+      - type: LanguageAdder
+        addSpoken:
+          - American
+        addUnderstood:
+          - American
   access:
   - Maintenance
   - Service
   - External
   - Mercenary # Frontier
   - Captain # Frontier
+  - NATOCommon
+  - NATOMaintenance
+  - NATOSoldier
+  - NATOArmory
 
 - type: startingGear
   id: USMCRiflemanGear
