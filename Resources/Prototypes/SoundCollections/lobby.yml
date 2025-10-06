@@ -1,14 +1,12 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/DeltaV/Jukebox/DOS=HIGH,_UMB.ogg
     - /Audio/_Crescent/Jukebox/littledarkage.ogg
     - /Audio/_Crescent/Jukebox/artiljerija.ogg
     - /Audio/_Crescent/Jukebox/bloodtype.ogg
     - /Audio/_Crescent/Jukebox/kombat.ogg
     - /Audio/_Crescent/Jukebox/atas.ogg
     - /Audio/_Crescent/Jukebox/fortunate.ogg
-    - /Audio/_Crescent/Jukebox/bandit.ogg
     - /Audio/_Crescent/Jukebox/bluemonday.ogg
     - /Audio/_Battlefield14/Lobby/mod.flip-flap.ogg # suggestion
 #    - /Audio/_Battlefield14/Lobby/Schwarzflammen.ogg German Campaign

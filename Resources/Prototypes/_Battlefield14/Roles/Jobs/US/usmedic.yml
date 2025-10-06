@@ -12,8 +12,6 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
-        - ForeignerLight
         - Muted
         - Blindness
         - Pacifist
@@ -34,9 +32,9 @@
         faction: USMC
       - type: LanguageAdder
         addSpoken:
-          - American
+          - Tradeband
         addUnderstood:
-          - American
+          - Tradeband
   access:
   - Maintenance
   - Service
