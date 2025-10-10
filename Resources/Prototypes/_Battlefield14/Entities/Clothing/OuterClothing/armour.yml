@@ -1,0 +1,34 @@
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
+  id: ClothingOuterArmorPlateCarrierBlack
+  name: black plate carrier
+  description: A standard issue armor vest for cannon fodder.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  - type: DegradeableArmor
+    armorMaxHealth: 1000
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 20
+        Slash: 25
+        Piercing: 45
+        Heat: 15
+        Caustic: 5
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+
+- type: entity
+  parent: ClothingOuterArmorPlateCarrierBlack
+  id: ClothingOuterArmorPlateCarrierTan
+  name: tan plate carrier
+  description: A standard issue armor vest for cannon fodder.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/tancarrier.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/tancarrier.rsi

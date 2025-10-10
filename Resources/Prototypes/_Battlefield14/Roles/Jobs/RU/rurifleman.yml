@@ -1,0 +1,67 @@
+- type: job
+  id: VDVRifleman
+  name: job-name-vdv-rifleman
+  description: job-description-vdv-rifleman
+  playTimeTracker: JobVDVRifleman
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "PACT"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 77
+  startingGear: VDVRiflemanGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTRifleman"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-private
+      - type: HullrotFaction
+        faction: VDV
+      - type: LanguageAdder
+        addSpoken:
+          - Tradeband
+        addUnderstood:
+          - Tradeband
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - PACTCommon
+  - PACTMaintenance
+  - PACTSoldier
+  - PACTArmory
+
+- type: startingGear
+  id: VDVRiflemanGear
+  equipment:
+    id: VDVRiflemanPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledAK12
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMR
+    eyes: ClothingEyesGogglesGreen
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponRifleRUAK12
+  storage:
+    back:
+    - Tourniquet
+    - Zipties
+    - Welder

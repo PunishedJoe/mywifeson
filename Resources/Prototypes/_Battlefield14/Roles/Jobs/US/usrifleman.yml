@@ -1,0 +1,66 @@
+- type: job
+  id: USMCRifleman
+  name: job-name-usmc-rifleman
+  description: job-description-usmc-rifleman
+  playTimeTracker: JobUSMCRifleman
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "NATO"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 77
+  startingGear: USMCRiflemanGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATORifleman"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-private
+      - type: HullrotFaction
+        faction: USMC
+      - type: LanguageAdder
+        addSpoken:
+          - LowImperial
+        addUnderstood:
+          - LowImperial
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - NATOCommon
+  - NATOMaintenance
+  - NATOSoldier
+  - NATOArmory
+
+- type: startingGear
+  id: USMCRiflemanGear
+  equipment:
+    id: USMCRiflemanPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUS
+    eyes: ClothingEyesGogglesTan
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM16A4
+  storage:
+    back:
+    - Tourniquet
+    - Zipties
+    - Welder

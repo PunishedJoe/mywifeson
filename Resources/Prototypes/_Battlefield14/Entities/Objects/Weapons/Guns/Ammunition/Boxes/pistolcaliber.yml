@@ -1,0 +1,21 @@
+- type: entity
+  parent: BaseMagazineBoxLightRifle
+  id: MagazineBox9x19mmBig
+  name: bulk ammunition box (9x19mm)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 300
+    proto: CartridgePistol9mm
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+    - state: magb-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: magb
+    steps: 2
+    zeroVisible: false
+  - type: Item
+    size: Large
+  - type: Appearance

@@ -1,0 +1,67 @@
+- type: job
+  id: USMCMedic
+  name: job-name-usmc-medic
+  description: job-description-usmc-medic
+  playTimeTracker: JobUSMCMedic
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "NATO"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 75
+  startingGear: USMCMedicGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATOMedic"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-corporal
+      - type: HullrotFaction
+        faction: USMC
+      - type: LanguageAdder
+        addSpoken:
+          - Tradeband
+        addUnderstood:
+          - Tradeband
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - NATOCommon
+  - NATOMaintenance
+  - NATOMedical
+  - NATOSoldier
+  - NATOArmory
+
+- type: startingGear
+  id: USMCMedicGear
+  equipment:
+    id: USMCRiflemanPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledMP5
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUS
+    eyes: ClothingEyesHudMedicalBF
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponSubmachinegunUSMP5
+  storage:
+    back:
+    - SupplyBoxMedicalFilled
+    - DefibrillatorCompactBF

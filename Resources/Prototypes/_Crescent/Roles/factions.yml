@@ -52,7 +52,7 @@
     ranks, but often subject to increased scrutiny and formal or informal discrimination
   color: "#9FED58"
   weight: 1
-  enabled: true
+  enabled: false
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: dsm
@@ -70,7 +70,7 @@
     their bid for the untamed frontier.
   color: "#9FED58"
   weight: 0
-  enabled: true
+  enabled: false
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: ncwl
@@ -88,7 +88,7 @@
     the Sector.
   color: "#9FED58"
   weight: -3
-  enabled: true
+  enabled: false
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: tfsc
@@ -104,7 +104,7 @@
     enjoying access to ore-rich asteroid veins.
   color: "#9FED58"
   weight: -4
-  enabled: true
+  enabled: false
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: shi

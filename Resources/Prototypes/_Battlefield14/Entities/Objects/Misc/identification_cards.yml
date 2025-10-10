@@ -1,0 +1,119 @@
+- type: entity
+  parent: IDCardStandard
+  id: USMCRiflemanIDCard
+  name: Marine Corps ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#203564"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
+  - type: PresetIdCard
+    job: USMCRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCAutomaticRiflemanIDCard
+  name: Marine Corps ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#203564"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
+  - type: PresetIdCard
+    job: USMCAutomaticRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCMedicIDCard
+  name: Marine Corps ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#203564"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
+  - type: PresetIdCard
+    job: USMCMedic
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCReconIDCard
+  name: Marine Corps ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#203564"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
+  - type: PresetIdCard
+    job: USMCRecon
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVRiflemanIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: passenger
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVAutomaticRiflemanIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: passenger
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVAutomaticRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVMedicIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: passenger
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVMedic
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVReconIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: passenger
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVRecon

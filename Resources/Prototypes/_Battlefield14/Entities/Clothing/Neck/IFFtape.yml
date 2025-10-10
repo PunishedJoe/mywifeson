@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckIFFtapeWhite
+  name: IFF tape (white)
+  description: Prevents friendly fire as long as you have your colour-identification flash card.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Neck/IFFtape.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Neck/IFFtape.rsi

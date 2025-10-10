@@ -1,0 +1,71 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterVoidsuitRussianCombat
+  name: Russian 'Goida' Combat Voidsuit
+  description: A combat voidsuit of Russian design, for their frontline soldiers in the final frontier.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 15
+        Slash: 25
+        Piercing: 45
+        Heat: 25
+        Caustic: 15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
+  - type: StaticPrice
+    price: 4500
+  - type: ClothingAddFaction
+    faction: PACT
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterVoidsuitAmericanCombatMarine
+  name: Marine 'Devil Dog' Combat Voidsuit
+  description: A combat voidsuit of American design, for their marine corps, with darker colours to blend into the backdrop of space.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/americancombatmarine.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/americancombatmarine.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: PlasteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 15
+        Slash: 25
+        Piercing: 45
+        Heat: 25
+        Caustic: 15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetVoidsuitAmericanCombatMarine
+  - type: StaticPrice
+    price: 4500
+  - type: ClothingAddFaction
+    faction: NATO

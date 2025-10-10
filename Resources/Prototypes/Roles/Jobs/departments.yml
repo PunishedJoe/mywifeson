@@ -95,7 +95,7 @@
   - CoordinatorNCWL
   - ArtificerNCWL
   - WorkerNCWL
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: NCSP
@@ -115,7 +115,7 @@
   - CyberdawnTechNCSP
   - ForemanNCSP
   - ShipbreakerNCSP
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: DSM
@@ -138,7 +138,7 @@
   - GovernorDSM
   - AdvocatusDSM
   - ArchmaesterDSM
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: SRM
@@ -165,9 +165,7 @@
   - CorpsecSHI
   - EmployeeSHI
   - MedtechSHI
-  - BoardHRSHI
-  - HosSHI
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: CMM
@@ -199,7 +197,7 @@
   - BeltrunnerTAP
   - DraugrTAP
   - ServileTAP
-  editorHidden: false
+  editorHidden: true
 
 - type: department
   id: ATH
@@ -220,7 +218,7 @@
   - ChirurgeonATH
   - VorarbeiterATH
   - ArbeiterATH
-  editorHidden: true # i just like to see them for the numbers , SPCR 2025
+  editorHidden:  true # i just like to see them for the numbers , SPCR 2025
 
   # CONSCRIPT
 
@@ -261,3 +259,29 @@
   - ConscriptShipCaptainDSM
   - ConscriptShipCrewDSM
   editorHidden: true
+
+# Battlefield 14
+
+- type: department
+  id: USMC
+  description: department-USMC-description
+  color: "#203564"
+  weight: 72
+  roles:
+  - USMCRifleman
+  - USMCAutomaticRifleman
+  - USMCMedic
+  - USMCRecon
+  editorHidden: false
+
+- type: department
+  id: VDV
+  description: department-VDV-description
+  color: "#a02829"
+  weight: 73
+  roles:
+  - VDVRifleman
+  - VDVAutomaticRifleman
+  - VDVMedic
+  - VDVRecon
+  editorHidden: false

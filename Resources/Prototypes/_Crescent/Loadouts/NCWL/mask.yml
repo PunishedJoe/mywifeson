@@ -1,5 +1,5 @@
 - type: loadout
-  id: LoadoutMaskNCWLBalaclava
+  id: LoadoutMaskNCWLBalaclava # BF14 | conquered not stolen
   category: Mask
   cost: 0
   exclusive: true
@@ -10,14 +10,22 @@
       group: LoadoutMasks
     - !type:CharacterJobRequirement
       jobs:
-        - CommandantNCWL
-        - KommissarNCWL
-        - FleetkapitanNCWL
-        - PartisanNCWL
-        - DoctorNCWL
-        - CoordinatorNCWL
-        - ArtificerNCWL
-        - WorkerNCWL
+        - USMCRifleman
+        - USMCAutomaticRifleman
+        - USMCMedic
+        - USMCRecon
+        - VDVRifleman
+        - VDVAutomaticRifleman
+        - VDVMedic
+        - VDVRecon
+#        - CommandantNCWL
+#        - KommissarNCWL
+#        - FleetkapitanNCWL
+#        - PartisanNCWL
+#        - DoctorNCWL
+#        - CoordinatorNCWL
+#        - ArtificerNCWL
+#        - WorkerNCWL
 
 - type: loadout
   id: LoadoutMaskNCWLGasmask

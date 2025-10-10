@@ -1,0 +1,10 @@
+- type: entity
+  id: BulletPistol9mm
+  name: bullet (9x19 Parabellum)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
