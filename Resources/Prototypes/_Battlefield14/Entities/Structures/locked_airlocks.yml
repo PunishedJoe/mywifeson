@@ -10,8 +10,8 @@
       board: [ DoorElectronicsNATOCommon ]
 
 - type: entity
-  parent: AirlockCommand
-  id: AirlockCommandLockedNATOMaintenance
+  parent: AirlockMaint
+  id: AirlockMaintLockedNATOMaintenance
   suffix: NATO Maintenance, Locked
   components:
   - type: ContainerFill
@@ -19,8 +19,8 @@
       board: [ DoorElectronicsNATOMaintenance ]
 
 - type: entity
-  parent: AirlockCommand
-  id: AirlockCommandLockedNATOMedical
+  parent: AirlockMedical
+  id: AirlockMedicalLockedNATOMedical
   suffix: NATO Medical, Locked
   components:
   - type: ContainerFill
@@ -37,8 +37,8 @@
       board: [ DoorElectronicsNATOSoldier ]
 
 - type: entity
-  parent: AirlockCommand
-  id: AirlockCommandLockedNATOArmory
+  parent: AirlockSyndicate
+  id: AirlockSyndicateLockedNATOArmory
   suffix: NATO Armory, Locked
   components:
   - type: ContainerFill
@@ -63,6 +63,26 @@
     containers:
       board: [ DoorElectronicsNATOFunds ]
 
+#NATO horizontal
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedNATOCommonHorizontal
+  suffix: NATO Common, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNATOCommon ]
+
+- type: entity
+  parent: AirlockMaintHorizontal
+  id: AirlockCommandLockedNATOMaintenanceHorizontal
+  suffix: NATO Maintenance, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNATOMaintenance ]
+
 # NATO windoors
 
 - type: entity
@@ -76,24 +96,30 @@
 
 - type: entity
   parent: WindoorSecure
+  id: WindoorSecureNATOArmory
+  suffix: NATO Armory, Locked, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNATOArmory ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureNATOSoldier
+  suffix: NATO Soldier, Locked, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNATOSoldier ]
+
+- type: entity
+  parent: WindoorSecure
   id: WindoorSecureNATOCommand
   suffix: NATO Command, Locked, Windoor
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsNATOCommand ]
-
-#NATO horizontal
-
-- type: entity
-  parent: AirlockCommandHorizontal
-  id: AirlockCommandLockedNATOCommonHorizontal
-  suffix: NATO Common, Horizontal
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNATOCommon ]
-
 
 #PACT
 
@@ -107,7 +133,7 @@
       board: [ DoorElectronicsPACTCommon ]
 
 - type: entity
-  parent: AirlockCommand
+  parent: AirlockMaint
   id: AirlockCommandLockedPACTMaintenance
   suffix: PACT Maintenance, Locked
   components:
@@ -116,8 +142,8 @@
       board: [ DoorElectronicsPACTMaintenance ]
 
 - type: entity
-  parent: AirlockCommand
-  id: AirlockCommandLockedPACTMedical
+  parent: AirlockMedical
+  id: AirlockMedicalLockedPACTMedical
   suffix: PACT Medical, Locked
   components:
   - type: ContainerFill
@@ -134,8 +160,8 @@
       board: [ DoorElectronicsPACTSoldier ]
 
 - type: entity
-  parent: AirlockCommand
-  id: AirlockCommandLockedPACTArmory
+  parent: AirlockSyndicate
+  id: AirlockSyndicateLockedPACTArmory
   suffix: PACT Armory, Locked
   components:
   - type: ContainerFill
@@ -160,6 +186,26 @@
     containers:
       board: [ DoorElectronicsPACTFunds ]
 
+#PACT horizontals
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedPACTHorizontal
+  suffix: PACT, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsPACTCommon ]
+
+- type: entity
+  parent: AirlockMaintHorizontal
+  id: AirlockMaintLockedPACTMaintenanceHorizontal
+  suffix: PACT, Maintenance, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsPACTMaintenance ]
+
 # PACT windoors
 
 - type: entity
@@ -173,20 +219,27 @@
 
 - type: entity
   parent: WindoorSecure
+  id: WindoorSecurePACTArmory
+  suffix: PACT Armory, Locked, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsPACTArmory ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecurePACTSoldier
+  suffix: PACT Soldier, Locked, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsPACTSoldier ]
+
+- type: entity
+  parent: WindoorSecure
   id: WindoorSecurePACTCommand
   suffix: PACT Command, Windoor
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsPACTCommand ]
-
-#PACT horizontals
-
-- type: entity
-  parent: AirlockCommandHorizontal
-  id: AirlockCommandLockedPACTHorizontal
-  suffix: PACT, Horizontal
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsPACTCommon ]
