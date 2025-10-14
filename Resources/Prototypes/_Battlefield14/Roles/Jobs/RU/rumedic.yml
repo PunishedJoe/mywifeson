@@ -30,11 +30,11 @@
         rank: BF-rank-corporal
       - type: HullrotFaction
         faction: VDV
-      - type: LanguageAdder
-        addSpoken:
-          - Tradeband
-        addUnderstood:
-          - Tradeband
+#      - type: LanguageAdder
+#        addSpoken:
+#          - LowImperial
+#        addUnderstood:
+#          - LowImperial
   access:
   - Maintenance
   - Service

@@ -30,11 +30,11 @@
         rank: BF-rank-private
       - type: HullrotFaction
         faction: USMC
-      - type: LanguageAdder
-        addSpoken:
-          - LowImperial
-        addUnderstood:
-          - LowImperial
+#      - type: LanguageAdder
+#        addSpoken:
+#          - LowImperial
+#        addUnderstood:
+#          - LowImperial
   access:
   - Maintenance
   - Service

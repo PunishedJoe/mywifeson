@@ -119,7 +119,7 @@
     JetpackBlackFilled: 10
     GrenadeFlashBang: 30
     RURGD5Handgrenade: 30
-    RGOImpactHandgrenade: 5
+#    RGOImpactHandgrenade: 5 add back when sprite issue fixed
     RURDG2SmokeHandgrenade: 50
     SecBreachingHammer: 1
     DoubleEmergencyOxygenTankFilled: 100
