@@ -440,3 +440,71 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRocketHighYield
+
+#cracker ammo
+
+- type: entity
+  id: MagazineCrackerHEDP
+  name: "40mm 'Cracker' grenade launcher magazine"
+  parent: BaseMagazineLightRifle
+  suffix: HEDP
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Shell40mm
+    proto: Cartridge40mmHEDP
+    capacity: 10
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/AGLmag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-5
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: Tag
+    tags:
+      - MagazineAGL
+
+- type: entity
+  id: MagazineCrackerFrag
+  name: "40mm 'Cracker' grenade launcher magazine"
+  suffix: thermobaric
+  parent: BaseMagazineRocket
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge40mmFrag
+
+- type: entity
+  id: MagazineCrackerTB
+  name: "40mm 'Cracker' grenade launcher magazine"
+  suffix: thermobaric
+  parent: MagazineCrackerHEDP
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge40mmThermobaric
+
+- type: entity
+  id: MagazineCrackerCA
+  name: "40mm 'Cracker' grenade launcher magazine"
+  suffix: canister
+  parent: MagazineCrackerHEDP
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge40mmCan
+
+- type: entity
+  id: MagazineCrackerSmoke
+  name: "40mm 'Cracker' grenade launcher magazine"
+  suffix: canister
+  parent: MagazineCrackerHEDP
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge40mmSmoke

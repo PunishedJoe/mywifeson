@@ -1076,3 +1076,87 @@
           params:
             pitch: 2
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+
+# cracker
+
+- type: entity
+  parent: BaseFixedShipgun
+  id: CrackerAGL
+  name: IRM 40mm 'Cracker' automatic grenade launcher
+  suffix: ShipGun
+  description: A light, stationary AGL designed by olywir armaments to capitalise on its 40mm ecosystem.
+  components:
+  - type: ApcPowerReceiver
+    powerLoad: 3000
+  - type: StaticPrice
+    price: 8000
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/AGL.rsi
+    layers:
+    - state: base
+  - type: Machine
+    board: CrackerCircuitboard
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: Gun
+    fireOnDropChance: 0
+    fireRate: 1
+    projectileSpeed: 60
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/50cal.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Medium
+  - type: AutoShootGun
+  - type: ChamberMagazineAmmoProvider
+  - type: Construction
+    graph: Machine
+    node: machine
+    containers:
+    - machine_parts
+    - machine_board
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        #startingItem: MagazineCrackerHEDP - on being rebuilt from destruction this gives it free ammo
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineAGL
+      gun_chamber:
+        name: Chamber
+        startingItem: Cartridge40mmHEDP
+        priority: 1
+        whitelist:
+          tags:
+            - Shell40mm
+
+- type: entity
+  parent: CrackerAGL
+  id: CrackerAGLFilled
+  suffix: ShipGun, Filled
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineCrackerHEDP
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineAGL

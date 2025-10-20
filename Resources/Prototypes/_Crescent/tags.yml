@@ -8,6 +8,9 @@
   id: CartridgePistolSmart
 
 - type: Tag
+  id: MagazineAGL
+
+- type: Tag
   id: MagazineHeavySMG
 
 - type: Tag

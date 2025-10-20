@@ -441,3 +441,15 @@
       prototype: BaseWeaponTurretKomodo
       requirements:
         MatterBin: 1
+
+- type: entity
+  id: CrackerCircuitboard
+  suffix: ShipGunMachineCircuitBoard
+  parent: BaseMachineCircuitboard
+  name: IRM 'Cracker' automatic grenade launcher machine board
+  description: A machine printed circuit board for a NT 400c 'Komodo' chemical blaster
+  components:
+    - type: MachineBoard
+      prototype: CrackerAGL
+      requirements:
+        MatterBin: 1
