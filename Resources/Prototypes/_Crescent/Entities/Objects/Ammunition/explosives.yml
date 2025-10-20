@@ -185,6 +185,10 @@
     radius: 3.5
     color: orange
     energy: 0.5
+  - type: ShipWeaponProjectile
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: Cartridge40mmThermobaric
@@ -237,6 +241,10 @@
     radius: 3.5
     color: orange
     energy: 0.5
+  - type: ShipWeaponProjectile
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: Cartridge40mmFrag
@@ -289,6 +297,10 @@
     radius: 3.5
     color: orange
     energy: 0.5
+  - type: ShipWeaponProjectile
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 - type: entity
   id: Cartridge40mmHEDP
@@ -345,6 +357,10 @@
     radius: 3.5
     color: orange
     energy: 0.5
+  - type: ShipWeaponProjectile
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
 
 # Misc Rockets
 

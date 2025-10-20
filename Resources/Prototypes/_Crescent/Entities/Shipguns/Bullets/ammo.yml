@@ -473,7 +473,7 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
     magState: mag
-    steps: 5
+    steps: 6
     zeroVisible: true
   - type: Appearance
   - type: Tag
@@ -483,8 +483,8 @@
 - type: entity
   id: MagazineCrackerFrag
   name: "40mm 'Cracker' grenade launcher magazine"
-  suffix: thermobaric
-  parent: BaseMagazineRocket
+  suffix: frag
+  parent: MagazineCrackerHEDP
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge40mmFrag
@@ -510,7 +510,7 @@
 - type: entity
   id: MagazineCrackerSmoke
   name: "40mm 'Cracker' grenade launcher magazine"
-  suffix: canister
+  suffix: smoke
   parent: MagazineCrackerHEDP
   components:
   - type: BallisticAmmoProvider
