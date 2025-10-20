@@ -1045,6 +1045,10 @@
     angleDecay: 45
     minAngle: 5
     maxAngle: 15
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
   - type: HardpointAnchorableOnly
     class: Missile
     size: Small
@@ -1113,7 +1117,7 @@
     fireRate: 1
     projectileSpeed: 60
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/50cal.ogg
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: HardpointAnchorableOnly
