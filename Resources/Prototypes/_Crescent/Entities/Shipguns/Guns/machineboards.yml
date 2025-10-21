@@ -447,7 +447,7 @@
   suffix: ShipGunMachineCircuitBoard
   parent: BaseMachineCircuitboard
   name: IRM 'Cracker' automatic grenade launcher machine board
-  description: A machine printed circuit board for a NT 400c 'Komodo' chemical blaster
+  description: A machine printed circuit board for a IRM 'Cracker' 40mm AGL
   components:
     - type: MachineBoard
       prototype: CrackerAGL
