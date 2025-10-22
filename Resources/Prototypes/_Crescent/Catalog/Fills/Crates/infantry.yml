@@ -8,7 +8,7 @@
     contents:
       - id: WeaponPistolComplianceImperial
         amount: 3
-      - id: WeaponSubMachineGunMP49
+      - id: WeaponSubMachineGunC20r
         amount: 3
 
 - type: entity
