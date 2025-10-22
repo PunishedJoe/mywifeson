@@ -273,3 +273,46 @@
       - id: SwarmrocketClip
         amount: 5
 
+- type: entity
+  id: CrateCrackerAmmoHEDP
+  parent: N14CrateAluminium
+  name: 40mm 'Cracker' automatic grenade launcher magazine crate (HEDP)
+  description: 3 40mm HEDP magazines, to be used in automatic grenade launchers.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineCrackerHEDP
+        amount: 3
+
+- type: entity
+  id: CrateCrackerAmmoTB
+  parent: N14CrateAluminium
+  name: 40mm 'Cracker' automatic grenade launcher magazine crate (Thermobaric)
+  description: 3 40mm thermobaric magazines, to be used in automatic grenade launchers.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineCrackerTB
+        amount: 3
+
+- type: entity
+  id: CrateCrackerAmmoFrag
+  parent: N14CrateAluminium
+  name: 40mm 'Cracker' automatic grenade launcher magazine crate (HE)
+  description: 3 40mm HE magazines, to be used in automatic grenade launchers.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineCrackerFrag
+        amount: 3
+
+- type: entity
+  id: CrateCrackerAmmoCA
+  parent: N14CrateAluminium
+  name: 40mm 'Cracker' automatic grenade launcher magazine crate (Canister)
+  description: 3 40mm Canister magazines, to be used in automatic grenade launchers, for anti-infantry use only.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineCrackerCA
+        amount: 3

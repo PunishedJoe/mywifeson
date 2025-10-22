@@ -111,3 +111,43 @@
 #   cost: 15000
 #   category: cargoproduct-category-name-shuttle
 #   group: suzerai
+
+ - type: cargoProduct # Here while the cracker is redemptor only; if you ever add it to another ship copy paste it into generic.yml
+   id: ShuttleCrackerAmmoHEDPDSM
+   icon:
+     sprite: _Crescent/Objects/Misc/coolant.rsi
+     state: icon
+   product: CrateCrackerAmmoHEDP
+   cost: 5000
+   category: cargoproduct-category-name-shuttle
+   group: suzerai
+
+ - type: cargoProduct
+   id: ShuttleCrackerAmmoTBDSM
+   icon:
+     sprite: _Crescent/Objects/Misc/coolant.rsi
+     state: icon
+   product: CrateCrackerAmmoTB
+   cost: 7000
+   category: cargoproduct-category-name-shuttle
+   group: suzerai
+
+ - type: cargoProduct
+   id: ShuttleCrackerAmmoFragDSM
+   icon:
+     sprite: _Crescent/Objects/Misc/coolant.rsi
+     state: icon
+   product: CrateCrackerAmmoFrag
+   cost: 4000
+   category: cargoproduct-category-name-shuttle
+   group: suzerai
+
+ - type: cargoProduct
+   id: ShuttleCrackerAmmoCADSM
+   icon:
+     sprite: _Crescent/Objects/Misc/coolant.rsi
+     state: icon
+   product: CrateCrackerAmmoCA
+   cost: 4000
+   category: cargoproduct-category-name-shuttle
+   group: suzerai
