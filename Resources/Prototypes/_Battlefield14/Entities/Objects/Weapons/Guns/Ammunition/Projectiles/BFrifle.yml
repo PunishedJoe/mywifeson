@@ -45,3 +45,15 @@
       types:
         Piercing: 35
 #    stoppingPower: 3
+
+- type: entity
+  id: BulletRifle762x54r
+  name: bullet (7.62x54mmR)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+    harmorPenetration: 40

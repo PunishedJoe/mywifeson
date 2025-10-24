@@ -17,11 +17,11 @@
     unwieldOnUse: false
   - type: GunWieldBonus
     minAngle: -19
-    maxAngle: -30
+    maxAngle: -35
   - type: Gun
     minAngle: 19
     maxAngle: 50
-    angleIncrease: 1
+    angleIncrease: 0.7
     angleDecay: 16
     availableModes:
     - SemiAuto
@@ -58,11 +58,11 @@
     unwieldOnUse: false
   - type: GunWieldBonus
     minAngle: -19
-    maxAngle: -30
+    maxAngle: -35
   - type: Gun
     minAngle: 19
-    maxAngle: 55
-    angleIncrease: 1
+    maxAngle: 50
+    angleIncrease: 0.7
     angleDecay: 16
     availableModes:
     - SemiAuto

@@ -5,22 +5,37 @@
   id: CartridgeRifle556
 
 - type: Tag
+  id: CartridgeRifle545
+
+- type: Tag
+  id: CartridgeRifle762
+
+- type: Tag
+  id: CartridgeRifle762x51
+
+- type: Tag
+  id: CartridgeRifle762x54r
+
+- type: Tag
+  id: CartridgeRifle939
+
+- type: Tag
+  id: CartridgePistol9mm
+
+- type: Tag
   id: MagazineRifleAK74
 
 - type: Tag
   id: MagazineRifleASVAL
 
 - type: Tag
-  id: CartridgeRifle545
-
-- type: Tag
   id: MagazineRifleAKM
 
 - type: Tag
-  id: CartridgeRifle762
+  id: MagazineRifleSV98
 
 - type: Tag
-  id: CartridgeRifle939
+  id: MagazineBeltBoxM249
 
 - type: Tag
   id: MagazinePistolM9
@@ -33,9 +48,6 @@
 
 - type: Tag
   id: MagazinePistolVityaz
-
-- type: Tag
-  id: CartridgePistol9mm
 
 - type: Tag
   id: AmmunitionBox
