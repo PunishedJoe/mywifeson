@@ -80,6 +80,7 @@
   - type: ShipyardListing
     shuttles:
     - Shanty
+    - Shantymk2
     - Rockchipper
     - Hyena
     - Scabrak

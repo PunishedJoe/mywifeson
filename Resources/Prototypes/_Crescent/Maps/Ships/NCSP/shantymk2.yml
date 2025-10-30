@@ -1,0 +1,35 @@
+# Author Info
+# Discord: @fleshangel and @huntdownthefreemanfan21
+#
+- type: vessel
+  id: Shanty
+  name: SAW Shanty 
+  description: |
+   A refit of the SAW Shanty mining shuttle into a lethal rammer/broadsider, with very light mining gear for field repair.
+   It has a plastitanium point for ramming down the bottom, with a large welding tank sealed inside for extra effect on target.
+    LOADOUT: 2x 20mm Vulcan, 1x SHI MG-213 PD
+    MINIMUM CREW: 1x Pilot
+  price: 38000
+  category: Small
+  group: None
+  path: /Maps/_Crescent/Shuttles/NCSP/shantymk2.yml
+
+- type: gameMap
+  id: Shantymk2
+  mapName: 'SAW Shanty MK.II'
+  mapPath: /Maps/_Crescent/Shuttles/NCSP/shantymk2.yml
+  minPlayers: 0
+  stations:
+    Shantymk2:
+      stationProto: StandardCrescentCivilianVessel
+      components:
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: industrial
+        - type: StationNameSetup
+          mapNameTemplate: 'SAW Shanty MK.II {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
