@@ -3,7 +3,7 @@
 #
 - type: vessel
   id: Shantymk2
-  name: SAW Shanty 
+  name: SAW Shanty MKII
   description: |
    A refit of the SAW Shanty mining shuttle into a lethal rammer/broadsider, with very light mining gear for field repair.
    It has a plastitanium point for ramming down the bottom, with a large welding tank sealed inside for extra effect on target.
@@ -16,7 +16,7 @@
 
 - type: gameMap
   id: Shantymk2
-  mapName: 'SAW Shanty MK.II'
+  mapName: 'SAW Shanty MKII'
   mapPath: /Maps/_Crescent/Shuttles/NCSP/shantymk2.yml
   minPlayers: 0
   stations:
@@ -28,7 +28,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'SAW Shanty MK.II {1}'
+          mapNameTemplate: 'SAW Shanty MKII {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
