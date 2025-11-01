@@ -29,6 +29,7 @@
   completetime: 1
   materials:
     Steel: 1000
+    Uranium: 500
 
 - type: latheRecipe
   id: MagazineHeavyRifleBoxmag
@@ -99,13 +100,6 @@
     Steel: 900
 
 # 4 GAUGE SHELLS
-- type: latheRecipe
-  id: BoxShotgunIncendiary4g
-  result: BoxShotgunIncendiary4g
-  completetime: 1
-  materials:
-    Steel: 600
-    Plastic: 400
 
 - type: latheRecipe
   id: BoxShotgunFlash4g
@@ -117,14 +111,6 @@
     Silver: 200
 
 - type: latheRecipe
-  id: BoxShotgunUranium4g
-  result: BoxShotgunUranium4g
-  completetime: 2
-  materials:
-    Steel: 400
-    Uranium: 600
-
-- type: latheRecipe
   id: BoxShotgunSlug4g
   result: BoxShotgunSlug4g
   completetime: 2
@@ -133,26 +119,11 @@
     Uranium: 300
 
 - type: latheRecipe
-  id: BoxShotgunSabot4g
-  result: BoxShotgunSabot4g
-  completetime: 2
-  materials:
-    Steel: 400
-    Uranium: 400
-
-- type: latheRecipe
   id: BoxLethalshot4g
   result: BoxLethalshot4g
   completetime: 2
   materials:
     Steel: 900
-
-- type: latheRecipe
-  id: BoxShotgunMagnum4g
-  result: BoxShotgunMagnum4g
-  completetime: 2
-  materials:
-    Steel: 1200
 
 - type: latheRecipe
   id: BoxBeanbag4g
@@ -206,6 +177,7 @@
   completetime: 2
   materials:
     Steel: 500
+    Uranium: 250
 
 - type: latheRecipe
   id: MagazinePistol6mmSmg
@@ -284,3 +256,34 @@
   completetime: 4
   materials:
     Steel: 500
+
+- type: latheRecipe
+  id: 48mmHighYieldRocket
+  result: CartridgeRocketHighYield
+  completetime: 2
+  materials:
+    Steel: 500
+    Plasma: 1000
+
+- type: latheRecipe
+  id: 48mmLowYieldRocket
+  result: CartridgeRocketLowYield
+  completetime: 2
+  materials:
+    Steel: 500
+    Plasma: 200
+
+- type: latheRecipe
+  id: RocketMagazineEmpty
+  result: MagazineRocketEmpty
+  completetime: 3
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  id: 48mmEMPRocket
+  result: CartridgeRocketEMP
+  completetime: 2
+  materials:
+    Steel: 500
+    Gold: 500
