@@ -9,6 +9,7 @@
   - type: Sprite
     sprite: _Battlefield14/Clothing/Mask/balaclava.rsi
   - type: Clothing
+<<<<<<< HEAD
     sprite: _Battlefield14/Clothing/Mask/balaclava.rsi
 #  - type: Armor
 #    modifiers:
@@ -17,6 +18,9 @@
 #        Slash: 0.95
 #        Piercing: 0.95
 #        Heat: 0.95
+=======
+    sprite: _Crescent/Clothing/NCWL/Mask/combatbalaclava.rsi
+>>>>>>> origin
 
 - type: entity
   parent: ClothingMaskGasSyndicate
@@ -25,7 +29,7 @@
   description: A kevlar durathread weave enhanced gas mask, a new piece of kit within the Homeguard.
   components:
   - type: Item
-    size: Tiny
+    size: Small
   - type: Sprite
     sprite: _Crescent/Clothing/NCWL/Mask/homeguardgasmask.rsi
   - type: Clothing

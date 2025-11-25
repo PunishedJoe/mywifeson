@@ -10,6 +10,7 @@
       group: LoadoutMasks
     - !type:CharacterJobRequirement
       jobs:
+<<<<<<< HEAD
         - USMCRifleman
         - USMCAutomaticRifleman
         - USMCMedic
@@ -26,6 +27,21 @@
 #        - CoordinatorNCWL
 #        - ArtificerNCWL
 #        - WorkerNCWL
+=======
+        - CommandantNCWL
+        - KommissarNCWL
+        - MVDOfficerNCWL
+        - MVDGruntNCWL
+        - FleetkapitanNCWL
+        - PartisanNCWL
+        - DirectorNCWL
+        - DoctorNCWL
+        - WorkerOverbossNCWL
+        - DockhandNCWL
+        - IndustryTaskmasterNCWL
+        - ArtificerNCWL
+        - WorkerNCWL
+>>>>>>> origin
 
 - type: loadout
   id: LoadoutMaskNCWLGasmask
@@ -41,5 +57,7 @@
     jobs:
       - CommandantNCWL
       - KommissarNCWL
+      - MVDOfficerNCWL
+      - MVDGruntNCWL
       - FleetkapitanNCWL
       - PartisanNCWL
