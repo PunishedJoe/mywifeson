@@ -566,7 +566,7 @@
       amount: 15
 
 - type: entity
-  suffix: Dermaline 10u
+  suffix: Dermaline 5u
   parent: Pill
   id: PillDermaline
   components:
@@ -575,14 +575,14 @@
   - type: Sprite
     state: pill8
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: dermaline 5u
   - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 20
         reagents:
         - ReagentId: Dermaline
-          Quantity: 10
+          Quantity: 5
 
 - type: entity
   parent: PillCanister
@@ -590,7 +590,7 @@
   suffix: Dermaline, 15
   components:
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: dermaline 5u
   - type: StorageFill
     contents:
     - id: PillDermaline
@@ -687,7 +687,7 @@
       amount: 15
 
 - type: entity
-  suffix: Bicaridine 10u
+  suffix: Bicaridine 7.5u
   parent: Pill
   id: PillBicaridine
   components:
@@ -696,14 +696,14 @@
   - type: Sprite
     state: pill5
   - type: Label
-    currentLabel: bicaridine 10u
+    currentLabel: bicaridine 7.5u
   - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 20
         reagents:
         - ReagentId: Bicaridine
-          Quantity: 10
+          Quantity: 7.5
 
 - type: entity
   parent: PillCanister
