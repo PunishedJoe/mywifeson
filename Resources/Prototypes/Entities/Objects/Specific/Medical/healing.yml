@@ -166,7 +166,7 @@
     state: medicated-suture
   - type: Item
     heldPrefix: medicated-suture
-    storedRotation: -90
+#    storedRotation: -90 this fucks with storage and makes it look garbage in medkits, and I couldn't find the component that keeps it verticle in storage
   - type: Healing
     damageContainers:
       - Biological
@@ -370,14 +370,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterDexalin
-  suffix: Dexalin, 7
+  suffix: Dexalin, 15
   components:
   - type: Label
     currentLabel: dexalin 10u
   - type: StorageFill
     contents:
     - id: PillDexalin
-      amount: 7
+      amount: 15
 
 - type: entity
   suffix: Dylovene 10u
@@ -401,14 +401,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterDylovene
-  suffix: Dylovene, 5
+  suffix: Dylovene, 15
   components:
   - type: Label
     currentLabel: dylovene 10u
   - type: StorageFill
     contents:
     - id: PillDylovene
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Hyronalin 10u
@@ -432,14 +432,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterHyronalin
-  suffix: Hyronalin, 5
+  suffix: Hyronalin, 15
   components:
   - type: Label
     currentLabel: hyronalin 10u
   - type: StorageFill
     contents:
     - id: PillHyronalin
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Potassium iodide 10u
@@ -463,14 +463,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterPotassiumIodide
-  suffix: Potassium iodide, 5
+  suffix: Potassium iodide, 15
   components:
   - type: Label
     currentLabel: potassium iodide 10u
   - type: StorageFill
     contents:
     - id: PillPotassiumIodide
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Iron 10u
@@ -513,26 +513,26 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterIron
-  suffix: Iron, 5
+  suffix: Iron, 15
   components:
   - type: Label
     currentLabel: iron 10u
   - type: StorageFill
     contents:
     - id: PillIron
-      amount: 5
+      amount: 15
 
 - type: entity
   parent: PillCanister
   id: PillCanisterCopper
-  suffix: Copper, 5
+  suffix: Copper, 15
   components:
   - type: Label
     currentLabel: copper 10u
   - type: StorageFill
     contents:
     - id: PillCopper
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Kelotane 10u
@@ -556,14 +556,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterKelotane
-  suffix: Kelotane, 5
+  suffix: Kelotane, 15
   components:
   - type: Label
     currentLabel: kelotane 10u
   - type: StorageFill
     contents:
     - id: PillKelotane
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Dermaline 10u
@@ -587,14 +587,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterDermaline
-  suffix: Dermaline, 5
+  suffix: Dermaline, 15
   components:
   - type: Label
     currentLabel: dermaline 10u
   - type: StorageFill
     contents:
     - id: PillDermaline
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Space drugs 15u
@@ -616,14 +616,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterSpaceDrugs
-  suffix: Space Drugs, 5
+  suffix: Space Drugs, 15
   components:
   - type: Label
     currentLabel: LSD 15u
   - type: StorageFill
     contents:
     - id: PillSpaceDrugs
-      amount: 5
+      amount: 15
   - type: GuideHelp
     guides: [ Psionics ]
 
@@ -645,14 +645,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterPax
-  suffix: Pax, 5
+  suffix: Pax, 15
   components:
   - type: Label
     currentLabel: Pax 10u
   - type: StorageFill
     contents:
     - id: PillPax
-      amount: 5
+      amount: 15
 
 
 - type: entity
@@ -677,14 +677,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterTricordrazine
-  suffix: Tricordrazine, 5
+  suffix: Tricordrazine, 15
   components:
   - type: Label
     currentLabel: tricordrazine 10u
   - type: StorageFill
     contents:
     - id: PillTricordrazine
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Bicaridine 10u
@@ -708,14 +708,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterBicaridine
-  suffix: Bicaridine, 5
+  suffix: Bicaridine, 15
   components:
   - type: Label
     currentLabel: bicaridine 10u
   - type: StorageFill
     contents:
     - id: PillBicaridine
-      amount: 5
+      amount: 15
 
 - type: entity
   suffix: Charcoal 10u
@@ -739,14 +739,14 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterCharcoal
-  suffix: Charcoal, 3
+  suffix: Charcoal, 15
   components:
   - type: Label
     currentLabel: charcoal 10u
   - type: StorageFill
     contents:
     - id: PillCharcoal
-      amount: 3
+      amount: 15
 
 - type: entity
   suffix: Romerol 10u

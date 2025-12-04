@@ -136,7 +136,7 @@
 - type: entity
   name: brute autoinjector cartridge
   parent: BaseAutoinjectorCartridge
-  description: Contains 4u of bicaridine, 3u of bozaide, 2u of salicylic acid and 1u of tranexamic acid, used in a cartridge autoinjector.
+  description: Contains 4u of bicaridine, 3u of tramadol, 2u of salicylic acid and 1u of tranexamic acid, used in a cartridge autoinjector.
   id: CartridgeBicaridine
   components:
   - type: Sprite
@@ -151,7 +151,7 @@
       reagents:
       - ReagentId: Bicaridine
         Quantity: 4
-      - ReagentId: Bozaide
+      - ReagentId: Tramadol
         Quantity: 3
       - ReagentId: SalicylicAcid
         Quantity: 2
@@ -207,7 +207,7 @@
 - type: entity
   name: piercing autoinjector cartridge
   parent: BaseAutoinjectorCartridge
-  description: Contains 10u of puncturase, used in a cartridge autoinjector.
+  description: Contains 8u of puncturase, and 2u of tramadol, used in a cartridge autoinjector.
   id: CartridgePuncturase
   components:
   - type: Sprite
@@ -221,7 +221,9 @@
       maxVol: 10
       reagents:
       - ReagentId: Puncturase
-        Quantity: 10
+        Quantity: 8
+      - ReagentId: Tramadol
+        Quantity: 2
 
 - type: entity
   name: stimulant autoinjector cartridge

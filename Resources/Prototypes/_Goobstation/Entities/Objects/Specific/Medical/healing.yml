@@ -1,0 +1,151 @@
+#- type: entity
+#  suffix: fent, used
+#  parent: PrefilledSyringe
+#  name: used fent syringe
+#  description: What the fuck?!
+#  id: SyringePoisonFentUsed
+#  components:
+#  - type: Label
+#    currentLabel: fentanyl
+#  - type: SolutionContainerManager
+#    solutions:
+#      injector:
+#        maxVol: 15
+#        reagents:
+#        - ReagentId: Fentanyl
+#          Quantity: 7
+#
+#- type: entity
+#  suffix: fent
+#  parent: PrefilledSyringe
+#  name: used fent syringe
+#  description: What the fuck?!
+#  id: SyringePoisonFent
+#  components:
+#  - type: Label
+#    currentLabel: fentanyl
+#  - type: SolutionContainerManager
+#    solutions:
+#      injector:
+#        maxVol: 15
+#        reagents:
+#        - ReagentId: Fentanyl
+#          Quantity: 15
+#
+- type: entity
+  parent: PrefilledSyringe
+  name: lethal injection syringe
+  description: A somewhat humane way to put down prisoners.
+  id: SyringePoisonLethalInjection
+  components:
+  - type: Label
+    currentLabel: Lethal Injection
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 15
+        reagents:
+        - ReagentId: Cyanide
+          Quantity: 10
+        - ReagentId: Amatoxin
+          Quantity: 5
+
+- type: entity
+  name: pill
+  suffix: Tramadol 10u
+  parent: Pill
+  id: PillTramadol
+  components:
+  - type: Pill
+    pillType: 18
+  - type: Sprite
+    state: pill18
+  - type: Label
+    currentLabel: tramadol 10u
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Tramadol
+          Quantity: 7.5
+
+- type: entity
+  suffix: tramadol
+  parent: PrefilledSyringe
+  name: tramadol syringe
+  description: Pain! Killer!
+  id: SyringeTramadol
+  components:
+  - type: Label
+    currentLabel: tramadol
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 15
+        reagents:
+        - ReagentId: Tramadol
+          Quantity: 15
+
+- type: entity
+  name: pill canister
+  parent: PillCanister
+  id: PillCanisterTramadol
+  suffix: Tramadol 7.5u, 15
+  components:
+  - type: Label
+    currentLabel: tramadol 10u
+  - type: StorageFill
+    contents:
+    - id: PillTramadol
+      amount: 15
+
+- type: entity
+  name: pill
+  suffix: Oxycodone 10u
+  parent: Pill
+  id: PillOxycodone
+  components:
+  - type: Pill
+    pillType: 19
+  - type: Sprite
+    state: pill19
+  - type: Label
+    currentLabel: oxycodone 10u
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Oxycodone
+          Quantity: 10
+
+- type: entity
+  name: pill canister
+  parent: PillCanister
+  id: PillCanisterOxycodone
+  suffix: Oxycodone 10u, 15
+  components:
+  - type: Label
+    currentLabel: oxycodone 10u
+  - type: StorageFill
+    contents:
+    - id: PillOxycodone
+      amount: 15
+
+- type: entity
+  suffix: oxycodone
+  parent: PrefilledSyringe
+  name: oxycodone syringe
+  description: OH YEAH
+  id: SyringeOxycodone
+  components:
+  - type: Label
+    currentLabel: oxycodone
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 15
+        reagents:
+        - ReagentId: Oxycodone
+          Quantity: 15

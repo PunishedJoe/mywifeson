@@ -352,3 +352,38 @@
       amount: 2
   products:
     Herignis: 5
+
+- type: reaction
+  id: Tramadol
+  reactants:
+    Acetone:
+      amount: 1
+    Inaprovaline:
+      amount: 1
+    Ethanol:
+      amount: 1
+  products:
+    Tramadol: 3
+
+- type: reaction
+  id: Oxycodone
+  reactants:
+    Tramadol:
+      amount: 1
+    Ethanol:
+      amount: 1
+    Plasma:
+      amount: 5
+      catalyst: true
+  products:
+    Oxycodone: 1
+
+- type: reaction
+  id: DontMixOpioids
+  reactants:
+    Tramadol:
+      amount: 1
+    Oxycodone:
+      amount: 1
+  products:
+    Ethanol: 1

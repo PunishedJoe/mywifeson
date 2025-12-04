@@ -216,11 +216,13 @@
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 20
+        maxVol: 25
         reagents:
         - ReagentId: Bicaridine
           Quantity: 15
         - ReagentId: TranexamicAcid
+          Quantity: 5
+        - ReagentId: Tramadol
           Quantity: 5
   - type: Tag
     tags: []
@@ -312,11 +314,13 @@
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 15
+        maxVol: 20
         reagents:
         - ReagentId: Puncturase
           Quantity: 10
         - ReagentId: TranexamicAcid
+          Quantity: 5
+        - ReagentId: Tramadol
           Quantity: 5
   - type: Tag
     tags: []
