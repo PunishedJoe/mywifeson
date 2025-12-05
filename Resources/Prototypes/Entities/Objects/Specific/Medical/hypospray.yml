@@ -210,7 +210,7 @@
     emptySpriteName: bicpen_empty
   - type: Hypospray
     solutionName: pen
-    transferAmount: 20
+    transferAmount: 25
     onlyAffectsMobs: false
     injectOnly: true
   - type: SolutionContainerManager
@@ -308,7 +308,7 @@
     emptySpriteName: punctpen_empty
   - type: Hypospray
     solutionName: pen
-    transferAmount: 15
+    transferAmount: 20
     onlyAffectsMobs: false
     injectOnly: true
   - type: SolutionContainerManager

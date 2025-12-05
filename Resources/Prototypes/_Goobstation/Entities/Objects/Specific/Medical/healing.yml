@@ -18,7 +18,7 @@
 #- type: entity
 #  suffix: fent
 #  parent: PrefilledSyringe
-#  name: used fent syringe
+#  name: fent syringe
 #  description: What the fuck?!
 #  id: SyringePoisonFent
 #  components:
