@@ -1,0 +1,29 @@
+- type: vessel
+  id: Garrulous
+  name: DSM Garrulous
+  description: A marine infantry carrier designed to blow open hulls and jetpack soldiers into the breach.
+  price: 85000
+  category: Small
+  group: None
+  path: /Maps/_Crescent/Shuttles/DSM/garrulous.yml
+
+- type: gameMap
+  id: Garrulous
+  mapName: 'DSM Garrulous'
+  mapPath: /Maps/_Crescent/Shuttles/DSM/garrulous.yml
+  minPlayers: 0
+  stations:
+    Garrulous:
+      stationProto: StandardCrescentVessel
+      components:
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: fighter
+        - type: StationNameSetup
+          mapNameTemplate: 'DSM Garrulous {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: vessel-designation-fighter

@@ -87,6 +87,23 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherGarrulous
+  name: DSM 'Garrulous' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an Imperial Garrulous-class shuttle. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 85000
+  - type: ShipVoucher
+    ship: Garrulous
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherVoruna
   name: DSM 'Voruna' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with an Imperial Voruna-class subshuttle. Has to be redeemed at a shipyard console.
