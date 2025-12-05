@@ -219,7 +219,9 @@
         maxVol: 25
         reagents:
         - ReagentId: Bicaridine
-          Quantity: 15
+          Quantity: 10
+        - ReagentId: SalicylicAcid
+          Quantity: 5
         - ReagentId: TranexamicAcid
           Quantity: 5
         - ReagentId: Tramadol
