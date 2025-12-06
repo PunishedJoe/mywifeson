@@ -10,6 +10,7 @@
     - Zorniy
     - Lodka
     - Cherenzikov
+    - Ivarod
 
 - type: entity
   id: JackalMothershipComputer
@@ -40,6 +41,7 @@
     - Imparator
     - Praetorian
     - Garrulous
+    - Laelaps
 
 - type: entity
   id: NemesisMothershipComputer
