@@ -41,3 +41,5 @@
         damage:
           types:
             Asphyxiation: 2
+      - !type:ChemApplyCritModifier #'rot edit
+        value: 20

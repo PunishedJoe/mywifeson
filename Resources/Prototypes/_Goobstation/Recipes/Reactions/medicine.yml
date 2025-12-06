@@ -387,3 +387,23 @@
       amount: 1
   products:
     Ethanol: 3
+
+- type: reaction
+  id: DontMixOpioids2
+  reactants:
+    Tramadol:
+      amount: 1
+    Morphine:
+      amount: 1
+  products:
+    Ethanol: 3
+
+- type: reaction
+  id: DontMixOpioids3
+  reactants:
+    Morphine:
+      amount: 1
+    Oxycodone:
+      amount: 1
+  products:
+    Ethanol: 3
