@@ -1,0 +1,75 @@
+- type: entity
+  id: LockerFilledGovernor
+  suffix: Filled, DSM FL
+  parent: LockerBooze
+  name: Lord Admiral's locker
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponPistolNeoVolker
+      - id: MagazineMagnum
+      - id: ShipVoucherRedemptor
+        amount: 2
+  - type: AccessReader
+    access: [["EmpireGovernor"]]
+
+- type: entity
+  id: LockerFilledMinisterLabour
+  suffix: Filled, Minster of Labour
+  parent: LockerBooze
+  name: Minister of labour's locker
+  components:
+  - type: StorageFill
+    contents:
+      - id: ShipVoucherExhumer
+        amount: 2
+      - id: ShipVoucherBaron
+      - id: ClothingMaskImperialCombatGasmask
+      - id: ClothingHeadHatImperialHeadwrap
+      - id: ClothingOuterCoatImperialMerchant
+      - id: ClothingShoesBootsImperialLongboots
+      - id: ClothingHandsGlovesImperialLonggloves
+      - id: RubberStampEmpire
+      - id: LuxuryPen
+  - type: AccessReader
+    access: [["LogisticsWealth"]]
+
+- type: entity
+  id: LockerFilledAdjutant
+  suffix: Filled, Adjutant
+  parent: LockerBooze
+  name: Adjutant's locker
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHatImperialPeakedCap
+      - id: ClothingOuterCoatImperialAdjutant
+      - id: ClothingNeckCloakImperialAdjutant
+      - id: ClothingUniformJumpsuitImperialAdjutantFormal
+      - id: ClothingHandsGlovesImperialAdjutantGloves
+      - id: ClothingShoesBootsImperialLaceup
+      - id: ClothingShoesBootsImperialLongboots
+      - id: ClothingHandsGlovesImperialLonggloves
+      - id: ClothingNeckImperialBowJeweled
+      - id: WeaponRevolverSnubnose
+      - id: SpeedLoaderMagnumAP
+        amount: 2
+  - type: AccessReader
+    access: [["EmpireAdjutant"]]
+
+- type: entity
+  id: LockerFilledNoble
+  suffix: Filled, Courtier
+  parent: LockerBooze
+  name: Courtier's locker
+  components:
+  - type: StorageFill
+    contents:
+      - id: CigPackEmpire
+        amount: 2
+      - id: FlippoEngravedLighter
+      - id: RubberStampEmpire
+      - id: LuxuryPen
+      - id: RomaineBible
+  - type: AccessReader
+    access: [["EmpireNoble"]]

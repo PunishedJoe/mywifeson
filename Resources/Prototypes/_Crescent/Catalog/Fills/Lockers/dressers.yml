@@ -1,0 +1,28 @@
+- type: entity
+  id: DresserFilledGovernor
+  parent: Dresser
+  suffix: Filled, DSM FL
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHatImperialBicorne
+      - id: ClothingOuterCoatImperialGovernor
+      - id: ClothingUniformJumpsuitImperialGovernor
+      - id: ClothingNeckCloakImperialGovernor
+      - id: ClothingHandsGlovesImperialGovernorGloves
+      - id: ClothingShoesBootsImperialGovernorBoots
+      - id: ClothingShoesBootsImperialJackboots
+      - id: ClothingMaskImperialGovernorMask
+
+- type: entity
+  id: DresserFilledNoble
+  parent: Dresser
+  suffix: Filled, Courtier
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHatImperialBeret
+      - id: ClothingUniformJumpsuitImperialNobleFemale
+      - id: ClothingUniformJumpsuitImperialNobleMale
+      - id: ClothingHandsGlovesImperialGovernorGloves
+      - id: ClothingNeckImperialBow
