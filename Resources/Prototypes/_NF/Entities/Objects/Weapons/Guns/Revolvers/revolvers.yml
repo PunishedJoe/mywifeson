@@ -1,5 +1,5 @@
 - type: entity
-  name: IRM Acolyte .20
+  name: IRM Acolyte
   parent: BaseWeaponRevolver
   id: WeaponRevolverArgenti
   description: A Hunter's beloved sidearm.
