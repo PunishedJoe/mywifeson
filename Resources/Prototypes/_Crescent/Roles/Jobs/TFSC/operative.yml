@@ -28,14 +28,17 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
+      - type: NukeOperative
         rank: crescent-rank-operative
       - type: HullrotFaction
         faction: CD
       - type: LanguageAdder
         addSpoken:
           - Freespeak
+          - SolCommon
         addUnderstood:
           - Freespeak
+          - SolCommon
   access:
   - Command
   - Maintenance
@@ -56,5 +59,13 @@
     gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorKendoBogu
     ears: ClothingHeadsetNCSPCyberdawn
-    back: ClothingBackpackNCSPFilledInfanteer
+    back: ClothingBackpackNCSP
     pocket1: WeaponPistolAnsem
+    belt: ClothingBeltSyndicateWebbing
+  storage:
+    belt:
+      - Flash
+      - Tourniquet
+      - MagazinePistolHeavy
+      - CombatKnife
+      - Zipties
