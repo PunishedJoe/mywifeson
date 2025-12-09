@@ -598,6 +598,7 @@
     - Back
     - suitStorage
   - type: Gun
+    damageModifier: 1.2
     fireRate: 2
   - type: HeldSpeedModifier
     walkModifier: 1

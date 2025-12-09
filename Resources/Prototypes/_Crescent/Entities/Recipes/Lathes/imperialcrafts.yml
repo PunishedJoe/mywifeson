@@ -326,8 +326,26 @@
     BallisticCycler: 500
 
 - type: latheRecipe
+  id: WeaponSubMachineGunDSMArbiter
+  result: WeaponSubMachineGunDSMArbiter
+  completetime: 2
+  materials:
+    Steel: 1500
+    Plastic: 500
+    BallisticCycler: 500
+
+- type: latheRecipe
   id: WeaponRifleDSMLegionnaire
   result: WeaponRifleDSMLegionnaire
+  completetime: 2
+  materials:
+    Steel: 2500
+    Silver: 500
+    BallisticCycler: 1000
+
+- type: latheRecipe
+  id: WeaponSniperDSMImperator
+  result: WeaponSniperImperator
   completetime: 2
   materials:
     Steel: 2500

@@ -621,10 +621,12 @@
       - WeaponMechCombatPlasmaCannon
       - WeaponLightMachineGunDSMDominion
       - WeaponShotgunReno
-      - WeaponSniperDSMLegax
+      - WeaponSniperDSM
+      - WeaponSniperDSMImperator
       - WeaponRifleDSMLegionnaire
       - WeaponPlasmaRifleSeethe
       - WeaponSubMachineGunC20rImperial
+      - WeaponSubMachineGunDSMArbiter
       - WeaponPistolNeoVolker
       - ClothingBeltSheathKhopesh
       - SRMKhopesh

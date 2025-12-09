@@ -94,6 +94,7 @@
   recipeUnlocks:
   - WeaponRifleMiller
   - WeaponSubMachineGunC20rImperial
+  - WeaponSubMachineGunDSMArbiter
   - WeaponSniperDSMLegax
   - WeaponPistolComplianceImperial
   - WeaponRevolverArgenti
@@ -269,6 +270,7 @@
   - WeaponPistolNeoVolker
   - WeaponLightMachineGunDSMDominion
   - WeaponShotgunReno
+  - WeaponSniperDSMImperator
 
 
 - type: technology
