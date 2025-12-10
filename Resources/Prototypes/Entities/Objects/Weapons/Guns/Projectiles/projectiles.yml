@@ -1391,7 +1391,7 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
-    count: 5 #65 heat damage if you hit all your shots, but wide spread
+    count: 5 # 65 heat damage if you hit all your shots, but wide spread
     spread: 30
 
 - type: entity
@@ -1402,7 +1402,7 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
-    count: 4 #60 heat damage, 20 blunt damage, and a high energy cost per shot.
+    count: 4 # 60 heat damage, 20 blunt damage, and a high energy cost per shot.
     spread: 0
 
 - type: entity
@@ -1413,7 +1413,7 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
-    count: 4 #52 heat damage if you hit all your shots, but narrower spread
+    count: 4 # 52 heat damage if you hit all your shots, but narrower spread
     spread: 10
 
 - type: entity
