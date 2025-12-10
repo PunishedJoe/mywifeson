@@ -768,51 +768,6 @@
 
 - type: entity
   id: BulletGrenadeBlast
-  name: blast grenade
-  parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ShipWeaponProjectile
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-    layers:
-    - state: grenade
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: Default
-    totalIntensity: 320
-    intensitySlope: 2
-    maxIntensity: 320
-  - type: ProjectileIFF
-    visualType: SquareReticle
-    color: Red
-  - type: Fixtures
-    fixtures:
-      projectile:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.15,-0.45,0.15,0.15"
-        layer:
-        - BulletImpassable
-        mask:
-        - Impassable
-        - BulletImpassable
-        hard: true
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: StructuralMetallic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 250
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:ExplodeBehavior
-
-- type: entity
-  id: BulletGrenadeBlast
   name: high-yield rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]

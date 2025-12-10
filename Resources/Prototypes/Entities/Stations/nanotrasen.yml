@@ -44,7 +44,6 @@
     - BaseStationExpeditions
     - BaseStationSiliconLawAsimov
     - BaseStationNanotrasen
-    - BaseRandomStation
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform

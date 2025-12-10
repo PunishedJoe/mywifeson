@@ -965,9 +965,6 @@
 - type: Tag
   id: MimeHappyHonk
 
-- type: Tag
-  id: Mineshaft
-
 # Magazines ordered by slot then caliber
 
 - type: Tag
@@ -1647,15 +1644,6 @@
   id: WriteIgnoreStamps
 
 # ALPHABETICAL
-
-- type: Tag
-  id: FelinidEmotes
-
-- type: Tag
-  id: HarpyEmotes
-
-- type: Tag
-  id: VulpEmotes
 
 - type: Tag
   id: VoidbornEmotes
