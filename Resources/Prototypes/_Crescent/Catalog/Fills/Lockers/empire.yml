@@ -6,11 +6,12 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponAntimaterielCourroux
-      - id: BaseMagazineAntiMateriel
-        amount: 2
+      - id: WeaponDSMPlasmaRifle
       - id: ShipVoucherRedemptor
         amount: 2
+#      - id: WeaponAntimaterielCourroux # eb let me replace this with the seethe
+#      - id: BaseMagazineAntiMateriel # cant reload with the straight box
+#        amount: 2
   - type: AccessReader
     access: [["EmpireGovernor"]]
 
