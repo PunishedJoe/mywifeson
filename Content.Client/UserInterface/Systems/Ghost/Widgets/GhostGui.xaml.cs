@@ -18,6 +18,8 @@ public sealed partial class GhostGui : UIWidget
     public event Action? GhostRolesPressed;
     public event Action? ReturnToRoundPressed;
 
+    private int _prevNumberRoles;
+
     public GhostGui()
     {
         RobustXamlLoader.Load(this);
@@ -31,6 +33,8 @@ public sealed partial class GhostGui : UIWidget
         GhostWarpButton.OnPressed += _ => RequestWarpsPressed?.Invoke();
         ReturnToBodyButton.OnPressed += _ => ReturnToBodyPressed?.Invoke();
         GhostRolesButton.OnPressed += _ => GhostRolesPressed?.Invoke();
+        GhostRolesButton.OnPressed += _ => GhostRolesButton.StyleClasses.Remove(StyleBase.ButtonDanger);
+        GhostBarButton.OnPressed += _ => GhostBarPressed?.Invoke(); // Goobstation - Ghost Bar
         ReturnToRound.OnPressed += _ => ReturnToRoundPressed?.Invoke();
     }
 
@@ -48,14 +52,13 @@ public sealed partial class GhostGui : UIWidget
         if (roles != null)
         {
             GhostRolesButton.Text = Loc.GetString("ghost-gui-ghost-roles-button", ("count", roles));
-            if (roles > 0)
+
+            if (roles > _prevNumberRoles)
             {
                 GhostRolesButton.StyleClasses.Add(StyleBase.ButtonDanger);
             }
-            else
-            {
-                GhostRolesButton.StyleClasses.Remove(StyleBase.ButtonDanger);
-            }
+
+            _prevNumberRoles = (int)roles;
         }
 
         TargetWindow.Populate();
