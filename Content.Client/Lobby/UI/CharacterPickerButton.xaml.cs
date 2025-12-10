@@ -52,7 +52,7 @@ public sealed partial class CharacterPickerButton : ContainerButton
             if (highPriorityJob != default)
             {
                 var jobName = prototypeManager.Index<JobPrototype>(highPriorityJob).LocalizedName;
-                description = $"{description}\n{jobName}\nFaction: {hum!.Faction}\n${hum.BankBalance}";
+                description = $"{description}\n{jobName}\nFaction: {humanoid!.Faction}\n${humanoid.BankBalance}";
             }
         }
 

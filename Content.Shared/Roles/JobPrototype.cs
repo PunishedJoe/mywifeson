@@ -51,7 +51,7 @@ namespace Content.Shared.Roles
         /// <summary>
         ///     Requirements for the job.
         /// </summary>
-        [DataField, Access(typeof(SharedRoleSystem), Other = AccessPermissions.None)]
+        [DataField, Access(typeof(SharedRoleSystem), Other = AccessPermissions.Read)]
         public List<CharacterRequirement>? Requirements;
 
         /// <summary>

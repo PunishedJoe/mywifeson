@@ -792,7 +792,7 @@ namespace Content.Server.GameTicking
 
             var proto = options.First();
 
-            _announcer.SendAnnouncement("basic-transmission", Filter.Broadcast(),
+            _announcer.SendAnnouncement("basic-transmission",
                 proto.Message ?? "game-ticker-welcome-to-the-station");
         }
 

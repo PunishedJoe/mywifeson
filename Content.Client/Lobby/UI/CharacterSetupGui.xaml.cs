@@ -26,6 +26,8 @@ namespace Content.Client.Lobby.UI
         [Dependency] private readonly IPrototypeManager _protomanager = default!;
         [Dependency] private readonly IResourceCache _resourceCache = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
+        public readonly FactionSelectorGui FactionSelector;
+        private readonly HumanoidProfileEditor _humanoidProfileEditor;
 
         private readonly Button _createNewCharacterButton;
 
@@ -58,7 +60,7 @@ namespace Content.Client.Lobby.UI
                 ReloadCharacterPickers();
                 args.Event.Handle();
             };
-            FactionSelector = new FactionSelectorGui(preferencesManager, protoManager, this);
+            FactionSelector = new FactionSelectorGui(_preferencesManager, _protomanager, this);
             _humanoidProfileEditor = profileEditor;
             RulesButton.OnPressed += _ => new RulesAndInfoWindow().Open();
 

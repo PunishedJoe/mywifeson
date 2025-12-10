@@ -7,7 +7,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Weapons.Ranged.Components;
 
-[RegisterComponent, NetworkedComponent, AutoGenerateComponentState, Access(typeof(SharedGunSystem))]
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class BallisticAmmoProviderComponent : Component
 {
     [ViewVariables(VVAccess.ReadWrite), DataField]

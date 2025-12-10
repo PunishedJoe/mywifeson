@@ -221,8 +221,6 @@ public abstract class SharedStationSpawningSystem : EntitySystem
                 // Hullrot edit - add generic pocket handler
                 void InsertIntoPocket(EntProtoId pocketProtoId)
                 {
-                    var pocketProtoId = slot == "pocket1" ? pocket1 : pocket2;
-
                     if (string.IsNullOrEmpty(newStartingGear.GetGear("back")))
                         newStartingGear.Inhand.Add(pocketProtoId);
                     else

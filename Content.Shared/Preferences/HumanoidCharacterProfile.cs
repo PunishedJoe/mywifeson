@@ -372,17 +372,9 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
 
     public HumanoidCharacterProfile WithCharacterAppearance(HumanoidCharacterAppearance appearance) =>
         new(this) { Appearance = appearance };
-    public HumanoidCharacterProfile WithClothingPreference(ClothingPreference clothing) =>
-        new(this) { Clothing = clothing };
-
-    public HumanoidCharacterProfile WithBackpackPreference(BackpackPreference backpack) =>
-        new(this) { Backpack = backpack };
 
     public HumanoidCharacterProfile WithSpawnPriorityPreference(SpawnPriorityPreference spawnPriority) =>
         new(this) { SpawnPriority = spawnPriority };
-
-    public HumanoidCharacterProfile WithJobPriorities(IEnumerable<KeyValuePair<string, JobPriority>> jobPriorities) =>
-        new(this) { _jobPriorities = new Dictionary<string, JobPriority>(jobPriorities) };
 
     public HumanoidCharacterProfile WithJobPriorities(IEnumerable<KeyValuePair<ProtoId<JobPrototype>, JobPriority>> jobPriorities)
     {

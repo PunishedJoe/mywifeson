@@ -17,6 +17,7 @@ public sealed partial class GhostGui : UIWidget
     public event Action? ReturnToBodyPressed;
     public event Action? GhostRolesPressed;
     public event Action? ReturnToRoundPressed;
+    public event Action? GhostBarPressed; // Goobstation - Ghost Bar
 
     private int _prevNumberRoles;
 

@@ -27,7 +27,7 @@ public abstract partial class SharedGunSystem
         SubscribeLocalEvent<BallisticAmmoProviderComponent, GetVerbsEvent<Verb>>(OnBallisticVerb);
         SubscribeLocalEvent<BallisticAmmoProviderComponent, InteractUsingEvent>(OnBallisticInteractUsing);
         SubscribeLocalEvent<BallisticAmmoProviderComponent, AfterInteractEvent>(OnBallisticAfterInteract);
-        SubscribeLocalEvent<BallisticAmmoProviderComponent, MagazineFillDoAfterEvent>(OnMagazineFillDoAfter);
+        SubscribeLocalEvent<BallisticAmmoProviderComponent, AmmoFillDoAfterEvent>(OnBallisticAmmoFillDoAfter);
         SubscribeLocalEvent<BallisticAmmoProviderComponent, AmmoInsertDoAfterEvent>(OnAmmoInsertDoAfter);
         SubscribeLocalEvent<BallisticAmmoProviderComponent, UseInHandEvent>(OnBallisticUse);
     }
@@ -111,7 +111,7 @@ public abstract partial class SharedGunSystem
         });
     }
 
-    private void OnMagazineFillDoAfter(EntityUid uid, BallisticAmmoProviderComponent component, MagazineFillDoAfterEvent args)
+    private void OnBallisticAmmoFillDoAfter(EntityUid uid, BallisticAmmoProviderComponent component, AmmoFillDoAfterEvent args)
     {
         if (args.Handled
             || args.Cancelled
@@ -331,7 +331,7 @@ public abstract partial class SharedGunSystem
 /// DoAfter event for filling one ballistic ammo provider from another.
 /// </summary>
 [Serializable, NetSerializable]
-public sealed partial class MagazineFillDoAfterEvent : SimpleDoAfterEvent { }
+public sealed partial class AmmoFillDoAfterEvent : SimpleDoAfterEvent { }
 
 /// <summary>
 /// HULLROT: DoAfter event for inserting a magazine/singular cartridge into a gun. Used exclusively for ship guns.

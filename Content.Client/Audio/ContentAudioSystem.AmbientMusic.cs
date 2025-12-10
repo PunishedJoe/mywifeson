@@ -58,6 +58,19 @@ public sealed partial class ContentAudioSystem
     private static bool _combatMusicToggle;
     //options menu ---
 
+    private readonly TimeSpan _minAmbienceTime = TimeSpan.FromSeconds(30);
+    private readonly TimeSpan _maxAmbienceTime = TimeSpan.FromSeconds(60);
+    private const float AmbientMusicFadeTime = 10f;
+
+    private TimeSpan _nextAudio;
+
+    /// <summary>
+    /// Track what ambient sounds we've played. This is so they all get played an even
+    /// number of times.
+    /// When we get to the end of the list we'll re-shuffle
+    /// </summary>
+    private readonly Dictionary<string, List<ResPath>> _ambientSounds = new();
+
     // This stores the music stream. It's used to start/stop the music on the fly.
     private EntityUid? _ambientMusicStream;
 
@@ -101,6 +114,10 @@ public sealed partial class ContentAudioSystem
     // really stupid - i need this to check if the volume changes when you change the options menu options.
     private bool _isCombatMusicPlaying = false;
 
+    /// <summary>
+    /// If we find a better ambient music proto can we interrupt this one.
+    /// </summary>
+    private bool _interruptable;
 
     private CancellationTokenSource _combatMusicCancelToken = new CancellationTokenSource();
     private CancellationTokenSource _ambientMusicCancelToken = new CancellationTokenSource();
@@ -633,7 +650,7 @@ public sealed partial class ContentAudioSystem
             track.ToString(),
             Filter.Local(),
             false,
-            AudioParams.Default.WithVolume(_musicProto.Sound.Params.Volume + _volumeSlider))!;
+            AudioParams.Default.WithVolume(_musicProto.Sound.Params.Volume + _volumeSliderAmbient))!;
 
         _ambientMusicStream = strim?.Entity;
 

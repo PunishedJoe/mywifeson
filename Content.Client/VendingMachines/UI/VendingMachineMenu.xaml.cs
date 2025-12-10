@@ -144,19 +144,19 @@ namespace Content.Client.VendingMachines.UI
                 }
 
                 if(entry.Price != 0)
-                    itemText.Text = $"{itemName} [{entry.Amount}] {entry.Price}$";
+                    itemName = $"{itemName} [{entry.Amount}] {entry.Price}$";
                 else
                 {
-                    itemText.Text = $"{itemName} [{entry.Amount}] FREE";
+                    itemName = $"{itemName} [{entry.Amount}] FREE";
                 }
                 _amounts[entry.ID] = entry.Amount;
 
-                if (itemText.Length > longestEntry.Length)
-                    longestEntry = itemText;
+                if (itemName.Length > longestEntry.Length)
+                    longestEntry = itemName;
 
                 listData.Add(new VendorItemsListData(prototype.ID, i)
                 {
-                    ItemText = itemText,
+                    ItemText = itemName,
                 });
             }
 

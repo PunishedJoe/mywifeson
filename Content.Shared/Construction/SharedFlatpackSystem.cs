@@ -12,7 +12,6 @@ using Robust.Shared.Containers;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Physics;
 
 namespace Content.Shared.Construction;
 
@@ -85,10 +84,7 @@ public abstract class SharedFlatpackSystem : EntitySystem
         // Also: make it ignore ghosts
         if (_entityLookup.AnyEntitiesIntersecting(coords, LookupFlags.Dynamic | LookupFlags.Static))
         {
-            if (!TryComp<FixturesComponent>(intersect, out var intersectBody))
-                continue;
-
-            // this popup is on the server because the mispredicts on the intersection is crazy
+            // this popup is on the server because the predicts on the intersection is crazy
             if (_net.IsServer)
                 _popup.PopupEntity(Loc.GetString("flatpack-unpack-no-room"), uid, args.User);
             return;
