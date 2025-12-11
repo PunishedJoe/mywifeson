@@ -72,8 +72,6 @@
   - MagazineBoxSpecial
   - MagazineCaselessRifle
   - MagazineCaselessRifleShort
-  - MagazineLightRifleLowCapacity
-  - MagazineLightRifleLowCapacityEmpty
   - MagazineLightRifleMarkOne
   - MagazineLightRifleMarkOneEmpty
   - MagazineMagnum
@@ -101,7 +99,6 @@
   - RiotShield
   # EE EDIT START
   - WeaponRifleNovaliteC1
-  - WeaponRifleGestio
   # EE EDIT END
 
 
