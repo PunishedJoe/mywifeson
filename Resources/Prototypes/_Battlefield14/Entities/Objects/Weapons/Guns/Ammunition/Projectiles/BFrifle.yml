@@ -10,7 +10,7 @@
         Piercing: 30
 #    stoppingPower: 4
   - type: StaminaDamageOnCollide
-    damage: 5 # 20 hits to stun
+    damage: 7 # ~15 hits to stun
 
 - type: entity
   id: BulletRifle545
@@ -24,7 +24,7 @@
         Piercing: 30
 #    stoppingPower: 4
   - type: StaminaDamageOnCollide
-    damage: 5 # 20 hits to stun
+    damage: 7 # ~15 hits to stun
 
 - type: entity
   id: BulletRifle762
@@ -38,7 +38,7 @@
         Piercing: 35
 #    stoppingPower: 5
   - type: StaminaDamageOnCollide
-    damage: 5 # 20 hits to stun
+    damage: 8 # ~13 hits to stun
 
 - type: entity
   id: BulletRifle762x51
@@ -52,7 +52,7 @@
         Piercing: 40
 #    stoppingPower: 5
   - type: StaminaDamageOnCollide
-    damage: 5 # 20 hits to stun
+    damage: 8 # ~13 hits to stun
 
 - type: entity
   id: BulletRifle939
@@ -66,7 +66,7 @@
         Piercing: 35
 #    stoppingPower: 3
   - type: StaminaDamageOnCollide
-    damage: 5 # 20 hits to stun
+    damage: 7 # ~15 hits to stun
 
 - type: entity
   id: BulletRifle762x54r
@@ -80,4 +80,4 @@
         Piercing: 40
     harmorPenetration: 40
   - type: StaminaDamageOnCollide
-    damage: 5 # 20 hits to stun
+    damage: 10 # ~10 hits to stun
