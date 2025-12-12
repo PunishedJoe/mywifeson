@@ -32,6 +32,7 @@
       collection: BF_M249_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
     soundRack:

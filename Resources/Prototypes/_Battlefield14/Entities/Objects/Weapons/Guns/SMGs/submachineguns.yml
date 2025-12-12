@@ -38,6 +38,7 @@
       path: /Audio/_Battlefield14/Weapons/Guns/MP5/uc_mp5_chlock.ogg
       params:
         volume: -3
+        variation: 0.125
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -94,6 +95,7 @@
       collection: BF_UZI_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
     soundRack:

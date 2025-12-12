@@ -2,7 +2,7 @@
   name: SV-98 (7.62x54mmR)
   parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponSniperRUSV98
-  description: A modern classic, with nostalgic wooden stock and bolt-action.
+  description: A modern classic, with a green wooden stock and bolt-action.
   components:
   - type: Sprite
     sprite: _Battlefield14/Objects/Weapons/Guns/Snipers/SV98.rsi
@@ -19,7 +19,7 @@
     shape:
     - 0,0,5,2
   - type: Gun
-    fireRate: 0.75
+    fireRate: 0.5
     damageModifier: 1.5
     soundGunshot:
       path: /Audio/Weapons/Guns/UnionfallWeapons/lever_fire.ogg

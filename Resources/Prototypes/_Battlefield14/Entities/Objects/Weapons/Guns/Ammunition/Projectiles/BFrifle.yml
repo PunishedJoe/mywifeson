@@ -9,6 +9,8 @@
       types:
         Piercing: 30
 #    stoppingPower: 4
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun
 
 - type: entity
   id: BulletRifle545
@@ -21,6 +23,8 @@
       types:
         Piercing: 30
 #    stoppingPower: 4
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun
 
 - type: entity
   id: BulletRifle762
@@ -33,6 +37,22 @@
       types:
         Piercing: 35
 #    stoppingPower: 5
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun
+
+- type: entity
+  id: BulletRifle762x51
+  name: bullet (7.62x51)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+#    stoppingPower: 5
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun
 
 - type: entity
   id: BulletRifle939
@@ -45,6 +65,8 @@
       types:
         Piercing: 35
 #    stoppingPower: 3
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun
 
 - type: entity
   id: BulletRifle762x54r
@@ -57,3 +79,5 @@
       types:
         Piercing: 40
     harmorPenetration: 40
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun

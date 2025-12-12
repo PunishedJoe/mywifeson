@@ -35,6 +35,7 @@
       collection: BF_M16_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     soundBoltClosed:
       path: /Audio/_Battlefield14/Weapons/Guns/M16/uc_m16_chamber_press.ogg
@@ -101,6 +102,7 @@
       collection: BF_M16_Gunshots
       params:
         volume: -5
+        variation: 0.125
     fireRate: 7
   - type: Appearance
 
@@ -136,6 +138,7 @@
       collection: BF_Galil_Gunshots_SUPP
       params:
         volume: -10
+        variation: 0.125
     fireRate: 7
   - type: Appearance
 
@@ -170,6 +173,7 @@
       collection: BF_M16_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -234,6 +238,7 @@
       collection: BF_AK_545_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     boltClosed: null # means the bolt doesnt lock back like M16 pattern rifles, also means you need to cycle the gun after an empty mag
     soundRack:
@@ -346,6 +351,7 @@
       collection: BF_AK_762_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
     soundRack:
@@ -377,6 +383,23 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: AK-203
+  parent: WeaponRifleRUAKMS
+  id: WeaponRifleRUAK203
+  description: A later revision of the AKM rifle, with even moderner design.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/AKMS.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/AKMS.rsi
   - type: Appearance
 
 - type: entity
@@ -412,6 +435,7 @@
       collection: BF_M16_Gunshots_SUPP # Looks weird, but these sound more pew pew than the galil (used by M4A1 SUPP) and this is an ASVAL
       params:
         volume: -10
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     boltClosed: null # means the bolt doesnt lock back like M16 pattern rifles, also means you need to cycle the gun after an empty mag
     soundRack:

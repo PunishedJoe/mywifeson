@@ -9,18 +9,7 @@
   - type: Sprite
     sprite: _Battlefield14/Clothing/Mask/balaclava.rsi
   - type: Clothing
-<<<<<<< HEAD
     sprite: _Battlefield14/Clothing/Mask/balaclava.rsi
-#  - type: Armor
-#    modifiers:
-#      coefficients:
-#        Blunt: 0.95
-#        Slash: 0.95
-#        Piercing: 0.95
-#        Heat: 0.95
-=======
-    sprite: _Crescent/Clothing/NCWL/Mask/combatbalaclava.rsi
->>>>>>> origin
 
 - type: entity
   parent: ClothingMaskGasSyndicate

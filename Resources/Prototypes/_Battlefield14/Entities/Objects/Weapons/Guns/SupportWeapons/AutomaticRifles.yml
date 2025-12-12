@@ -33,6 +33,7 @@
       collection: BF_M16_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: Appearance
   - type: ClothingSpeedModifier # this thing is heavier than the M16, plus otherwise it would be objectively better than the M16
     walkModifier: 0.9
@@ -74,6 +75,7 @@
       collection: BF_AK_545_Gunshots
       params:
         volume: -5
+        variation: 0.125
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: ItemSlots
