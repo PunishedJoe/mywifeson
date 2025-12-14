@@ -51,6 +51,8 @@
       types:
         Piercing: 40
 #    stoppingPower: 5
+
+    harmorPenetration: 10
   - type: StaminaDamageOnCollide
     damage: 8 # ~13 hits to stun
 
