@@ -15,7 +15,7 @@
     initialModifiers:
       flatReductions:
         Blunt: 20
-        Slash: 25
+        Slash: 20
         Piercing: 45
         Heat: 15
         Caustic: 5
@@ -32,3 +32,27 @@
     sprite: _Battlefield14/Clothing/OuterClothing/Armor/tancarrier.rsi
   - type: Clothing
     sprite: _Battlefield14/Clothing/OuterClothing/Armor/tancarrier.rsi
+
+- type: entity
+  parent: ClothingOuterArmorPlateCarrierBlack
+  id: ClothingOuterArmorPlateCarrierBlackEgg
+  name: egg-carton plate carrier
+  description: A standard issue plate carrier with the plates removed and replaced with an egg carton, some foam, and a kevlar plate. Utter garbage against bullets but will absorb some blunt impact
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  - type: DegradeableArmor
+    armorMaxHealth: 400
+    armorType: Ceramic
+    armorRepair: Kevlar
+    initialModifiers:
+      flatReductions:
+        Blunt: 40
+        Slash: 35
+        Piercing: 5
+        Heat: 5
+        Caustic: 5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

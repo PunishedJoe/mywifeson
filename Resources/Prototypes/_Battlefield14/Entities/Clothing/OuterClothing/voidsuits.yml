@@ -23,7 +23,7 @@
         Slash: 25
         Piercing: 45
         Heat: 25
-        Caustic: 15
+        Caustic: 20
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -31,6 +31,42 @@
     clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
   - type: StaticPrice
     price: 4500
+  - type: ClothingAddFaction
+    faction: PACT
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterVoidsuitRussianCombatJuggernaut
+  name: Russian 'Slon' Juggernaut Voidsuit
+  description: Slon, meaning elephant, is essentially what you become wearing this thing, a big bad angry elephant; recommended with a light machinegun.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi # No sprites for this yet, it's admeme anyway
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: DegradeableArmor
+    armorMaxHealth: 2000
+    armorType: Ceramic
+    armorRepair: NTCeramic
+    initialModifiers:
+      flatReductions:
+        Blunt: 30
+        Slash: 30
+        Piercing: 90
+        Heat: 35
+        Caustic: 30
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
+  - type: StaticPrice
+    price: 8000
   - type: ClothingAddFaction
     faction: PACT
 
@@ -59,7 +95,7 @@
         Slash: 25
         Piercing: 45
         Heat: 25
-        Caustic: 15
+        Caustic: 20
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
