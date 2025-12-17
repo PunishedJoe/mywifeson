@@ -9,6 +9,7 @@
   - USMCMedic
   - USMCRecon
   editorHidden: false
+  primary: true
 
 - type: department
   id: VDV
@@ -21,3 +22,4 @@
   - VDVMedic
   - VDVRecon
   editorHidden: false
+  primary: true

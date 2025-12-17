@@ -5,7 +5,7 @@
     WeaponRifleUSM4A1: 3
     MagazineRifleSTANAG: 100
     WeaponSubmachinegunUSMP5: 5
-    MagazineSubmachinegunMP5: 12
+    MagazineSubmachinegunMP5: 20
     BoxLethalshot: 10
     WeaponPistolM9: 20
     MagazinePistolM9: 150
@@ -24,10 +24,10 @@
     HandHeldMassScannerEE: 150
     Crowbar: 150
     OxygenTankFilled: 150
+    ClothingOuterVoidsuitAmericanCombatMarine: 10
     ClothingEyesGogglesTan: 100
     ClothingHeadHatHelmetUS: 100
     ClothingOuterArmorPlateCarrierTan: 100
-    ClothingOuterVoidsuitAmericanCombatMarine: 10
     ClothingHeadHelmetSoftsuitNasa: 50
     ClothingOuterSoftsuitNASA: 50
     ClothingShoesBootsMagCombat: 50
@@ -71,7 +71,7 @@
     MagazineRifleAK12: 50
     MagazineRifleAK74: 50
     WeaponSubmachinegunRUVityaz: 5
-    MagazineSubmachinegunVityaz: 12
+    MagazineSubmachinegunVityaz: 20
     BoxLethalshot: 10
     WeaponPistolMP443: 20
     MagazinePistolMP443: 150
@@ -90,10 +90,10 @@
     HandHeldMassScannerEE: 150
     Crowbar: 150
     OxygenTankFilled: 150
+    ClothingOuterVoidsuitRussianCombat: 30
     ClothingEyesGogglesGreen: 100
     ClothingHeadHatHelmetRUEMR: 100
     ClothingOuterArmorPlateCarrierBlack: 100
-    ClothingOuterVoidsuitRussianCombat: 10
     ClothingHeadHelmetSoftsuitVKS: 50
     ClothingOuterSoftsuitVKS: 50
     ClothingShoesBootsMagCombat: 50
@@ -101,10 +101,10 @@
 - type: vendingMachineInventory
   id: PACTVDVAmmoInventory
   startingInventory:
-    BoxMagazineAK12: 10
-    BoxMagazineAK74: 20
     MagazineRifleAK12: 30
     MagazineRifleAK74: 70
+    BoxMagazineAK12: 10
+    BoxMagazineAK74: 20
     MagazineBox545x39Big: 10
     MagazineBox545x39: 25
     MagazineSubmachinegunVityaz: 100
@@ -121,6 +121,7 @@
     RURGD5Handgrenade: 30
 #    RGOImpactHandgrenade: 5 add back when sprite issue fixed
     RURDG2SmokeHandgrenade: 50
+    TM62Flatpack: 10
     SecBreachingHammer: 1
     DoubleEmergencyOxygenTankFilled: 100
     ClothingHeadHatHelmetRUEMR: 100
