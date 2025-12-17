@@ -265,7 +265,7 @@
     sprite: Clothing/Hands/Gloves/combat.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/black.rsi # Battlefield14
-  - type: GloveHeatResistance
+#  - type: GloveHeatResistance BF14 commented this out because it was causing errors
     heatResistance: 1400
   - type: Insulated
   - type: Fiber

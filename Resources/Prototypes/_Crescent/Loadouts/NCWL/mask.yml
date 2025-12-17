@@ -10,7 +10,6 @@
       group: LoadoutMasks
     - !type:CharacterJobRequirement
       jobs:
-<<<<<<< HEAD
         - USMCRifleman
         - USMCAutomaticRifleman
         - USMCMedic
@@ -21,27 +20,17 @@
         - VDVRecon
 #        - CommandantNCWL
 #        - KommissarNCWL
+#        - MVDOfficerNCWL
+#        - MVDGruntNCWL
 #        - FleetkapitanNCWL
 #        - PartisanNCWL
+#        - DirectorNCWL
 #        - DoctorNCWL
-#        - CoordinatorNCWL
+#        - WorkerOverbossNCWL
+#        - DockhandNCWL
+#        - IndustryTaskmasterNCWL
 #        - ArtificerNCWL
 #        - WorkerNCWL
-=======
-        - CommandantNCWL
-        - KommissarNCWL
-        - MVDOfficerNCWL
-        - MVDGruntNCWL
-        - FleetkapitanNCWL
-        - PartisanNCWL
-        - DirectorNCWL
-        - DoctorNCWL
-        - WorkerOverbossNCWL
-        - DockhandNCWL
-        - IndustryTaskmasterNCWL
-        - ArtificerNCWL
-        - WorkerNCWL
->>>>>>> origin
 
 - type: loadout
   id: LoadoutMaskNCWLGasmask

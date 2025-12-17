@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: ClothingHeadHardsuitWithLightBaseNF
   id: ClothingHeadHelmetVoidsuitRussianCombat
   categories: [ HideSpawnMenu ]
   name: Russian combat voidsuit helmet
@@ -35,7 +35,7 @@
         requireDetailRange: false
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: ClothingHeadHardsuitWithLightBaseNF
   id: ClothingHeadHelmetVoidsuitAmericanCombatMarine
   categories: [ HideSpawnMenu ]
   name: Marine combat voidsuit helmet

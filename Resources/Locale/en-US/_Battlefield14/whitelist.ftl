@@ -1,1 +1,0 @@
-gun-magazine-whitelist-fail = Wrong magazine!

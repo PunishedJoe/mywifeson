@@ -13,7 +13,6 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/Guns/hristov.rsi
-  - type: Telescope
   - type: GunRequiresWield
   - type: Item
     shape:

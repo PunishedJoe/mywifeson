@@ -8,6 +8,7 @@
   - type: Sprite
     sprite: _Battlefield14/Objects/Misc/medbox.rsi
     state: icon
+  - type: Item
     size: Large
     shape:
     - 0,0,2,2
@@ -89,6 +90,7 @@
   - type: Sprite
     sprite: _Battlefield14/Objects/Misc/ammoboxus.rsi
     state: icon
+  - type: Item
     size: Large
     shape:
     - 0,0,2,2
