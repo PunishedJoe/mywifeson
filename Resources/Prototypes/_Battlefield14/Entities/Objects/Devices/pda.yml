@@ -1,3 +1,20 @@
+# USMC
+
+- type: entity
+  parent: BasePDA
+  id: USMCSquadLeaderPDA
+  name: USMC PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCSquadLeaderIDCard
+    state: pda-us
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
 - type: entity
   parent: BasePDA
   id: USMCRiflemanPDA
@@ -9,7 +26,7 @@
     state: pda-us
   - type: Pda
     id: USMCRiflemanIDCard
-    state: pda
+    state: pda-us
   - type: PdaBorderColor
     borderColor: "#203564"
 
@@ -24,7 +41,7 @@
     state: pda-us
   - type: Pda
     id: USMCAutomaticRiflemanIDCard
-    state: pda
+    state: pda-us
   - type: PdaBorderColor
     borderColor: "#203564"
 
@@ -39,7 +56,7 @@
     state: pda-us
   - type: Pda
     id: USMCMedicIDCard
-    state: pda
+    state: pda-us
   - type: PdaBorderColor
     borderColor: "#203564"
 
@@ -54,9 +71,11 @@
     state: pda-us
   - type: Pda
     id: USMCReconIDCard
-    state: pda
+    state: pda-us
   - type: PdaBorderColor
     borderColor: "#203564"
+
+# VDV
 
 - type: entity
   parent: BasePDA
@@ -69,7 +88,7 @@
     state: pda-ru
   - type: Pda
     id: VDVRiflemanIDCard
-    state: pda
+    state: pda-ru
   - type: PdaBorderColor
     borderColor: "#a02829"
 
@@ -84,7 +103,7 @@
     state: pda-ru
   - type: Pda
     id: VDVAutomaticRiflemanIDCard
-    state: pda
+    state: pda-ru
   - type: PdaBorderColor
     borderColor: "#a02829"
 
@@ -99,7 +118,7 @@
     state: pda-ru
   - type: Pda
     id: VDVMedicIDCard
-    state: pda
+    state: pda-ru
   - type: PdaBorderColor
     borderColor: "#a02829"
 
@@ -111,4 +130,4 @@
   components:
   - type: Pda
     id: VDVReconIDCard
-    state: pda
+    state: pda-ru

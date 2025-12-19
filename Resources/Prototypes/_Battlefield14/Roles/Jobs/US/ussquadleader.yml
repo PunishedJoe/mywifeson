@@ -1,0 +1,67 @@
+- type: job
+  id: USMCSquadLeader
+  name: job-name-usmc-squadleader
+  description: job-description-usmc-squadleader
+  playTimeTracker: JobUSMCSquadLeader
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+    - !type:FactionRequirement
+      factionID: "NATO"
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 75
+  startingGear: USMCSquadLeaderGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATOSquadleader"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: BF-rank-sergeant
+      - type: HullrotFaction
+        faction: USMC
+#      - type: LanguageAdder
+#        addSpoken:
+#          - LowImperial
+#        addUnderstood:
+#          - LowImperial
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - NATOCommon
+  - NATOCommand
+  - NATOMaintenance
+  - NATOSoldier
+  - NATOArmory
+
+- type: startingGear
+  id: USMCSquadLeaderGear
+  equipment:
+    id: USMCSquadLeaderPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUS
+    eyes: ClothingEyesGogglesTan
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM4A1
+  storage:
+    back:
+    - Tourniquet
+    - Zipties
+    - Welder

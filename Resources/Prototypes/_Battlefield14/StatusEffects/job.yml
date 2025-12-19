@@ -16,6 +16,13 @@
 # Nato classes
 - type: jobIcon
   parent: JobIcon
+  id: JobIconNATOSquadleader
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: natosquadleader
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconNATORifleman
   icon:
     sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
@@ -43,6 +50,13 @@
     state: natorecon
 
  # Pact classes
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPACTSquadleader
+  icon:
+    sprite: /Textures/_Battlefield14/Interface/Misc/class_icons.rsi
+    state: pactsquadleader
+
 - type: jobIcon
   parent: JobIcon
   id: JobIconPACTRifleman

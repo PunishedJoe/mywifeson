@@ -8,8 +8,8 @@
 #    size: Large
   - type: Sprite
     drawdepth: Items
-    sprite: Objects/Misc/landmine.rsi
-    state: landmine
+    sprite: _Battlefield14/Objects/Weapons/Landmines/TM62.rsi
+    state: icon
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Fragmentation
@@ -17,7 +17,7 @@
     intensitySlope: 3
     totalIntensity: 120 # about a 4-5 tile radius
     canCreateVacuum: true
-    requiredTriggeredSpeed: 3.5 # lets you walk over it
+    requiredTriggeredSpeed: 2.5 # lets you crawl but not walk over it
 #    stepOn: false
 #  - type: DamageOtherOnHit # Only for if you can pick it up
 #    damage:
@@ -28,9 +28,9 @@
 #    staminaCost: 60
 #  - type: Tool
 #    qualities:
-#    - Hammering # hammering shit with a fucking anti-tank mine lololol
+#    - Hammering # hammering shit with a fucking anti-tank mine lololol unknown technology blyat
 #    useSound:
-#      path: /Audio/Items/wirecutter.ogg
+#      path: /Audio/Items/wirecutter.ogg # placeholder
   - type: TriggerOnSignal
   - type: DeviceLinkSink
     ports:
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TM62Flatpack
-  name: TM-62 crate
-  description: A small crate with a single TM-62 inside, openned with a multitool.
+  name: TM-62 flatpack
+  description: A flatpack with a single TM-62 inside, opened with a multitool.
   components:
   - type: Flatpack
     entity: TM62

@@ -4,12 +4,11 @@
   color: "#203564"
   weight: 72
   roles:
+  - USMCSquadLeader
   - USMCRifleman
   - USMCAutomaticRifleman
   - USMCMedic
   - USMCRecon
-  editorHidden: false
-  primary: true
 
 - type: department
   id: VDV
@@ -17,9 +16,8 @@
   color: "#a02829"
   weight: 73
   roles:
+  - VDVSquadLeader
   - VDVRifleman
   - VDVAutomaticRifleman
   - VDVMedic
   - VDVRecon
-  editorHidden: false
-  primary: true

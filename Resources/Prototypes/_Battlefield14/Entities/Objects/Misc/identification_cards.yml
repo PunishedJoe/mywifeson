@@ -1,3 +1,21 @@
+# USMC
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCSquadLeaderIDCard
+  name: Marine Corps ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#203564"
+    - state: subdepartment
+      color: "#878787"
+    - state: passenger
+  - type: PresetIdCard
+    job: USMCSquadLeader
+
 - type: entity
   parent: IDCardStandard
   id: USMCRiflemanIDCard
@@ -61,6 +79,8 @@
     - state: passenger
   - type: PresetIdCard
     job: USMCRecon
+
+# VDV
 
 - type: entity
   parent: IDCardStandard

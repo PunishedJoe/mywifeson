@@ -8,6 +8,9 @@
     },
     "states": [
     {
+      "name": "natosquadleader"
+    },
+    {
       "name": "natoinfantry"
     },
     {
@@ -21,6 +24,9 @@
     },
     {
       "name": "natospecialforces"
+    },
+    {
+      "name": "pactsquadleader"
     },
     {
       "name": "pactinfantry"
