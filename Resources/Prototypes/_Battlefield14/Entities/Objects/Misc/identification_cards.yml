@@ -84,6 +84,20 @@
 
 - type: entity
   parent: IDCardStandard
+  id: VDVSquadLeaderIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: passenger
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVSquadLeader
+
+- type: entity
+  parent: IDCardStandard
   id: VDVRiflemanIDCard
   name: VDV ID card
   components:

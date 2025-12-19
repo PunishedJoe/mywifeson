@@ -50,7 +50,7 @@
 - type: startingGear
   id: VDVSquadLeaderGear
   equipment:
-    id: VDVRiflemanPDA
+    id: VDVSquadLeaderPDA
     ears: ClothingHeadsetAltRU
     belt: ClothingBeltMilitaryWebbingRUFilledAK12
     jumpsuit: ClothingUniformJumpsuitCamoRUEMR
