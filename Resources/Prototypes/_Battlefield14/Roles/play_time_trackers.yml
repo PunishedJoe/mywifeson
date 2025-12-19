@@ -1,4 +1,4 @@
-# Jobs
+# USMC
 - type: playTimeTracker
   id: JobUSMCSquadLeader
 
@@ -13,6 +13,8 @@
 
 - type: playTimeTracker
   id: JobUSMCRecon
+
+# VDV
 
 - type: playTimeTracker
   id: JobVDVSquadLeader
