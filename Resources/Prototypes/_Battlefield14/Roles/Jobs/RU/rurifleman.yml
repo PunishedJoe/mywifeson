@@ -32,9 +32,9 @@
         faction: VDV
 #      - type: LanguageAdder
 #        addSpoken:
-#          - LowImperial
+#          - Russian
 #        addUnderstood:
-#          - LowImperial
+#          - Russian
   access:
   - Maintenance
   - Service

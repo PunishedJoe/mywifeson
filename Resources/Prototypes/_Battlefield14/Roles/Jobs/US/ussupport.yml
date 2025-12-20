@@ -32,9 +32,9 @@
         faction: USMC
 #      - type: LanguageAdder
 #        addSpoken:
-#          - LowImperial
+#          - English
 #        addUnderstood:
-#          - LowImperial
+#          - English
   access:
   - Maintenance
   - Service

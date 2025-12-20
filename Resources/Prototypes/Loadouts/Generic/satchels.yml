@@ -9,6 +9,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutItemBackpackSatchelLeather
@@ -20,7 +23,10 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
-    - !type:CharacterJobRequirement
-       inverted: true
-       jobs:
-         - Prisoner
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
+#    - !type:CharacterJobRequirement
+#       inverted: true
+#       jobs:
+#         - Prisoner

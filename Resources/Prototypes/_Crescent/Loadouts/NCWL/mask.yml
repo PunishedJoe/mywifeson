@@ -8,16 +8,8 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutMasks
-    - !type:CharacterJobRequirement
-      jobs:
-        - USMCRifleman
-        - USMCAutomaticRifleman
-        - USMCMedic
-        - USMCRecon
-        - VDVRifleman
-        - VDVAutomaticRifleman
-        - VDVMedic
-        - VDVRecon
+#    - !type:CharacterJobRequirement
+#      jobs:
 #        - CommandantNCWL
 #        - KommissarNCWL
 #        - MVDOfficerNCWL

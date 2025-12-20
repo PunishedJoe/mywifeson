@@ -8,14 +8,16 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
-    - !type:CharacterJobRequirement
-      jobs:
-        - USMCRifleman
-        - USMCAutomaticRifleman
-        - USMCRecon
-        - VDVRifleman
-        - VDVAutomaticRifleman
-        - VDVRecon
+#    - !type:CharacterDepartmentRequirement # Uncomment when the fucking departments work again
+#      departments:
+#        - USMC
+#        - VDV
+#    - !type:FactionRequirement
+#      factionID: "NATO" # TODO: figure out how to add multiple factions at once
+#    - !type:CharacterJobRequirement
+#      inverted:true
+#      jobs:
+#        - Civilian
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierCombat
@@ -27,14 +29,7 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
-    - !type:CharacterJobRequirement
-      jobs:
-        - USMCRifleman
-        - USMCAutomaticRifleman
-        - USMCRecon
-        - VDVRifleman
-        - VDVAutomaticRifleman
-        - VDVRecon
+
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierFingerless
@@ -46,14 +41,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
-    - !type:CharacterJobRequirement
-      jobs:
-        - USMCRifleman
-        - USMCAutomaticRifleman
-        - USMCRecon
-        - VDVRifleman
-        - VDVAutomaticRifleman
-        - VDVRecon
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierMercCombat
@@ -65,14 +52,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
-    - !type:CharacterJobRequirement
-      jobs:
-        - USMCRifleman
-        - USMCAutomaticRifleman
-        - USMCRecon
-        - VDVRifleman
-        - VDVAutomaticRifleman
-        - VDVRecon
 
         
 - type: loadout
@@ -85,11 +64,3 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
-    - !type:CharacterJobRequirement
-      jobs:
-        - USMCRifleman
-        - USMCAutomaticRifleman
-        - USMCRecon
-        - VDVRifleman
-        - VDVAutomaticRifleman
-        - VDVRecon

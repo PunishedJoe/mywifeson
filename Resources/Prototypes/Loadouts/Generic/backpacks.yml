@@ -9,6 +9,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutBackpackHydroponics
@@ -23,6 +26,9 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutBackpackMerc
@@ -34,12 +40,15 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterDepartmentRequirement
-          departments:
-            - Security
-            - Civilian
-        - !type:CharacterJobRequirement
-          jobs:
-            - SalvageSpecialist
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
+#    - !type:CharacterLogicOrRequirement
+#      requirements:
+#        - !type:CharacterDepartmentRequirement
+#          departments:
+#            - Security
+#            - Civilian
+#        - !type:CharacterJobRequirement
+#          jobs:
+#            - SalvageSpecialist
