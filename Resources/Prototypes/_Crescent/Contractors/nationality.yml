@@ -2,6 +2,9 @@
   id: Imperial
   nameKey: nationality_name_empire
   descriptionKey: nationality_description_empire
+  requirements:
+    - !type:FactionRequirement
+      factionID: "DSM" # BF14, basically just here to disable hullrot nationalities without commenting out a ton of stuff in different files
   hostile:
   - Unionist
   functions:
@@ -16,6 +19,9 @@
   id: Unionist
   nameKey: nationality_name_union
   descriptionKey: nationality_description_union
+  requirements:
+    - !type:FactionRequirement
+      factionID: "NCWL" # BF14
   hostile:
   - Imperial
   functions:
@@ -30,6 +36,9 @@
   id: Clarizian
   nameKey: nationality_name_clarizian
   descriptionKey: nationality_description_clarizian
+  requirements:
+    - !type:FactionRequirement
+      factionID: "NCWL" # BF14
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -44,6 +53,9 @@
   id: Coalition
   nameKey: nationality_name_coalition
   descriptionKey: nationality_description_coalition
+  requirements:
+    - !type:FactionRequirement
+      factionID: "NCWL" # BF14
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -56,6 +68,9 @@
   id: Authority
   nameKey: nationality_name_authority
   descriptionKey: nationality_description_authority
+  requirements:
+    - !type:FactionRequirement
+      factionID: "NCWL" # BF14
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:

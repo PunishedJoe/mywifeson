@@ -18,13 +18,13 @@
     ClothingBeltAssault: 50
     ClothingBackpackRucksackTan: 50
     ClothingBackpackRucksackBlack: 50
-    JetpackBlackFilled: 20
+    EVAKitCombatUSMC: 50
+    JetpackBlackFilled: 50
     FoodSnackNutribrick: 100
     DrinkMREFlask: 100
     HandHeldMassScannerEE: 150
     Crowbar: 150
     OxygenTankFilled: 150
-    ClothingOuterVoidsuitAmericanCombatMarine: 30
     ClothingEyesGogglesTan: 100
     ClothingHeadHatHelmetUS: 100
     ClothingOuterArmorPlateCarrierTan: 100
@@ -84,13 +84,13 @@
     ClothingBeltAssault: 50
     ClothingBackpackRucksackTan: 50
     ClothingBackpackRucksackBlack: 50
-    JetpackBlackFilled: 20
+    EVAKitCombatRU: 50
+    JetpackBlackFilled: 50
     FoodSnackNutribrick: 100
     DrinkMREFlask: 100
     HandHeldMassScannerEE: 150
     Crowbar: 150
     OxygenTankFilled: 150
-    ClothingOuterVoidsuitRussianCombat: 30
     ClothingEyesGogglesGreen: 100
     ClothingHeadHatHelmetRUEMR: 100
     ClothingOuterArmorPlateCarrierBlack: 100

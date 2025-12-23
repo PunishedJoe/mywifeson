@@ -11,6 +11,11 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
+  - type: Item
+    size: Huge
+  - type: Tag
+    tags:
+    - FitsInVoidsuitKit
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor
@@ -83,6 +88,11 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
+  - type: Item
+    size: Huge
+  - type: Tag
+    tags:
+    - FitsInVoidsuitKit
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: DegradeableArmor

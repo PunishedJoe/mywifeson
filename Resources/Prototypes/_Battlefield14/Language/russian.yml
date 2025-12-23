@@ -2,12 +2,12 @@
   id: Russian
   isVisibleLanguage: true
   speech:
-    color: "#8ac451"
+    color: "#a02829"
     fontId: IMFellEnglish
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
-    maxSyllables: 3
+    maxSyllables: 1
     replacement:
       - blyat
       - blyad

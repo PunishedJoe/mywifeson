@@ -37,7 +37,7 @@
   parent: ClothingOuterArmorPlateCarrierBlack
   id: ClothingOuterArmorPlateCarrierBlackEgg
   name: egg-carton plate carrier
-  description: A standard issue plate carrier with the plates removed and replaced with an egg carton, some foam, and a kevlar plate. Utter garbage against bullets but will absorb some blunt impact
+  description: A standard issue plate carrier with the plates removed and replaced with an egg carton, some foam, and a kevlar insert. Utter garbage against bullets but will absorb some blunt impact
   components:
   - type: Sprite
     sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi

@@ -7,7 +7,7 @@
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
-    maxSyllables: 3
+    maxSyllables: 1
     replacement:
       - schlafen
       - schnitzel

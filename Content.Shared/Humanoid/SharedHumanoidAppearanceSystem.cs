@@ -50,7 +50,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     public const string DefaultEmployer = "NanoTrasen";
 
     [ValidatePrototypeId<NationalityPrototype>]
-    public const string DefaultNationality = "Bieselite";
+    public const string DefaultNationality = "EuropeanUnion"; /// BF14 edit, editing beiselite would mess with some hullrot stuff and this was easier
 
     [ValidatePrototypeId<LifepathPrototype>]
     public const string DefaultLifepath = "Spacer";

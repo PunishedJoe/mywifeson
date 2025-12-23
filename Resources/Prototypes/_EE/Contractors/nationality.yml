@@ -2,6 +2,9 @@
   id: Bieselite
   nameKey: nationality_name_american
   descriptionKey: nationality_description_american
+#  requirements:
+#    - !type:FactionRequirement
+#      factionID: "DSM" # BF14, basically just here to disable hullrot nationalities without commenting out a ton of stuff in different files
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:

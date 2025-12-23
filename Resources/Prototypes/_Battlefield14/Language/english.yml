@@ -7,7 +7,7 @@
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
-    maxSyllables: 3
+    maxSyllables: 1
     replacement:
       - blah
       - bleh
@@ -60,3 +60,43 @@
       - sparta
       - swaws
       - sus
+      - trump
+      - drumpf
+      - heart
+      - zap
+      - gag
+      - nice
+      - gate
+      - my
+      - mine
+      - yours
+      - time
+      - clock
+      - bull
+      - crack
+      - front
+      - patriot
+      - election
+      - freedom
+      - democracy
+      - due
+      - process
+      - wife
+      - wiggle
+      - quaint
+      - quiet
+      - general
+      - hold
+      - holden
+      - troll
+      - face
+      - swine
+      - wah
+      - when
+      - whe
+      - whew
+      - age
+      - diagonal
+      - jeff
+      - name
+      - pizza

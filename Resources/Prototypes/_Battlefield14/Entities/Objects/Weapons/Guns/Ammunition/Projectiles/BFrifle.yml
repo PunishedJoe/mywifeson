@@ -80,6 +80,6 @@
     damage:
       types:
         Piercing: 40
-    harmorPenetration: 40
+    harmorPenetration: 25
   - type: StaminaDamageOnCollide
     damage: 10 # ~10 hits to stun

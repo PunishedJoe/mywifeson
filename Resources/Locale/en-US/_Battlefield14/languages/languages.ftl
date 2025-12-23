@@ -1,14 +1,20 @@
-language-name-English = English
-language-desc-English = Spoken all over the anglosphere and beyond, those who speak this language have been everywhere and done everything.
+## It actually has to be language-English-name and language-English-description
+## I tried language-name-English and language-desc-English but that isnt recognised by the code for some reason
 
-language-name-Russian = Russian
-language-desc-Russian = The language of the largest slavic country to date, a brutal history lays behind and a brutal history lays ahead.
+language-English-name = English
+language-English-description = Spoken all over the anglosphere and beyond, those who speak this language have been everywhere and done everything.
+chat-language-English-name = English
 
-language-name-German = German
-language-desc-German = Also known as Deutche, native speakers have been through a lot, including the devastation of losing both world wars. Third time's the charm.
+language-Russian-name = Russian
+language-Russian-description = The language of the largest slavic country to date, a brutal history lays behind and a brutal history lays ahead.
+chat-language-Russian-name = Russian
 
-language-name-Mexican = Mexican
-language-desc-Mexican = A modern gutterlanguage, a bastardisation of the Spanish language that has earned its reputation.
+language-German-name = German
+language-German-description = Also known as Deutche, native speakers have been through a lot, including the devastation of losing two world wars. Third time's the charm.
 
-language-name-Esperanto = Esperanto
-language-desc-Esperanto = A conlang that was designed to be easily learned to make foreign policy a smoother process.
+language-Mexican-name = Mexican
+language-Mexican-description = A modern gutterlanguage, a bastardisation of the Spanish language that has earned its reputation.
+
+language-Esperanto-name = Esperanto
+language-Esperanto-description = A conlang that was designed to be easily learned to make foreign policy a smoother process.
+chat-language-Esperanto-name = Esperanto

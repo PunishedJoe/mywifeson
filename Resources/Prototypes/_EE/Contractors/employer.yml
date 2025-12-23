@@ -5,6 +5,10 @@
   descriptionKey: employer_description_nanotrasen
   primaryColour: "#3d4f66"
   secondaryColour: "#282828"
+#  requirements: # BF14, essentially here to disable these without fucking a bunch of stuff up by commenting it out
+#    - !type:CharacterNationalityRequirement
+#      nationalities:
+#      - Imperial # Hullrot nationality (DSM)
 
 # Technically not an employer, but it's the best place to put it
 - type: employer
@@ -20,6 +24,10 @@
   descriptionKey: employer_description_hephaestusindustries
   primaryColour: "#ab6f19"
   secondaryColour: "#263e23"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: EinsteinEngines
@@ -29,6 +37,10 @@
   secondaryColour: "#637C65"
   rivals:
   - NanoTrasen
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: ZengHuPharmaceuticals
@@ -36,6 +48,10 @@
   descriptionKey: employer_description_zenghupharmaceuticals
   primaryColour: "#a86bd8"
   secondaryColour: "#dfe4ed"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: ZavodskoiInterstellar
@@ -43,6 +59,10 @@
   descriptionKey: employer_description_zavodskoiinterstellar
   primaryColour: "#920a0a"
   secondaryColour: "#7a6347"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: Interdyne
@@ -50,6 +70,10 @@
   descriptionKey: employer_description_interdyne
   primaryColour: "#336699"
   secondaryColour: "#81d9ee"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: IdrisIncorporated
@@ -57,6 +81,10 @@
   descriptionKey: employer_description_idrisincorporated
   primaryColour: "#3A6F6F"
   secondaryColour: "#00d1d4"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: OrionExpress
@@ -64,6 +92,10 @@
   descriptionKey: employer_description_orionexpress
   primaryColour: "#414446"
   secondaryColour: "#7a6347"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: PMCG
@@ -71,6 +103,10 @@
   descriptionKey: employer_description_pmcg
   primaryColour: "#3355ff"
   secondaryColour: "#c4a56e"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
 
 - type: employer
   id: EastOrionCompany
@@ -78,3 +114,7 @@
   descriptionKey: employer_description_eastorioncompany
   primaryColour: "#ff8a13"
   secondaryColour: "#336b83"
+  requirements: # BF14
+    - !type:CharacterNationalityRequirement
+      nationalities:
+      - Imperial # Hullrot nationality (DSM)
