@@ -19,6 +19,9 @@
     inactiveSprintModifier: 1
   - type: StaticPrice
     price: 750
+  - type: Tag # BF14
+    tags:
+    - FitsInVoidsuitKit
 
 - type: entity
   parent: ClothingShoesBootsMagCombat

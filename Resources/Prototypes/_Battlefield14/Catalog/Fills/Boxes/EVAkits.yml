@@ -19,11 +19,11 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterVoidsuitAmericanCombatMarine
+      - id: ClothingShoesBootsMagCombatFilled
+      - id: DoubleEmergencyOxygenTankFilled
       - id: HandHeldMassScannerEE
       - id: HandheldGPSBasic
-      - id: DoubleEmergencyOxygenTankFilled
       - id: CrowbarRed
-      - id: Wrench
   - type: Sprite
     layers:
       - state: boxwide
@@ -50,11 +50,11 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterVoidsuitRussianCombat
+      - id: ClothingShoesBootsMagCombatFilled
+      - id: DoubleEmergencyOxygenTankFilled
       - id: HandHeldMassScannerEE
       - id: HandheldGPSBasic
-      - id: DoubleEmergencyOxygenTankFilled
       - id: CrowbarRed
-      - id: Wrench
   - type: Sprite
     layers:
       - state: boxwide
