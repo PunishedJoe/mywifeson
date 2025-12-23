@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
   id: ClothingOuterVoidsuitRussianCombat
   name: Russian 'Goida' Combat Voidsuit
   description: A combat voidsuit of Russian design, for their frontline soldiers in the final frontier.
@@ -76,7 +76,7 @@
     faction: PACT
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
   id: ClothingOuterVoidsuitAmericanCombatMarine
   name: Marine 'Devil Dog' Combat Voidsuit
   description: A combat voidsuit of American design, for their marine corps, with darker colours to blend into the backdrop of space.
