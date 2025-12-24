@@ -14,7 +14,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
-    magState: magb
+    magState: mag
     steps: 2
     zeroVisible: false
   - type: Item
@@ -36,7 +36,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
-    magState: magb
+    magState: mag
     steps: 2
     zeroVisible: false
   - type: Appearance
@@ -56,7 +56,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
-    magState: magb
+    magState: mag
     steps: 2
     zeroVisible: false
   - type: Item
@@ -78,7 +78,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
-    magState: magb
+    magState: mag
     steps: 2
     zeroVisible: false
   - type: Item

@@ -1,8 +1,8 @@
 - type: entity
-  name: SV-98 (7.62x54mmR)
+  name: SV-98
   parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponSniperRUSV98
-  description: A modern classic, with a green wooden stock and bolt-action.
+  description: A modern classic, with a green wooden stock and bolt-action. Chambered in 7.62x54mmR.
   components:
   - type: Sprite
     sprite: _Battlefield14/Objects/Weapons/Guns/Snipers/SV98.rsi

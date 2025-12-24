@@ -10,6 +10,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
+    - !type:CharacterJobRequirement # BF14, to disable these loadouts
+      jobs:
+        - Spacer
 
 
 - type: loadout
@@ -27,6 +30,9 @@
       inverted: true
       species:
         - Plasmaman
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 
 - type: loadout
@@ -40,3 +46,6 @@
       group: LoadoutGloves
   items:
     - ClothingClothWrap
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer

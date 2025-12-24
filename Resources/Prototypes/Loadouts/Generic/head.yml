@@ -9,6 +9,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14, this effectively disables the loadout
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadFlatBrown
@@ -24,6 +27,9 @@
          - Security
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadHatCowboyWhite
@@ -36,6 +42,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadHatCowboyBountyHunter
@@ -49,6 +58,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadPoppyWhite
@@ -61,6 +73,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 
 # Headbands
@@ -103,6 +118,9 @@
          - Security
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadFez
@@ -114,6 +132,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadBowlerHat
@@ -125,6 +146,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 
 # Berets
@@ -139,6 +163,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadBeretPeaked
@@ -151,6 +178,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 # Beanies
 - type: loadout
@@ -164,6 +194,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadBeanieWinter
@@ -176,6 +209,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadBeanieSubmariner
@@ -188,6 +224,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadBeanieTight
@@ -200,6 +239,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadSlouch
@@ -212,6 +254,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadSunVisor
@@ -224,6 +269,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadHijabColorable
@@ -236,6 +284,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadTurbanColorable
@@ -248,6 +299,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadKippahColorable
@@ -260,6 +314,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHead
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutHeadHeadBandBasic

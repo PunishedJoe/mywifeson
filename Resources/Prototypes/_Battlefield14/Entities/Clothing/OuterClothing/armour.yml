@@ -21,6 +21,12 @@
         Caustic: 5
   - type: ExplosionResistance
     damageCoefficient: 0.75
+  - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 1000. Armour type: Metallic"
+      fontSize: 12
+      color: "#1c89b1"
+      requireDetailRange: true
 
 - type: entity
   parent: ClothingOuterArmorPlateCarrierBlack
@@ -56,3 +62,9 @@
         Caustic: 5
   - type: ExplosionResistance
     damageCoefficient: 0.9
+  - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 400. Armour type: Ceramic"
+      fontSize: 12
+      color: "#2a740a"
+      requireDetailRange: true

@@ -1,0 +1,12 @@
+- type: loadout
+  id: LoadoutHeadBeretVDV
+  category: Head
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingHeadHatBeretVDV
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+    - !type:FactionRequirement
+      factionID: "PACT"

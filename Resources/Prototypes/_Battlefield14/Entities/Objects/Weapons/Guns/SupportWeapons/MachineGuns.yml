@@ -19,8 +19,8 @@
     minAngle: -19
     maxAngle: -35
   - type: Gun
-    minAngle: 19
-    maxAngle: 50
+    minAngle: 19 # Wielded = 0
+    maxAngle: 50 # wielded = 15
     angleIncrease: 1
     angleDecay: 12
     availableModes:

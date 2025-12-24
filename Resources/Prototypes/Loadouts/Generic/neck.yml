@@ -8,6 +8,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14, effectively disables the loadout without fucking stuff up
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckDogtags
@@ -35,6 +38,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckTieShort
@@ -48,6 +54,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckTieBow
@@ -61,6 +70,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckTieBowTie
@@ -74,6 +86,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckTieRibbon
@@ -87,6 +102,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 # Religious
 - type: loadout
@@ -179,6 +197,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 # Bedsheets
 - type: loadout
@@ -268,6 +289,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceLow
@@ -281,6 +305,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceRound
@@ -294,6 +321,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceSmall
@@ -307,6 +337,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceGold
@@ -319,6 +352,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceSilver
@@ -331,6 +367,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceChainGold
@@ -343,6 +382,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklaceChainSilver
@@ -355,6 +397,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklacePendantGold
@@ -367,6 +412,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklacePendantGoldLarge
@@ -379,6 +427,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklacePendantSilver
@@ -391,6 +442,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutNeckNecklacePendantSilverLarge
@@ -403,3 +457,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeck
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer

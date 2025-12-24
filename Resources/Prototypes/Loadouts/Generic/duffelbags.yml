@@ -9,6 +9,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
+    - !type:CharacterJobRequirement # BF14, to disable this loadout
+      jobs:
+        - Spacer
 
 - type: loadout
   id: LoadoutBackpackDuffelHydroponics

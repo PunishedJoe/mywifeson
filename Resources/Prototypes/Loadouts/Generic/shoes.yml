@@ -8,6 +8,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14, to disable loadouts here
+      jobs:
+        - Spacer
   items:
     - ClothingShoesColorWhite
 
@@ -19,6 +22,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesGeta
 
@@ -30,6 +36,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesTourist
 
@@ -54,6 +63,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsWorkColor
 
@@ -65,6 +77,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsJackFake
 
@@ -76,6 +91,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsLaceup
 
@@ -87,6 +105,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsWinter
 
@@ -100,6 +121,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsCowboyWhite
 
@@ -113,6 +137,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsCowboyFancy
 
@@ -124,6 +151,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsFishing
 
@@ -136,6 +166,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsAnkle
 
@@ -148,6 +181,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsFull
 
@@ -160,6 +196,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsMud
 
@@ -172,6 +211,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsMudThigh
 
@@ -184,6 +226,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesBootsThigh
 
@@ -196,6 +241,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesLeather
 
@@ -208,6 +256,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesMiscWhite
 
@@ -220,6 +271,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
     - !type:CharacterSpeciesRequirement # Due to a visual bug with envirosuits and heels they are disabled for now.
       inverted: true
       species:
@@ -236,6 +290,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingClothWrap
 
@@ -249,6 +306,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -266,6 +326,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -283,6 +346,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesFlats
 
@@ -295,6 +361,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesSkater
 
@@ -307,6 +376,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesSandals
 
@@ -319,6 +391,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoes
+    - !type:CharacterJobRequirement # BF14
+      jobs:
+        - Spacer
   items:
     - ClothingShoesSandalsFlipFlops
 
