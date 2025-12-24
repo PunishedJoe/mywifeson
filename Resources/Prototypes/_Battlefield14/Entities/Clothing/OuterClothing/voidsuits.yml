@@ -29,6 +29,7 @@
         Piercing: 45
         Heat: 25
         Caustic: 20
+#        Shock: 25 shock damage crashes the client in testing for some reason, I wasnt on tools though
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -71,6 +72,7 @@
         Piercing: 90
         Heat: 35
         Caustic: 30
+#        Shock: 35
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
@@ -118,6 +120,7 @@
         Piercing: 45
         Heat: 25
         Caustic: 20
+#        Shock: 25
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9

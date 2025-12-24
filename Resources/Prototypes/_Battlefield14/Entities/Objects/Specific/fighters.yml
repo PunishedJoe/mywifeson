@@ -40,7 +40,7 @@
    id: FighterUSF22Raptor
    parent: [ LightFighterBF, BaseMech ]
    name: F-22 Raptor
-   description: A light interceptor starfighter, developed by the Imperial Arms Committee and painted in House Kircheis colors. A tried and tested vessel that served in many naval conflicts across human history - although most detractors criticize how expensive to maintain and over-engineered the shuttle is.
+   description: An advanced interceptor starfighter. A tried and tested vessel that served in many naval conflicts across human history - although most detractors criticize how expensive to maintain and over-engineered the shuttle is.
    components:
    - type: EntityIFFDesignation
      name: "F-22 Raptor"
@@ -119,7 +119,7 @@
    id: FighterRUSU57Felon
    parent: [ LightFighterBF, BaseMech ]
    name: SU-57 Felon
-   description: A light interceptor starfighter, developed by the Imperial Arms Committee and painted in House Kircheis colors. A tried and tested vessel that served in many naval conflicts across human history - although most detractors criticize how expensive to maintain and over-engineered the shuttle is.
+   description: An advanced interceptor starfighter. A tried and tested vessel that served in many naval conflicts across human history - although most detractors criticize how expensive to maintain and over-engineered the shuttle is.
    components:
    - type: EntityIFFDesignation
      name: "SU-57 Raptor"

@@ -60,6 +60,7 @@
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackTan
     suitstorage: WeaponRifleUSM4A1
+    pocket2: PouchGrenadesFilledUSMCRifleman
   storage:
     back:
     - Tourniquet

@@ -60,6 +60,7 @@
     back: ClothingBackpackRucksackBlack
     neck: ClothingNeckIFFtapeWhite
     suitstorage: WeaponRifleRURPK2016
+    pocket2: PouchGrenadesFilledVDVRifleman
   storage:
     back:
     - SupplyBoxAmmoRUFilled

@@ -7,6 +7,7 @@
   - type: Tag
     tags:
       - MagazineRifleAK74
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeRifle545
     mayTransfer: true
@@ -77,6 +78,7 @@
   - type: Tag
     tags:
       - MagazineRifleAKM
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeRifle762
     mayTransfer: true
@@ -101,6 +103,7 @@
   - type: Tag
     tags:
       - MagazineRifleASVAL
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeRifle939
     mayTransfer: true

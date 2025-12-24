@@ -7,6 +7,8 @@
   - type: Tag
     tags:
       - MagazinePistolMP5
+      - Magazine
+      - PistolMagazine
   - type: BallisticAmmoProvider
     proto: CartridgePistol9mm
     mayTransfer: true
@@ -31,6 +33,8 @@
   - type: Tag
     tags:
       - MagazinePistolVityaz
+      - Magazine
+      - PistolMagazine
   - type: BallisticAmmoProvider
     proto: CartridgePistol9mm
     mayTransfer: true
@@ -55,6 +59,8 @@
   - type: Tag
     tags:
       - MagazinePistolM9
+      - Magazine
+      - PistolMagazine
   - type: BallisticAmmoProvider
     proto: CartridgePistol9mm
     mayTransfer: true
@@ -79,6 +85,8 @@
   - type: Tag
     tags:
       - MagazinePistolMP443
+      - Magazine
+      - PistolMagazine
   - type: BallisticAmmoProvider
     proto: CartridgePistol9mm
     mayTransfer: true

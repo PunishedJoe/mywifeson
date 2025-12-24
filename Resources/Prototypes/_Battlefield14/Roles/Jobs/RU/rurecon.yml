@@ -58,6 +58,7 @@
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackBlack
     suitstorage: WeaponRifleRUASVAL
+    pocket2: PouchGrenadesFilledVDVScout
   storage:
     back:
     - Tourniquet

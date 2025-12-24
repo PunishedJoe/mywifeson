@@ -19,6 +19,7 @@
         Piercing: 45
         Heat: 15
         Caustic: 5
+#        Shock: 5 shock damage crashes the client in testing for some reason, I wasnt on tools though
   - type: ExplosionResistance
     damageCoefficient: 0.75
   - type: ExtendDescription

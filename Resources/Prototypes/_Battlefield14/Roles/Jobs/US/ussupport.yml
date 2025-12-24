@@ -59,6 +59,7 @@
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackTan
     suitstorage: WeaponRifleUSM27IAR
+    pocket2: PouchGrenadesFilledUSMCRifleman
   storage:
     back:
     - SupplyBoxAmmoUSFilled
