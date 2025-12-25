@@ -12,7 +12,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Crescent/Objects/Weapons/Guns/hristov.rsi
+    sprite: _Battlefield14/Objects/Weapons/Guns/Snipers/SV98.rsi
   - type: GunRequiresWield
   - type: Item
     shape:
