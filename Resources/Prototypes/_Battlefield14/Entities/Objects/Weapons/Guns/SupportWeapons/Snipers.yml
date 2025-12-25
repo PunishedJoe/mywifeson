@@ -17,7 +17,7 @@
   - type: Item
     shape:
     - 0,0,5,2
-  - type: Gun
+  - type: Gun # TODO make this function like goobstation lever action
     fireRate: 0.5
     damageModifier: 1.5
     soundGunshot:
